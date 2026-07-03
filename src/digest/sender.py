@@ -126,7 +126,8 @@ class EmailSender:
         if self.username and self.password:
             kwargs["username"] = self.username
             kwargs["password"] = self.password
-            kwargs["use_tls"] = True
+            # Port 587 uses STARTTLS (explicit TLS upgrade after connection)
+            kwargs["start_tls"] = True
 
         async with aiosmtplib.SMTP(**kwargs) as smtp:
             await smtp.send_message(msg)
