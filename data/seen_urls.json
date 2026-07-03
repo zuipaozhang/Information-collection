@@ -1206,10 +1206,19 @@
       "content_type": "industry",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://arxiv.org/abs/2606.25178": {
+      "canonical_url": "https://arxiv.org/abs/2606.25178",
+      "first_seen": "2026-07-03 07:03:18.147713",
+      "last_seen": "2026-07-03 07:03:18.147713",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 134,
+    "total_unique_urls": 135,
     "last_pruned": null
   }
 }
