@@ -1287,10 +1287,37 @@
       "content_type": "open_source_model",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442224.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442224.html",
+      "first_seen": "2026-07-03 08:28:48.624382",
+      "last_seen": "2026-07-03 08:28:48.624382",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442452.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442452.html",
+      "first_seen": "2026-07-03 08:28:48.624437",
+      "last_seen": "2026-07-03 08:28:48.624437",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442447.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442447.html",
+      "first_seen": "2026-07-03 08:28:48.624456",
+      "last_seen": "2026-07-03 08:28:48.624456",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 143,
+    "total_unique_urls": 146,
     "last_pruned": null
   }
 }
