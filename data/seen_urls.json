@@ -1152,10 +1152,55 @@
       "content_type": "guide",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/441790.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/441790.html",
+      "first_seen": "2026-07-03 06:41:23.594230",
+      "last_seen": "2026-07-03 06:41:23.594230",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.31924": {
+      "canonical_url": "https://arxiv.org/abs/2606.31924",
+      "first_seen": "2026-07-03 06:41:23.594597",
+      "last_seen": "2026-07-03 06:41:23.594597",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.31825": {
+      "canonical_url": "https://arxiv.org/abs/2606.31825",
+      "first_seen": "2026-07-03 06:41:23.594619",
+      "last_seen": "2026-07-03 06:41:23.594619",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02440": {
+      "canonical_url": "https://arxiv.org/abs/2607.02440",
+      "first_seen": "2026-07-03 06:41:23.594635",
+      "last_seen": "2026-07-03 06:41:23.594635",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.31": {
+      "canonical_url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.31",
+      "first_seen": "2026-07-03 06:41:23.595070",
+      "last_seen": "2026-07-03 06:41:23.595070",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 128,
+    "total_unique_urls": 133,
     "last_pruned": null
   }
 }
