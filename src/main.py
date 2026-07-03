@@ -368,15 +368,12 @@ async def run_digest(mode: str) -> bool:
 
     message_id = "dry-run"
     if not config.dry_run:
-        if not config.smtp_configured:
-            logger.error("SMTP not configured. Set SMTP_HOST, SMTP_USERNAME, SMTP_PASSWORD.")
+        if not config.smtp_password:
+            logger.error("Resend API key not configured. Set SMTP_PASSWORD.")
             return False
 
         sender = EmailSender(
-            smtp_host=config.smtp_host,
-            smtp_port=config.smtp_port,
-            username=config.smtp_username,
-            password=config.smtp_password,
+            api_key=config.smtp_password,
             from_addr=config.email_from,
         )
 
