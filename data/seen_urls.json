@@ -1,0 +1,1161 @@
+{
+  "version": 1,
+  "urls": {
+    "https://www.qbitai.com/2026/07/442311.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442311.html",
+      "first_seen": "2026-07-03 06:23:56.480331",
+      "last_seen": "2026-07-03 06:23:56.480331",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442167.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442167.html",
+      "first_seen": "2026-07-03 06:23:56.480393",
+      "last_seen": "2026-07-03 06:23:56.480393",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442138.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442138.html",
+      "first_seen": "2026-07-03 06:23:56.480415",
+      "last_seen": "2026-07-03 06:23:56.480415",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442134.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442134.html",
+      "first_seen": "2026-07-03 06:23:56.480430",
+      "last_seen": "2026-07-03 06:23:56.480430",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442047.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442047.html",
+      "first_seen": "2026-07-03 06:23:56.480446",
+      "last_seen": "2026-07-03 06:23:56.480446",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442048.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442048.html",
+      "first_seen": "2026-07-03 06:23:56.480486",
+      "last_seen": "2026-07-03 06:23:56.480486",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442037.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442037.html",
+      "first_seen": "2026-07-03 06:23:56.480501",
+      "last_seen": "2026-07-03 06:23:56.480501",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442030.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442030.html",
+      "first_seen": "2026-07-03 06:23:56.480515",
+      "last_seen": "2026-07-03 06:23:56.480515",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442024.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442024.html",
+      "first_seen": "2026-07-03 06:23:56.480529",
+      "last_seen": "2026-07-03 06:23:56.480529",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442016.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442016.html",
+      "first_seen": "2026-07-03 06:23:56.480542",
+      "last_seen": "2026-07-03 06:23:56.480542",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "mailto:zhaoyunfeng@jiqizhixin.com": {
+      "canonical_url": "mailto:zhaoyunfeng@jiqizhixin.com",
+      "first_seen": "2026-07-03 06:23:56.480568",
+      "last_seen": "2026-07-03 06:23:56.480568",
+      "source": "rss_机器之心",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
+      "first_seen": "2026-07-03 06:23:56.480595",
+      "last_seen": "2026-07-03 06:23:56.480595",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become",
+      "first_seen": "2026-07-03 06:23:56.480617",
+      "last_seen": "2026-07-03 06:23:56.480617",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket",
+      "first_seen": "2026-07-03 06:23:56.480639",
+      "last_seen": "2026-07-03 06:23:56.480639",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung",
+      "first_seen": "2026-07-03 06:23:56.480660",
+      "last_seen": "2026-07-03 06:23:56.480660",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund",
+      "first_seen": "2026-07-03 06:23:56.480682",
+      "last_seen": "2026-07-03 06:23:56.480682",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
+      "first_seen": "2026-07-03 06:23:56.480706",
+      "last_seen": "2026-07-03 06:23:56.480706",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now": {
+      "canonical_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now",
+      "first_seen": "2026-07-03 06:23:56.480724",
+      "last_seen": "2026-07-03 06:23:56.480724",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office",
+      "first_seen": "2026-07-03 06:23:56.480740",
+      "last_seen": "2026-07-03 06:23:56.480740",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish",
+      "first_seen": "2026-07-03 06:23:56.480754",
+      "last_seen": "2026-07-03 06:23:56.480754",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller",
+      "first_seen": "2026-07-03 06:23:56.480768",
+      "last_seen": "2026-07-03 06:23:56.480768",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content",
+      "first_seen": "2026-07-03 06:23:56.480782",
+      "last_seen": "2026-07-03 06:23:56.480782",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off",
+      "first_seen": "2026-07-03 06:23:56.480795",
+      "last_seen": "2026-07-03 06:23:56.480795",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac",
+      "first_seen": "2026-07-03 06:23:56.480808",
+      "last_seen": "2026-07-03 06:23:56.480808",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026",
+      "first_seen": "2026-07-03 06:23:56.480821",
+      "last_seen": "2026-07-03 06:23:56.480821",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash": {
+      "canonical_url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "first_seen": "2026-07-03 06:23:56.480834",
+      "last_seen": "2026-07-03 06:23:56.480834",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/usestrix/strix": {
+      "canonical_url": "https://github.com/usestrix/strix",
+      "first_seen": "2026-07-03 06:23:56.480848",
+      "last_seen": "2026-07-03 06:23:56.480848",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/JuliusBrussee/caveman": {
+      "canonical_url": "https://github.com/JuliusBrussee/caveman",
+      "first_seen": "2026-07-03 06:23:56.480861",
+      "last_seen": "2026-07-03 06:23:56.480861",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/msitarzewski/agency-agents": {
+      "canonical_url": "https://github.com/msitarzewski/agency-agents",
+      "first_seen": "2026-07-03 06:23:56.480873",
+      "last_seen": "2026-07-03 06:23:56.480873",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/hasaneyldrm/exercises-dataset": {
+      "canonical_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "first_seen": "2026-07-03 06:23:56.480886",
+      "last_seen": "2026-07-03 06:23:56.480886",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/santifer/career-ops": {
+      "canonical_url": "https://github.com/santifer/career-ops",
+      "first_seen": "2026-07-03 06:23:56.480899",
+      "last_seen": "2026-07-03 06:23:56.480899",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/obra/superpowers": {
+      "canonical_url": "https://github.com/obra/superpowers",
+      "first_seen": "2026-07-03 06:23:56.480911",
+      "last_seen": "2026-07-03 06:23:56.480911",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ChromeDevTools/chrome-devtools-mcp": {
+      "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "first_seen": "2026-07-03 06:23:56.480925",
+      "last_seen": "2026-07-03 06:23:56.480925",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/browser-use/video-use": {
+      "canonical_url": "https://github.com/browser-use/video-use",
+      "first_seen": "2026-07-03 06:23:56.480937",
+      "last_seen": "2026-07-03 06:23:56.480937",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/affaan-m/ECC": {
+      "canonical_url": "https://github.com/affaan-m/ECC",
+      "first_seen": "2026-07-03 06:23:56.480950",
+      "last_seen": "2026-07-03 06:23:56.480950",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/HKUDS/Vibe-Trading": {
+      "canonical_url": "https://github.com/HKUDS/Vibe-Trading",
+      "first_seen": "2026-07-03 06:23:56.480962",
+      "last_seen": "2026-07-03 06:23:56.480962",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/agentskills/agentskills": {
+      "canonical_url": "https://github.com/agentskills/agentskills",
+      "first_seen": "2026-07-03 06:23:56.480974",
+      "last_seen": "2026-07-03 06:23:56.480974",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/openai/codex-plugin-cc": {
+      "canonical_url": "https://github.com/openai/codex-plugin-cc",
+      "first_seen": "2026-07-03 06:23:56.480986",
+      "last_seen": "2026-07-03 06:23:56.480986",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/langflow-ai/langflow": {
+      "canonical_url": "https://github.com/langflow-ai/langflow",
+      "first_seen": "2026-07-03 06:23:56.480998",
+      "last_seen": "2026-07-03 06:23:56.480998",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pytorch/pytorch": {
+      "canonical_url": "https://github.com/pytorch/pytorch",
+      "first_seen": "2026-07-03 06:23:56.481011",
+      "last_seen": "2026-07-03 06:23:56.481011",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02255": {
+      "canonical_url": "https://arxiv.org/abs/2607.02255",
+      "first_seen": "2026-07-03 06:23:56.481024",
+      "last_seen": "2026-07-03 06:23:56.481024",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02508": {
+      "canonical_url": "https://arxiv.org/abs/2607.02508",
+      "first_seen": "2026-07-03 06:23:56.481038",
+      "last_seen": "2026-07-03 06:23:56.481038",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01436": {
+      "canonical_url": "https://arxiv.org/abs/2607.01436",
+      "first_seen": "2026-07-03 06:23:56.481050",
+      "last_seen": "2026-07-03 06:23:56.481050",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.27669": {
+      "canonical_url": "https://arxiv.org/abs/2606.27669",
+      "first_seen": "2026-07-03 06:23:56.481063",
+      "last_seen": "2026-07-03 06:23:56.481063",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01874": {
+      "canonical_url": "https://arxiv.org/abs/2607.01874",
+      "first_seen": "2026-07-03 06:23:56.481075",
+      "last_seen": "2026-07-03 06:23:56.481075",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02032": {
+      "canonical_url": "https://arxiv.org/abs/2607.02032",
+      "first_seen": "2026-07-03 06:23:56.481088",
+      "last_seen": "2026-07-03 06:23:56.481088",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02375": {
+      "canonical_url": "https://arxiv.org/abs/2607.02375",
+      "first_seen": "2026-07-03 06:23:56.481101",
+      "last_seen": "2026-07-03 06:23:56.481101",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.30562": {
+      "canonical_url": "https://arxiv.org/abs/2606.30562",
+      "first_seen": "2026-07-03 06:23:56.481113",
+      "last_seen": "2026-07-03 06:23:56.481113",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02466": {
+      "canonical_url": "https://arxiv.org/abs/2607.02466",
+      "first_seen": "2026-07-03 06:23:56.481124",
+      "last_seen": "2026-07-03 06:23:56.481124",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01642": {
+      "canonical_url": "https://arxiv.org/abs/2607.01642",
+      "first_seen": "2026-07-03 06:23:56.481136",
+      "last_seen": "2026-07-03 06:23:56.481136",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02517": {
+      "canonical_url": "https://arxiv.org/abs/2607.02517",
+      "first_seen": "2026-07-03 06:23:56.481149",
+      "last_seen": "2026-07-03 06:23:56.481149",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01763": {
+      "canonical_url": "https://arxiv.org/abs/2607.01763",
+      "first_seen": "2026-07-03 06:23:56.481161",
+      "last_seen": "2026-07-03 06:23:56.481161",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02269": {
+      "canonical_url": "https://arxiv.org/abs/2607.02269",
+      "first_seen": "2026-07-03 06:23:56.481173",
+      "last_seen": "2026-07-03 06:23:56.481173",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02512": {
+      "canonical_url": "https://arxiv.org/abs/2607.02512",
+      "first_seen": "2026-07-03 06:23:56.481186",
+      "last_seen": "2026-07-03 06:23:56.481186",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02291": {
+      "canonical_url": "https://arxiv.org/abs/2607.02291",
+      "first_seen": "2026-07-03 06:23:56.481198",
+      "last_seen": "2026-07-03 06:23:56.481198",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01647": {
+      "canonical_url": "https://arxiv.org/abs/2607.01647",
+      "first_seen": "2026-07-03 06:23:56.481210",
+      "last_seen": "2026-07-03 06:23:56.481210",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.31719": {
+      "canonical_url": "https://arxiv.org/abs/2606.31719",
+      "first_seen": "2026-07-03 06:23:56.481222",
+      "last_seen": "2026-07-03 06:23:56.481222",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.00152": {
+      "canonical_url": "https://arxiv.org/abs/2607.00152",
+      "first_seen": "2026-07-03 06:23:56.481234",
+      "last_seen": "2026-07-03 06:23:56.481234",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.28661": {
+      "canonical_url": "https://arxiv.org/abs/2606.28661",
+      "first_seen": "2026-07-03 06:23:56.481246",
+      "last_seen": "2026-07-03 06:23:56.481246",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.28430": {
+      "canonical_url": "https://arxiv.org/abs/2606.28430",
+      "first_seen": "2026-07-03 06:23:56.481258",
+      "last_seen": "2026-07-03 06:23:56.481258",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.31179": {
+      "canonical_url": "https://arxiv.org/abs/2606.31179",
+      "first_seen": "2026-07-03 06:23:56.481269",
+      "last_seen": "2026-07-03 06:23:56.481269",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01211": {
+      "canonical_url": "https://arxiv.org/abs/2607.01211",
+      "first_seen": "2026-07-03 06:23:56.481281",
+      "last_seen": "2026-07-03 06:23:56.481281",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.29464": {
+      "canonical_url": "https://arxiv.org/abs/2606.29464",
+      "first_seen": "2026-07-03 06:23:56.481294",
+      "last_seen": "2026-07-03 06:23:56.481294",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.30124": {
+      "canonical_url": "https://arxiv.org/abs/2606.30124",
+      "first_seen": "2026-07-03 06:23:56.481306",
+      "last_seen": "2026-07-03 06:23:56.481306",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.30030": {
+      "canonical_url": "https://arxiv.org/abs/2606.30030",
+      "first_seen": "2026-07-03 06:23:56.481318",
+      "last_seen": "2026-07-03 06:23:56.481318",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail": {
+      "canonical_url": "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+      "first_seen": "2026-07-03 06:23:56.481328",
+      "last_seen": "2026-07-03 06:23:56.481328",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/HUANGCHIHHUNGLeo/claude-real-video": {
+      "canonical_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "first_seen": "2026-07-03 06:23:56.481337",
+      "last_seen": "2026-07-03 06:23:56.481337",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.okturtles.org/2026/07/short-leash-ai-method": {
+      "canonical_url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
+      "first_seen": "2026-07-03 06:23:56.481350",
+      "last_seen": "2026-07-03 06:23:56.481350",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv": {
+      "canonical_url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "first_seen": "2026-07-03 06:23:56.481359",
+      "last_seen": "2026-07-03 06:23:56.481359",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930": {
+      "canonical_url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930",
+      "first_seen": "2026-07-03 06:23:56.481373",
+      "last_seen": "2026-07-03 06:23:56.481373",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01232": {
+      "canonical_url": "https://arxiv.org/abs/2607.01232",
+      "first_seen": "2026-07-03 06:23:56.481382",
+      "last_seen": "2026-07-03 06:23:56.481382",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://senior-swe-bench.snorkel.ai/": {
+      "canonical_url": "https://senior-swe-bench.snorkel.ai/",
+      "first_seen": "2026-07-03 06:23:56.481393",
+      "last_seen": "2026-07-03 06:23:56.481393",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a": {
+      "canonical_url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
+      "first_seen": "2026-07-03 06:23:56.481403",
+      "last_seen": "2026-07-03 06:23:56.481403",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://mathstodon.xyz/@mjd/115096720350507897": {
+      "canonical_url": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "first_seen": "2026-07-03 06:23:56.481412",
+      "last_seen": "2026-07-03 06:23:56.481412",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://cursor.com/evals": {
+      "canonical_url": "https://cursor.com/evals",
+      "first_seen": "2026-07-03 06:23:56.481421",
+      "last_seen": "2026-07-03 06:23:56.481421",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.mixedbread.com/blog/asymmetric-quant": {
+      "canonical_url": "https://www.mixedbread.com/blog/asymmetric-quant",
+      "first_seen": "2026-07-03 06:23:56.481430",
+      "last_seen": "2026-07-03 06:23:56.481430",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot": {
+      "canonical_url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "first_seen": "2026-07-03 06:23:56.481446",
+      "last_seen": "2026-07-03 06:23:56.481446",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/muralidharand/what-is-agentgateway-the-ai-native-gateway-explained-for-newbies-and-pros-4m0d": {
+      "canonical_url": "https://dev.to/muralidharand/what-is-agentgateway-the-ai-native-gateway-explained-for-newbies-and-pros-4m0d",
+      "first_seen": "2026-07-03 06:23:56.481475",
+      "last_seen": "2026-07-03 06:23:56.481475",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lazymac2x/ai-cost-calculator-api-5bun-ane-peurojegteue-tonghabhagi-444m": {
+      "canonical_url": "https://dev.to/lazymac2x/ai-cost-calculator-api-5bun-ane-peurojegteue-tonghabhagi-444m",
+      "first_seen": "2026-07-03 06:23:56.481488",
+      "last_seen": "2026-07-03 06:23:56.481488",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/algovaultlabs/give-your-ai-agent-a-cross-venue-trading-brain-in-five-lines-387p": {
+      "canonical_url": "https://dev.to/algovaultlabs/give-your-ai-agent-a-cross-venue-trading-brain-in-five-lines-387p",
+      "first_seen": "2026-07-03 06:23:56.481500",
+      "last_seen": "2026-07-03 06:23:56.481500",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/sid_verse/how-to-connect-claude-to-your-wordpress-site-in-5-minutes-35jl": {
+      "canonical_url": "https://dev.to/sid_verse/how-to-connect-claude-to-your-wordpress-site-in-5-minutes-35jl",
+      "first_seen": "2026-07-03 06:23:56.481513",
+      "last_seen": "2026-07-03 06:23:56.481513",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/bridgexapi/how-to-use-mcp-inspector-to-build-an-ai-agent-messaging-workflow-4jk4": {
+      "canonical_url": "https://dev.to/bridgexapi/how-to-use-mcp-inspector-to-build-an-ai-agent-messaging-workflow-4jk4",
+      "first_seen": "2026-07-03 06:23:56.481531",
+      "last_seen": "2026-07-03 06:23:56.481531",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/jeremy_longshore/gate-the-statement-not-the-tool-name-2hpc": {
+      "canonical_url": "https://dev.to/jeremy_longshore/gate-the-statement-not-the-tool-name-2hpc",
+      "first_seen": "2026-07-03 06:23:56.481545",
+      "last_seen": "2026-07-03 06:23:56.481545",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/edison_flores_6d2cd381b13/how-to-sandbox-an-mcp-server-with-docker-network-none-is-your-best-friend-3p97": {
+      "canonical_url": "https://dev.to/edison_flores_6d2cd381b13/how-to-sandbox-an-mcp-server-with-docker-network-none-is-your-best-friend-3p97",
+      "first_seen": "2026-07-03 06:23:56.481561",
+      "last_seen": "2026-07-03 06:23:56.481561",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/edison_flores_6d2cd381b13/mcp-security-checklist-6-checks-before-exposing-an-mcp-server-ho3": {
+      "canonical_url": "https://dev.to/edison_flores_6d2cd381b13/mcp-security-checklist-6-checks-before-exposing-an-mcp-server-ho3",
+      "first_seen": "2026-07-03 06:23:56.481574",
+      "last_seen": "2026-07-03 06:23:56.481574",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lunchboxfortwo/the-last-mile-of-ai-assisted-coding-is-a-signup-form-3lgd": {
+      "canonical_url": "https://dev.to/lunchboxfortwo/the-last-mile-of-ai-assisted-coding-is-a-signup-form-3lgd",
+      "first_seen": "2026-07-03 06:23:56.481588",
+      "last_seen": "2026-07-03 06:23:56.481588",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/barissozen/payment-rail-or-settlement-layer-why-the-agent-economy-will-have-to-tell-them-apart-2jak": {
+      "canonical_url": "https://dev.to/barissozen/payment-rail-or-settlement-layer-why-the-agent-economy-will-have-to-tell-them-apart-2jak",
+      "first_seen": "2026-07-03 06:23:56.481605",
+      "last_seen": "2026-07-03 06:23:56.481605",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.12.0": {
+      "canonical_url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.12.0",
+      "first_seen": "2026-07-03 06:23:56.481619",
+      "last_seen": "2026-07-03 06:23:56.481619",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pydantic/pydantic-ai/releases/tag/v2.4.0": {
+      "canonical_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.4.0",
+      "first_seen": "2026-07-03 06:23:56.481635",
+      "last_seen": "2026-07-03 06:23:56.481635",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9860": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
+      "first_seen": "2026-07-03 06:23:56.481644",
+      "last_seen": "2026-07-03 06:23:56.481644",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.199": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+      "first_seen": "2026-07-03 06:23:56.481657",
+      "last_seen": "2026-07-03 06:23:56.481657",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.cursor.com": {
+      "canonical_url": "https://www.cursor.com",
+      "first_seen": "2026-07-03 06:23:56.481671",
+      "last_seen": "2026-07-03 06:23:56.481671",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.cursor.com/product": {
+      "canonical_url": "https://www.cursor.com/product",
+      "first_seen": "2026-07-03 06:23:56.481684",
+      "last_seen": "2026-07-03 06:23:56.481684",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF": {
+      "canonical_url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+      "first_seen": "2026-07-03 06:23:56.481709",
+      "last_seen": "2026-07-03 06:23:56.481709",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark": {
+      "canonical_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "first_seen": "2026-07-03 06:23:56.481723",
+      "last_seen": "2026-07-03 06:23:56.481723",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B": {
+      "canonical_url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "first_seen": "2026-07-03 06:23:56.481736",
+      "last_seen": "2026-07-03 06:23:56.481736",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4": {
+      "canonical_url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+      "first_seen": "2026-07-03 06:23:56.481751",
+      "last_seen": "2026-07-03 06:23:56.481751",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF": {
+      "canonical_url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+      "first_seen": "2026-07-03 06:23:56.481764",
+      "last_seen": "2026-07-03 06:23:56.481764",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive": {
+      "canonical_url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "first_seen": "2026-07-03 06:23:56.481777",
+      "last_seen": "2026-07-03 06:23:56.481777",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark": {
+      "canonical_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark",
+      "first_seen": "2026-07-03 06:23:56.481790",
+      "last_seen": "2026-07-03 06:23:56.481790",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF": {
+      "canonical_url": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF",
+      "first_seen": "2026-07-03 06:23:56.481802",
+      "last_seen": "2026-07-03 06:23:56.481802",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF": {
+      "canonical_url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+      "first_seen": "2026-07-03 06:23:56.481816",
+      "last_seen": "2026-07-03 06:23:56.481816",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED": {
+      "canonical_url": "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED",
+      "first_seen": "2026-07-03 06:23:56.481829",
+      "last_seen": "2026-07-03 06:23:56.481829",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4": {
+      "canonical_url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "first_seen": "2026-07-03 06:23:56.481840",
+      "last_seen": "2026-07-03 06:23:56.481840",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash": {
+      "canonical_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "first_seen": "2026-07-03 06:23:56.481855",
+      "last_seen": "2026-07-03 06:23:56.481855",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/Qwen/Qwen3.6-35B-A3B": {
+      "canonical_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "first_seen": "2026-07-03 06:23:56.481867",
+      "last_seen": "2026-07-03 06:23:56.481867",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/Qwen/Qwen3.6-27B": {
+      "canonical_url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "first_seen": "2026-07-03 06:23:56.481879",
+      "last_seen": "2026-07-03 06:23:56.481879",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro": {
+      "canonical_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "first_seen": "2026-07-03 06:23:56.481891",
+      "last_seen": "2026-07-03 06:23:56.481891",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research": {
+      "canonical_url": "https://www.anthropic.com/research",
+      "first_seen": "2026-07-03 06:23:56.481901",
+      "last_seen": "2026-07-03 06:23:56.481901",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/team/economic-research": {
+      "canonical_url": "https://www.anthropic.com/research/team/economic-research",
+      "first_seen": "2026-07-03 06:23:56.481913",
+      "last_seen": "2026-07-03 06:23:56.481913",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/team/interpretability": {
+      "canonical_url": "https://www.anthropic.com/research/team/interpretability",
+      "first_seen": "2026-07-03 06:23:56.481925",
+      "last_seen": "2026-07-03 06:23:56.481925",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/team/societal-impacts": {
+      "canonical_url": "https://www.anthropic.com/research/team/societal-impacts",
+      "first_seen": "2026-07-03 06:23:56.481937",
+      "last_seen": "2026-07-03 06:23:56.481937",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/team/frontier-red-team": {
+      "canonical_url": "https://www.anthropic.com/research/team/frontier-red-team",
+      "first_seen": "2026-07-03 06:23:56.481951",
+      "last_seen": "2026-07-03 06:23:56.481951",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/natural-language-autoencoders": {
+      "canonical_url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "first_seen": "2026-07-03 06:23:56.482102",
+      "last_seen": "2026-07-03 06:23:56.482102",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/economic-index-june-2026-report": {
+      "canonical_url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "first_seen": "2026-07-03 06:23:56.482117",
+      "last_seen": "2026-07-03 06:23:56.482117",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/research/teaching-claude-why": {
+      "canonical_url": "https://www.anthropic.com/research/teaching-claude-why",
+      "first_seen": "2026-07-03 06:23:56.482130",
+      "last_seen": "2026-07-03 06:23:56.482130",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/features/project-deal": {
+      "canonical_url": "https://www.anthropic.com/features/project-deal",
+      "first_seen": "2026-07-03 06:23:56.482142",
+      "last_seen": "2026-07-03 06:23:56.482142",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.anthropic.com/81k-interviews": {
+      "canonical_url": "https://www.anthropic.com/81k-interviews",
+      "first_seen": "2026-07-03 06:23:56.482156",
+      "last_seen": "2026-07-03 06:23:56.482156",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
+      "first_seen": "2026-07-03 06:23:56.482169",
+      "last_seen": "2026-07-03 06:23:56.482169",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/products-and-platforms/products/education/nyc-ai-summit": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit",
+      "first_seen": "2026-07-03 06:23:56.482184",
+      "last_seen": "2026-07-03 06:23:56.482184",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers": {
+      "canonical_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+      "first_seen": "2026-07-03 06:23:56.482198",
+      "last_seen": "2026-07-03 06:23:56.482198",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+      "first_seen": "2026-07-03 06:23:56.482210",
+      "last_seen": "2026-07-03 06:23:56.482210",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "first_seen": "2026-07-03 06:23:56.482223",
+      "last_seen": "2026-07-03 06:23:56.482223",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature": {
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
+      "first_seen": "2026-07-03 06:23:56.482235",
+      "last_seen": "2026-07-03 06:23:56.482235",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026": {
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026",
+      "first_seen": "2026-07-03 06:23:56.482247",
+      "last_seen": "2026-07-03 06:23:56.482247",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments": {
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments",
+      "first_seen": "2026-07-03 06:23:56.482258",
+      "last_seen": "2026-07-03 06:23:56.482258",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026": {
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026",
+      "first_seen": "2026-07-03 06:23:56.482270",
+      "last_seen": "2026-07-03 06:23:56.482270",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/products-and-platforms/products/search/thrifting-tips": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips",
+      "first_seen": "2026-07-03 06:23:56.482285",
+      "last_seen": "2026-07-03 06:23:56.482285",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    }
+  },
+  "stats": {
+    "total_unique_urls": 128,
+    "last_pruned": null
+  }
+}
