@@ -4,67 +4,153 @@
   "end_date": "2026-07-03",
   "items": [
     {
-      "title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
-      "url": "https://www.qbitai.com/2026/07/442452.html",
-      "source": "rss_量子位",
-      "content_type": "research",
-      "chinese_title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
-      "chinese_summary": "AI仅用28个GPU小时就发现了4种人类此前未知的全新超导体，效率超越传统方法100年。这项研究展示了AI在材料科学领域的颠覆性潜力，对AI从业者理解AI在科学研究中的应用边界具有重要参考价值。",
+      "title": "I just made my MCP server charge $0.001 per call — here is how x402 works",
+      "url": "https://dev.to/scotia1973bot/i-just-made-my-mcp-server-charge-0001-per-call-here-is-how-x402-works-5cd7",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "我刚刚让我的MCP服务器每次调用收费0.001美元——x402协议的工作原理",
+      "chinese_summary": "本文介绍了x402支付协议，它利用HTTP 402 Payment Required状态码，让AI代理在调用MCP服务器工具时自动支付USDC（基于Base链），无需API密钥或注册。作者展示了如何实现每次调用收费0.001美元的MCP服务器。",
       "categories": [
-        "Research",
-        "AI Applications",
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "为MCP服务器商业化提供了即用型支付方案，解决了AI代理工具调用的计费痛点，对构建付费AI服务有直接参考价值。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "The MCP Paradox: How to Secure the Agentic Supply Chain",
+      "url": "https://dev.to/agdex_ai/the-mcp-paradox-how-to-secure-the-agentic-supply-chain-4lbm",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP悖论：如何保护代理供应链安全",
+      "chinese_summary": "本文深入分析了Model Context Protocol (MCP)在解决AI代理集成难题的同时，引入的供应链安全风险。文章提出了MCP安全悖论，并给出了保护代理供应链的实践建议。",
+      "categories": [
+        "AI Safety",
         "AI Infrastructure"
       ],
       "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "AI加速科学发现是前沿方向，此案例展示了AI在材料科学中的实际突破，值得关注其方法论和算力效率。",
+      "weighted_score": 5.0,
+      "recommendation_reason": "直击MCP生态的核心安全挑战，对任何构建或使用MCP服务器的团队都是必读的安全指南。",
       "install_command": null,
       "curation_date": "2026-07-03"
     },
     {
-      "title": "WorldClaw与百度智能云达成战略合作，文心5.0系列登陆WorldRouter",
-      "url": "https://www.qbitai.com/2026/07/442447.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "WorldClaw与百度智能云达成战略合作，文心5.0系列登陆WorldRouter",
-      "chinese_summary": "WorldClaw与百度智能云合作，将文心5.0系列模型部署到WorldRouter平台。这标志着百度大模型在云服务生态中的进一步扩展，对关注AI基础设施和模型部署的从业者具有行业动态意义。",
+      "title": "Meet NyxID: Your AI Agents Get Access. You Keep Control.",
+      "url": "https://dev.to/nwnwnw413/meet-nyxid-your-ai-agents-get-access-you-keep-control-3h25",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "认识NyxID：你的AI代理获得访问权限，你保持控制",
+      "chinese_summary": "NyxID是一个身份与访问管理解决方案，允许AI代理安全地访问SaaS API、内部服务和本地数据库，同时让开发者保持对密钥和权限的完全控制。它解决了AI代理调用真实服务时的密钥管理和安全难题。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "为AI代理安全访问外部服务提供了实用的身份管理方案，解决了密钥泄露和权限失控的常见痛点。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "The Safari MCP server for web developers",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
+      "source": "hacker_news",
+      "content_type": "mcp_server",
+      "chinese_title": "面向Web开发者的Safari MCP服务器",
+      "chinese_summary": "这是一个为Web开发者设计的Safari MCP服务器，允许通过MCP协议与Safari浏览器进行交互，实现自动化控制、数据提取等功能。该工具在Hacker News上获得了106分和22条评论，表明社区对其有较高关注度，值得Web开发者和AI工具链开发者关注。",
+      "categories": [
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 3,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你从事Web开发或AI自动化工作，这个MCP服务器能让你通过标准协议控制Safari浏览器，扩展AI Agent的浏览器操作能力。",
+      "install_command": "npx @safari-mcp/server",
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "What Happens When a Drought Signal Doesn't Go Anywhere",
+      "url": "https://dev.to/gabrielmahia/what-happens-when-a-drought-signal-doesnt-go-anywhere-3ln4",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "当干旱信号无处可去时会发生什么",
+      "chinese_summary": "本文探讨了肯尼亚图尔卡纳县小农户的指数型作物保险案例：当降雨量低于季节均值40%时，卫星数据自动触发赔付，无需现场评估或索赔表格。它揭示了MCP（模型上下文协议）在连接现实世界数据源与AI代理时的关键作用，以及数据信号中断可能导致的系统性风险。",
+      "categories": [
+        "AI Applications",
+        "Industry"
+      ],
+      "importance_score": 3,
+      "weighted_score": 4.0,
+      "recommendation_reason": "通过真实农业保险案例，展示了MCP在连接物理世界数据与AI决策链中的实际价值与脆弱性。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "[ggml-org/llama.cpp] b9862: b9862",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9862",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "chinese_title": "llama.cpp b9862：移除gated_delta_net后的冗余CUDA拷贝",
+      "chinese_summary": "此版本移除了gated_delta_net (GDN) 操作后的冗余CUDA内存拷贝，优化了循环状态快照的写入流程，减少了不必要的显存传输。对于使用MTP（多令牌预测）的推理场景，性能提升明显。",
       "categories": [
         "AI Infrastructure",
-        "Industry",
-        "LLM"
+        "Developer Tools"
       ],
       "importance_score": 3,
       "weighted_score": 3.0,
-      "recommendation_reason": "百度文心5.0系列登陆新平台，可能影响国内大模型服务格局，值得关注其API定价和可用性变化。",
+      "recommendation_reason": "对llama.cpp用户是重要的性能优化更新，特别是使用GDN和MTP进行推理的场景。",
       "install_command": null,
       "curation_date": "2026-07-03"
     },
     {
-      "title": "蔚来李斌北大毕业30年演讲热搜！不灌鸡汤讲失败，“向内求索，别骗自己”",
-      "url": "https://www.qbitai.com/2026/07/442224.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "蔚来李斌北大毕业30年演讲热搜！不灌鸡汤讲失败，“向内求索，别骗自己”",
-      "chinese_summary": "蔚来创始人李斌在北大毕业30年演讲中，分享了自己创业30年经历的6次低谷，强调“向内求索，别骗自己”的失败哲学。这篇文章值得关注，因为它提供了中国顶级企业家在AI和汽车行业双重压力下的真实反思，对从业者理解创业韧性有启发。",
+      "title": "AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition",
+      "url": "https://arxiv.org/abs/2607.02271",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "AGVBench：面向静脉识别的数据增强可靠性基准测试",
+      "chinese_summary": "AGVBench是一个专注于静脉识别任务中数据增强方法可靠性的基准测试。它系统评估了各种数据增强技术对静脉识别模型性能的影响，为生物特征识别领域提供了标准化的评估框架。",
       "categories": [
-        "Industry"
+        "Computer Vision",
+        "Research"
       ],
       "importance_score": 2,
       "weighted_score": 2.0,
-      "recommendation_reason": "了解中国企业家在AI浪潮中的心态与经验，有助于从业者平衡技术追求与商业现实。",
+      "recommendation_reason": "对从事生物特征识别或数据增强研究的从业者具有参考价值，但领域较为垂直。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "[ggml-org/llama.cpp] b9861: b9861",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9861",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "chinese_title": "llama.cpp b9861：更新cpp-httplib至0.49.0",
+      "chinese_summary": "此版本将cpp-httplib依赖库更新至0.49.0，并提供了macOS Apple Silicon (arm64) 的预编译二进制包。这是一个常规的依赖更新和发布版本。",
+      "categories": [
+        "Developer Tools"
+      ],
+      "importance_score": 2,
+      "weighted_score": 2.0,
+      "recommendation_reason": "常规依赖更新，对大多数用户影响较小，但保持最新版本有助于安全性和兼容性。",
       "install_command": null,
       "curation_date": "2026-07-03"
     }
   ],
   "category_counts": {
-    "Research": 1,
-    "AI Applications": 1,
-    "AI Infrastructure": 2,
-    "Industry": 2,
-    "LLM": 1
+    "AI Infrastructure": 3,
+    "Developer Tools": 5,
+    "AI Safety": 2,
+    "AI Applications": 2,
+    "Industry": 1,
+    "Computer Vision": 1,
+    "Research": 1
   },
   "content_type_counts": {
-    "research": 1,
-    "industry": 2
+    "mcp_server": 5,
+    "agent_framework": 2,
+    "research": 1
   }
 }

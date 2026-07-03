@@ -1314,10 +1314,91 @@
       "content_type": "industry",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02271": {
+      "canonical_url": "https://arxiv.org/abs/2607.02271",
+      "first_seen": "2026-07-03 10:32:32.015772",
+      "last_seen": "2026-07-03 10:32:32.015772",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers": {
+      "canonical_url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
+      "first_seen": "2026-07-03 10:32:32.016031",
+      "last_seen": "2026-07-03 10:32:32.016031",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/gabrielmahia/what-happens-when-a-drought-signal-doesnt-go-anywhere-3ln4": {
+      "canonical_url": "https://dev.to/gabrielmahia/what-happens-when-a-drought-signal-doesnt-go-anywhere-3ln4",
+      "first_seen": "2026-07-03 10:32:32.016145",
+      "last_seen": "2026-07-03 10:32:32.016145",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/gabrielmahia/building-an-alternative-credit-score-from-m-pesa-behavioral-data-1bl1": {
+      "canonical_url": "https://dev.to/gabrielmahia/building-an-alternative-credit-score-from-m-pesa-behavioral-data-1bl1",
+      "first_seen": "2026-07-03 10:32:32.016161",
+      "last_seen": "2026-07-03 10:32:32.016161",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/scotia1973bot/i-just-made-my-mcp-server-charge-0001-per-call-here-is-how-x402-works-5cd7": {
+      "canonical_url": "https://dev.to/scotia1973bot/i-just-made-my-mcp-server-charge-0001-per-call-here-is-how-x402-works-5cd7",
+      "first_seen": "2026-07-03 10:32:32.016176",
+      "last_seen": "2026-07-03 10:32:32.016176",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/agdex_ai/the-mcp-paradox-how-to-secure-the-agentic-supply-chain-4lbm": {
+      "canonical_url": "https://dev.to/agdex_ai/the-mcp-paradox-how-to-secure-the-agentic-supply-chain-4lbm",
+      "first_seen": "2026-07-03 10:32:32.016190",
+      "last_seen": "2026-07-03 10:32:32.016190",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/nwnwnw413/meet-nyxid-your-ai-agents-get-access-you-keep-control-3h25": {
+      "canonical_url": "https://dev.to/nwnwnw413/meet-nyxid-your-ai-agents-get-access-you-keep-control-3h25",
+      "first_seen": "2026-07-03 10:32:32.016203",
+      "last_seen": "2026-07-03 10:32:32.016203",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9862": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9862",
+      "first_seen": "2026-07-03 10:32:32.016300",
+      "last_seen": "2026-07-03 10:32:32.016300",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9861": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9861",
+      "first_seen": "2026-07-03 10:32:32.016314",
+      "last_seen": "2026-07-03 10:32:32.016314",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 146,
+    "total_unique_urls": 155,
     "last_pruned": null
   }
 }
