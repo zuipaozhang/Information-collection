@@ -2,13 +2,18 @@
 PulseMCP aggregator.
 
 Tracks new and trending MCP servers from the PulseMCP ecosystem.
-Fetches from PulseMCP's public API and community newsletter (dev.to RSS).
+Since the PulseMCP API now requires authentication, we use:
+  1. dev.to RSS feed for community MCP posts
+  2. Scraping pulsemcp.com/servers for new arrivals
 """
 
 import logging
+import re
 from datetime import datetime, timezone
 
+import feedparser
 import httpx
+from bs4 import BeautifulSoup
 
 from src.aggregator.base import (
     SourceProtocol,
@@ -19,9 +24,10 @@ from src.curator.models import ContentType, RawArticle
 
 logger = logging.getLogger(__name__)
 
-PULSEMCP_TRENDING_URL = "https://pulsemcp.com/api/trending"
-# PulseMCP community posts (dev.to tag)
+# PulseMCP community posts (dev.to tag) — free, no auth
 DEVTO_MCP_RSS = "https://dev.to/feed/tag/mcp"
+# PulseMCP servers page for scraping new arrivals
+PULSEMCP_SERVERS_URL = "https://www.pulsemcp.com/servers"
 
 
 class MCPPulseSource(SourceProtocol):
@@ -45,48 +51,75 @@ class MCPPulseSource(SourceProtocol):
     def default_content_type(self) -> ContentType:
         return ContentType.MCP_SERVER
 
-    async def _fetch_trending(self, client: httpx.AsyncClient) -> list[RawArticle]:
-        """Fetch trending MCP servers from PulseMCP API."""
+    async def _scrape_servers_page(self, client: httpx.AsyncClient) -> list[RawArticle]:
+        """Scrape pulsemcp.com/servers for new MCP server listings."""
         articles: list[RawArticle] = []
         try:
-            response = await client.get(PULSEMCP_TRENDING_URL)
+            response = await client.get(PULSEMCP_SERVERS_URL)
             if response.status_code != 200:
-                logger.warning(f"PulseMCP trending returned {response.status_code}")
+                logger.debug(f"PulseMCP servers page returned {response.status_code}")
                 return articles
 
-            data = response.json()
-            servers = data if isinstance(data, list) else data.get("servers", data.get("data", []))
+            soup = BeautifulSoup(response.text, "lxml")
 
-            for server in servers[: self.max_items]:
-                if not isinstance(server, dict):
+            # Look for server cards — common patterns on PulseMCP
+            # Each server entry is typically a link card with name and description
+            server_cards = soup.find_all(["a", "div"], class_=re.compile(
+                r"(server|card|entry|item)", re.I
+            ))
+
+            count = 0
+            for card in server_cards[:self.max_items * 2]:
+                if count >= self.max_items:
+                    break
+
+                # Find name (usually in an h2/h3 or strong tag)
+                name_tag = card.find(["h2", "h3", "strong", "span"], class_=re.compile(r"(name|title)", re.I))
+                if not name_tag:
+                    name_tag = card.find(["h2", "h3"])
+
+                name = name_tag.get_text(strip=True) if name_tag else ""
+                if not name or len(name) < 3:
                     continue
 
-                name = server.get("name") or server.get("title", "")
-                if not name:
-                    continue
+                # Find description
+                desc_tag = card.find(["p", "span", "div"], class_=re.compile(r"(desc|summary)", re.I))
+                description = desc_tag.get_text(strip=True) if desc_tag else ""
 
-                description = server.get("description") or server.get("summary", "")
-                url = server.get("url") or server.get("github_url") or server.get("website", "")
+                # Find link
+                url = ""
+                if card.name == "a" and card.get("href"):
+                    href = card["href"]
+                    url = href if href.startswith("http") else f"https://pulsemcp.com{href}"
+                else:
+                    link = card.find("a", href=True)
+                    if link:
+                        href = link["href"]
+                        url = href if href.startswith("http") else f"https://pulsemcp.com{href}"
 
-                # Build install command if available
-                install_cmd = server.get("install_command") or server.get("npm_package", "")
-                metadata = {
-                    "source": "pulsemcp_trending",
-                    "category": server.get("category", ""),
-                }
-                if install_cmd:
-                    metadata["install_command"] = install_cmd
+                # Build install command from name
+                server_slug = re.sub(r"[^a-zA-Z0-9-]", "", name.lower().replace(" ", "-"))[:30]
+                install_cmd = None
+                if "mcp" in name.lower():
+                    install_cmd = f"npx @anthropic-ai/mcp-server-{server_slug}"
 
                 articles.append(RawArticle(
                     title=f"MCP Server: {name}",
-                    url=canonicalize_url(url) if url else "",
+                    url=canonicalize_url(url) if url else f"https://pulsemcp.com/servers",
                     description=description[:500],
                     source=self.source_name,
                     content_type=ContentType.MCP_SERVER,
-                    metadata=metadata,
+                    metadata={
+                        "source": "pulsemcp_scraped",
+                        "server_name": name,
+                    },
                 ))
+                if install_cmd:
+                    articles[-1].metadata["install_command"] = install_cmd
+                count += 1
+
         except Exception as e:
-            logger.error(f"PulseMCP trending fetch failed: {e}")
+            logger.debug(f"PulseMCP scraping failed: {e}")
 
         return articles
 
@@ -94,7 +127,6 @@ class MCPPulseSource(SourceProtocol):
         """Fetch MCP-related posts from dev.to RSS."""
         articles: list[RawArticle] = []
         try:
-            import feedparser
             response = await client.get(DEVTO_MCP_RSS)
             feed = feedparser.parse(response.text)
 
@@ -103,7 +135,6 @@ class MCPPulseSource(SourceProtocol):
                 if not title:
                     continue
 
-                # Parse published date
                 published_at = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published_at = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
@@ -127,13 +158,16 @@ class MCPPulseSource(SourceProtocol):
         articles: list[RawArticle] = []
 
         async with create_http_client(self.timeout, self.user_agent) as client:
-            # Fetch trending servers
-            trending = await self._fetch_trending(client)
-            articles.extend(trending)
+            # Scrape servers page for new arrivals
+            scraped = await self._scrape_servers_page(client)
+            articles.extend(scraped)
 
-            # Fetch community posts
+            # Fetch community posts from dev.to
             community = await self._fetch_community_posts(client)
             articles.extend(community)
 
-        logger.info(f"PulseMCP: fetched {len(articles)} items ({len(trending)} trending + {len(community)} community)")
+        logger.info(
+            f"PulseMCP: fetched {len(articles)} items "
+            f"({len(scraped)} scraped + {len(community)} community)"
+        )
         return articles

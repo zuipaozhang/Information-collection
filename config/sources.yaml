@@ -67,12 +67,13 @@ sources:
       content_type: "industry"
       max_items: 20
     - name: "机器之心"
-      url: "https://www.jiqizhixin.com/rss"
+      url: "https://www.jiqizhixin.com/articles"
       enabled: true
       priority: "core"
       language: "zh"
       content_type: "industry"
       max_items: 20
+      scrape: true                # RSS feed removed, scrape articles page instead
 
   techcrunch_ai:
     enabled: true
@@ -129,8 +130,9 @@ sources:
   mcp_pulse:
     enabled: true
     priority: "core"
-    trending_url: "https://pulsemcp.com/api/trending"
-    newsletter_url: "https://pulsemcp.com/newsletter"
+    # PulseMCP API now requires auth. We use:
+    # 1. dev.to/feed/tag/mcp (community posts)
+    # 2. pulsemcp.com/servers page scraping (new arrivals)
     max_items: 20
 
   claude_plugins:
@@ -155,7 +157,7 @@ sources:
       - "langchain-ai/deepagents"
       - "langgenius/dify"
       - "vllm-project/vllm"
-      - "ggerganov/llama.cpp"
+      - "ggml-org/llama.cpp"
     lookback_days: 1
 
   coding_tools:
@@ -193,8 +195,9 @@ sources:
     priority: "core"
     feeds:
       - name: "Anthropic Research"
-        url: "https://www.anthropic.com/research/feed"
+        url: "https://www.anthropic.com/research"
         content_type: "guide"
+        scrape: true
       - name: "OpenAI Blog"
         url: "https://openai.com/blog/rss"
         content_type: "guide"

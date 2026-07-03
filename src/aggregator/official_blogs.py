@@ -54,14 +54,52 @@ class OfficialBlogsSource(SourceProtocol):
         }
         return mapping.get(ct_str, ContentType.GUIDE)
 
+    async def _scrape_page(
+        self, html: str, feed_name: str, base_url: str, ct_str: str
+    ) -> list[RawArticle]:
+        """Scrape article links from an HTML page (for blogs without RSS)."""
+        from bs4 import BeautifulSoup
+        from urllib.parse import urljoin
+
+        soup = BeautifulSoup(html, "lxml")
+        content_type = self._map_content_type(ct_str)
+        articles = []
+        seen_urls = set()
+
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
+            text = link.get_text(strip=True)
+            if not text or len(text) < 15:
+                continue
+            if any(s in href.lower() for s in ["login", "signup", "about", "careers", "privacy"]):
+                continue
+
+            full_url = href if href.startswith("http") else urljoin(base_url, href)
+            if full_url in seen_urls:
+                continue
+            seen_urls.add(full_url)
+
+            articles.append(RawArticle(
+                title=f"[{feed_name}] {text[:200]}",
+                url=canonicalize_url(full_url),
+                description=text[:500],
+                source=self.source_name,
+                content_type=content_type,
+                metadata={"blog_name": feed_name, "scraped": True},
+            ))
+            if len(articles) >= self.max_items:
+                break
+        return articles
+
     async def _fetch_feed(
         self, client: httpx.AsyncClient, feed_cfg: dict
     ) -> list[RawArticle]:
-        """Fetch and parse a single RSS feed."""
+        """Fetch and parse a single RSS feed or scrape HTML page."""
         articles: list[RawArticle] = []
         feed_name = feed_cfg.get("name", "Unknown")
         feed_url = feed_cfg.get("url", "")
         ct_str = feed_cfg.get("content_type", "guide")
+        is_scrape = feed_cfg.get("scrape", False)
 
         if not feed_url:
             return articles
@@ -71,11 +109,14 @@ class OfficialBlogsSource(SourceProtocol):
             if response.status_code != 200:
                 logger.debug(f"Official blog '{feed_name}' returned {response.status_code}")
                 return articles
-
-            feed = feedparser.parse(response.text)
         except Exception as e:
             logger.debug(f"Official blog '{feed_name}' fetch failed: {e}")
             return articles
+
+        if is_scrape:
+            return await self._scrape_page(response.text, feed_name, feed_url, ct_str)
+
+        feed = feedparser.parse(response.text)
 
         content_type = self._map_content_type(ct_str)
 

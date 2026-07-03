@@ -41,7 +41,7 @@ class CodingToolsSource(SourceProtocol):
         # Tools to watch
         self.tools = [
             {"name": "Claude Code", "repo": "anthropics/claude-code", "type": "github"},
-            {"name": "Cursor", "url": "https://www.cursor.com/changelog", "type": "changelog"},
+            {"name": "Cursor", "url": "https://cursor.com/changelog", "type": "changelog"},
         ]
 
     @property
