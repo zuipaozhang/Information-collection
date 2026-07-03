@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+{% if trend_summary %}
+<!-- ===== Trend Summary ===== -->
+<div style="margin-bottom:28px;background-color:#f0f7ff;border-radius:8px;padding:20px;border-left:4px solid #2196F3;">
+  <div style="font-size:14px;font-weight:700;color:#1565c0;margin-bottom:10px;">📈 本周趋势速览</div>
+  <div style="font-size:13px;color:#555;line-height:1.7;">
+    {{ trend_summary }}
+  </div>
+</div>
+{% endif %}
+
+{% if installable %}
+<!-- ===== Installable Tools ===== -->
+<div style="margin-bottom:28px;">
+  <div style="font-size:15px;font-weight:700;color:#333;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #4CAF50;">
+    📦 本周新上架工具
+  </div>
+
+  {% for item in installable %}
+  <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;border:1px solid #e0e0e0;border-radius:8px;">
+    <tr>
+      <td style="padding:14px 18px;">
+        <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;background-color:#e3f2fd;color:#1565c0;margin-right:8px;">{{ item.content_type_label }}</span>
+        <span style="font-size:12px;color:#f5a623;">{% for i in range(item.importance_score) %}★{% endfor %}</span>
+
+        <h3 style="margin:6px 0;font-size:15px;font-weight:600;color:#1a1a1a;">{{ item.chinese_title }}</h3>
+        <p style="margin:0 0 6px;font-size:13px;color:#555;line-height:1.5;">{{ item.chinese_summary }}</p>
+        <p style="margin:0 0 8px;font-size:12px;color:#888;">💡 {{ item.recommendation_reason }}</p>
+
+        {% if item.install_command %}
+        <div style="background:#f8f8f8;border-radius:4px;padding:6px 10px;margin-bottom:4px;">
+          <code style="font-size:11px;">📦 {{ item.install_command }}</code>
+        </div>
+        {% endif %}
+        <a href="{{ item.url }}" style="font-size:12px;color:#2196F3;text-decoration:none;">🔗 {{ item.source_label }} →</a>
+      </td>
+    </tr>
+  </table>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if top_rated %}
+<!-- ===== Top Rated ===== -->
+<div style="margin-bottom:24px;">
+  <div style="font-size:15px;font-weight:700;color:#333;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #FF9800;">
+    🏆 本周最高评分
+  </div>
+
+  {% for item in top_rated %}
+  <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:14px;">
+    <tr>
+      <td>
+        <div style="font-size:13px;color:#f5a623;margin-bottom:2px;">{% for i in range(5) %}★{% endfor %}</div>
+        <div style="font-size:14px;font-weight:600;color:#1a1a1a;">{{ item.chinese_title }}</div>
+        <div style="font-size:12px;color:#888;margin-top:2px;">{{ item.recommendation_reason }}</div>
+      </td>
+    </tr>
+  </table>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if tech_items %}
+<!-- ===== Tech Items ===== -->
+<div style="margin-bottom:24px;">
+  <div style="font-size:15px;font-weight:700;color:#333;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #2196F3;">
+    📊 技术与趋势
+  </div>
+
+  {% for item in tech_items %}
+  <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:10px;">
+    <tr>
+      <td style="padding:10px 0;border-bottom:1px solid #f0f0f0;">
+        <span style="background:#f5f5f5;border-radius:3px;padding:1px 6px;font-size:10px;color:#666;margin-right:6px;">{{ item.content_type_label }}</span>
+        <span style="font-size:14px;color:#1a1a1a;">{{ item.chinese_title }}</span>
+        <a href="{{ item.url }}" style="font-size:11px;color:#2196F3;text-decoration:none;margin-left:4px;">→</a>
+      </td>
+    </tr>
+  </table>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ===== Distribution ===== -->
+<div style="background:#fafafa;border-radius:8px;padding:16px 20px;margin-bottom:20px;">
+  <div style="font-size:13px;font-weight:600;color:#666;margin-bottom:10px;">📊 本周分类分布</div>
+  <table width="100%" cellpadding="0" cellspacing="0" style="font-size:12px;color:#888;line-height:1.8;">
+    {% for ct, count in content_type_distribution.items() %}
+    <tr>
+      <td width="30%" style="color:#555;">{{ ct }}</td>
+      <td width="70%">
+        <div style="background:#e0e0e0;border-radius:4px;height:6px;width:100%;">
+          <div style="background:#2196F3;border-radius:4px;height:6px;width:{{ (count / total_items * 100)|int }}%;"></div>
+        </div>
+        <span style="font-size:11px;">{{ count }} 条</span>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<!-- ===== Stats ===== -->
+<div style="background:#fafafa;border-radius:8px;padding:14px 20px;">
+  <div style="font-size:12px;color:#888;line-height:1.8;">
+    本周共收录 <strong style="color:#333;">{{ stats.total_fetched }}</strong> 条
+    &middot; LLM 精选 <strong style="color:#333;">{{ stats.curated_count }}</strong> 条
+    &middot; 可安装工具 <strong style="color:#333;">{{ stats.installable_count }}</strong> 条
+    &middot; API 花费 ¥{{ "%.2f"|format(stats.cost_rmb) }}
+  </div>
+</div>
+
+{% endblock %}

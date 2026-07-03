@@ -1,0 +1,91 @@
+name: Manual Test Run
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Digest mode'
+        required: true
+        type: choice
+        options:
+          - daily
+          - weekly
+          - monthly
+      dry_run:
+        description: 'Dry run (skip email sending & state save)'
+        required: false
+        type: boolean
+        default: true
+      verbose:
+        description: 'Verbose logging'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-test
+  cancel-in-progress: false
+
+jobs:
+  test-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run digest (test mode)
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          PH_DEV_TOKEN: ${{ secrets.PH_DEV_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: '${{ inputs.dry_run }}'
+        run: |
+          python -m src.main --mode ${{ inputs.mode }} ${{ inputs.verbose && '--verbose' || '' }}
+
+      - name: Upload email HTML artifact
+        if: inputs.dry_run
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-output-${{ inputs.mode }}
+          path: |
+            /tmp/digest-*.html
+          retention-days: 3
+
+      - name: Commit state changes (only if not dry-run)
+        if: (success() || failure()) && !inputs.dry_run
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update state after test ${{ inputs.mode }} digest [skip ci]"
+            git push
+          else
+            echo "No state changes to commit"
+          fi

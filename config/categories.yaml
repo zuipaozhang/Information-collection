@@ -1,0 +1,123 @@
+# ============================================================
+# Category Taxonomy
+# Used by LLM curation to classify articles into 1-3 categories.
+# ============================================================
+
+categories:
+  - id: "LLM"
+    name_zh: "大语言模型"
+    name_en: "Large Language Models"
+    description: "LLM training, inference, prompting, evaluation, fine-tuning"
+
+  - id: "Computer Vision"
+    name_zh: "计算机视觉"
+    name_en: "Computer Vision"
+    description: "Image/video generation, recognition, segmentation, diffusion models"
+
+  - id: "NLP"
+    name_zh: "自然语言处理"
+    name_en: "Natural Language Processing"
+    description: "Text processing, translation, sentiment analysis, information extraction"
+
+  - id: "Multimodal"
+    name_zh: "多模态"
+    name_en: "Multimodal"
+    description: "Vision-language, audio-language, any-to-any models"
+
+  - id: "Robotics"
+    name_zh: "机器人"
+    name_en: "Robotics"
+    description: "Robot learning, embodied AI, manipulation, autonomous driving"
+
+  - id: "AI Safety"
+    name_zh: "AI安全"
+    name_en: "AI Safety"
+    description: "Alignment, interpretability, red-teaming, regulation, governance"
+
+  - id: "AI Agents"
+    name_zh: "AI智能体"
+    name_en: "AI Agents"
+    description: "Autonomous agents, tool use, multi-agent systems, agent frameworks"
+
+  - id: "AI Infrastructure"
+    name_zh: "AI基础设施"
+    name_en: "AI Infrastructure"
+    description: "GPUs, training frameworks, inference engines, vector DBs, MLOps"
+
+  - id: "AI Applications"
+    name_zh: "AI应用"
+    name_en: "AI Applications"
+    description: "AI products, code assistants, creative tools, copilots, vertical AI"
+
+  - id: "Research"
+    name_zh: "学术研究"
+    name_en: "Research"
+    description: "Papers, benchmarks, theoretical advances, surveys"
+
+  - id: "Industry"
+    name_zh: "行业动态"
+    name_en: "Industry"
+    description: "Funding, partnerships, policy, company news, market analysis"
+
+  - id: "Developer Tools"
+    name_zh: "开发者工具"
+    name_en: "Developer Tools"
+    description: "AI IDEs, CLIs, SDKs, MCP ecosystem, developer productivity"
+
+  - id: "Open Source"
+    name_zh: "开源生态"
+    name_en: "Open Source"
+    description: "Open-source model releases, community projects, open datasets"
+
+# Content type metadata for prompt generation
+content_types:
+  mcp_server:
+    name_zh: "MCP服务器"
+    name_en: "MCP Server"
+    icon: "🔌"
+    installable: true
+  claude_skill:
+    name_zh: "Claude技能"
+    name_en: "Claude Skill"
+    icon: "🧩"
+    installable: true
+  coding_tool:
+    name_zh: "编程工具"
+    name_en: "Coding Tool"
+    icon: "⌨️"
+    installable: true
+  agent_framework:
+    name_zh: "Agent框架"
+    name_en: "Agent Framework"
+    icon: "🤖"
+    installable: false
+  dev_tool:
+    name_zh: "开发工具"
+    name_en: "Dev Tool"
+    icon: "🛠️"
+    installable: false
+  model_release:
+    name_zh: "模型发布"
+    name_en: "Model Release"
+    icon: "🧠"
+    installable: false
+  open_source_model:
+    name_zh: "开源模型"
+    name_en: "Open Source Model"
+    icon: "📦"
+    installable: true
+  guide:
+    name_zh: "方法指南"
+    name_en: "Guide"
+    icon: "📖"
+    installable: false
+  research:
+    name_zh: "学术研究"
+    name_en: "Research"
+    icon: "📄"
+    installable: false
+  industry:
+    name_zh: "行业动态"
+    name_en: "Industry"
+    icon: "📰"
+    installable: false

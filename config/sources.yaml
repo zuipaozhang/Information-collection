@@ -1,0 +1,204 @@
+# ============================================================
+# Data Source Configuration
+# Each source can be individually enabled/disabled.
+# Priority tiers:
+#   core      - Full participation in ranking
+#   degraded  - Extra quality filters applied
+#   auxiliary - Cross-validation only, excluded from push quota
+# ============================================================
+
+global:
+  max_per_source: 30
+  request_timeout: 30
+  rate_limit_delay_ms: 500
+  user_agent: "AI-Info-Collector/1.0 (GitHub Actions; AI Digest Bot)"
+
+sources:
+  # ================================================================
+  # News & Information Sources
+  # ================================================================
+
+  github_trending:
+    enabled: true
+    priority: "core"
+    since: "daily"
+    ai_keywords:
+      - "ai"
+      - "llm"
+      - "machine-learning"
+      - "deep-learning"
+      - "nlp"
+      - "gpt"
+      - "transformer"
+      - "diffusion"
+      - "langchain"
+      - "agent"
+      - "rag"
+      - "mcp"
+      - "model-context-protocol"
+      - "claude"
+      - "gemini"
+      - "qwen"
+      - "llama"
+      - "mistral"
+      - "vector-database"
+      - "fine-tuning"
+      - "text-to-image"
+      - "text-to-video"
+      - "speech-recognition"
+      - "embodied"
+    max_items: 25
+
+  huggingface_papers:
+    enabled: true
+    priority: "degraded"
+    endpoint: "https://huggingface.co/api/daily_papers"
+    max_items: 25
+    quality_filter:
+      require_paper_with_code: true
+      min_github_stars: 500
+
+  rss_feeds:
+    - name: "量子位"
+      url: "https://www.qbitai.com/feed"
+      enabled: true
+      priority: "core"
+      language: "zh"
+      content_type: "industry"
+      max_items: 20
+    - name: "机器之心"
+      url: "https://www.jiqizhixin.com/rss"
+      enabled: true
+      priority: "core"
+      language: "zh"
+      content_type: "industry"
+      max_items: 20
+
+  techcrunch_ai:
+    enabled: true
+    priority: "auxiliary"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    language: "en"
+    content_type: "industry"
+    max_items: 15
+
+  product_hunt:
+    enabled: true
+    priority: "core"
+    topic_slug: "ai"
+    max_items: 20
+
+  hacker_news:
+    enabled: true
+    priority: "degraded"
+    story_type: "top"
+    max_fetch_ids: 100
+    min_score: 100
+    exclude_keywords:
+      - "Ask HN"
+      - "Who is hiring"
+      - "Launch HN"
+    ai_keywords:
+      - "AI"
+      - "LLM"
+      - "GPT"
+      - "OpenAI"
+      - "Anthropic"
+      - "Claude"
+      - "Gemini"
+      - "machine learning"
+      - "deep learning"
+      - "transformer"
+      - "RAG"
+      - "fine-tuning"
+      - "neural network"
+      - "AGI"
+      - "agent"
+      - "MCP"
+      - "model context protocol"
+      - "cursor"
+      - "copilot"
+      - "langchain"
+      - "vector database"
+    max_items: 20
+
+  # ================================================================
+  # Tool & Component Discovery Sources
+  # ================================================================
+
+  mcp_pulse:
+    enabled: true
+    priority: "core"
+    trending_url: "https://pulsemcp.com/api/trending"
+    newsletter_url: "https://pulsemcp.com/newsletter"
+    max_items: 20
+
+  claude_plugins:
+    enabled: true
+    priority: "core"
+    registry_repos:
+      - "Kamalnrf/claude-plugins"
+      - "jayteealao/agent-skills"
+    watch_interval_hours: 24
+    max_items: 15
+
+  framework_watch:
+    enabled: true
+    priority: "core"
+    repos:
+      - "langchain-ai/langgraph"
+      - "crewAIInc/crewAI"
+      - "microsoft/agent-framework"
+      - "openai/openai-agents-python"
+      - "mastra-ai/mastra"
+      - "pydantic/pydantic-ai"
+      - "langchain-ai/deepagents"
+      - "langgenius/dify"
+      - "vllm-project/vllm"
+      - "ggerganov/llama.cpp"
+    lookback_days: 1
+
+  coding_tools:
+    enabled: true
+    priority: "core"
+    tools:
+      - name: "Claude Code"
+        github_repo: "anthropics/claude-code"
+        watch: "releases"
+      - name: "Cursor"
+        changelog_url: "https://www.cursor.com/changelog"
+        watch: "changelog"
+    lookback_days: 1
+
+  oss_models:
+    enabled: true
+    priority: "core"
+    hf_trending:
+      endpoint: "https://huggingface.co/api/models"
+      params:
+        sort: "trending"
+        limit: 20
+    watch_families:
+      - "Qwen"
+      - "Llama"
+      - "DeepSeek"
+      - "Mistral"
+      - "Phi"
+      - "Yi"
+      - "InternLM"
+      - "Gemma"
+
+  official_blogs:
+    enabled: true
+    priority: "core"
+    feeds:
+      - name: "Anthropic Research"
+        url: "https://www.anthropic.com/research/feed"
+        content_type: "guide"
+      - name: "OpenAI Blog"
+        url: "https://openai.com/blog/rss"
+        content_type: "guide"
+      - name: "Google AI Blog"
+        url: "https://blog.google/technology/ai/rss"
+        content_type: "guide"
+    max_items: 10

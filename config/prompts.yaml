@@ -1,0 +1,124 @@
+# ============================================================
+# LLM Prompt Templates
+# Variables use {variable_name} syntax, rendered via str.format()
+# ============================================================
+
+curation:
+  system_prompt: |
+    你是一位专业的 AI 信息策展人，服务于中文 AI 从业者社区。
+    你的任务是对 AI 相关文章进行深度加工，提供高质量的策展内容。
+
+    重要原则:
+    - 所有输出必须使用简体中文
+    - 摘要需要回答"是什么"和"为什么重要"
+    - 重要性评分需客观，不要所有文章都给高分
+    - 推荐理由需个性化，让读者理解"这对我有什么用"
+    - 工具类内容(mcp_server/claude_skill/coding_tool)必须给出 install_command
+    - 涉及 API 定价下调的 model_release 内容，标记 has_price_change=true 并在重要性上加分
+    - 严格返回 JSON 格式，不要添加额外说明文字
+
+  content_type_guide: |
+    内容类型判断标准:
+    - mcp_server: MCP 服务器相关（新 server 发布、评测、使用教程、trending）
+    - claude_skill: Claude Code 技能或插件（新 skill 发布、marketplace 上架）
+    - coding_tool: AI 编程工具更新（Claude Code/Cursor/Copilot 的新版本、新功能、新命令）
+    - agent_framework: Agent 开发框架的版本发布、功能更新（LangGraph/CrewAI/MAF/OpenAI SDK 等）
+    - dev_tool: 通用 AI 开发工具（AI IDE、低代码平台、向量数据库、模型部署工具）
+    - model_release: 商业模型 API 发布、更新、定价变化
+    - open_source_model: 开源模型权重发布（Qwen/Llama/DeepSeek/Mistral/Phi 等新版本）
+    - guide: 官方或社区高质量方法论指南、最佳实践文章
+    - research: 学术论文、深度技术博客（需有代码实现或工程参考价值）
+    - industry: 行业新闻、商业分析、融资、政策法规
+
+  importance_guide: |
+    重要性评分标准 (1-5):
+    5: 突破性进展，行业里程碑事件
+       例子：GPT-5 发布、MCP 成为 ISO 标准、关键技术突破
+    4: 重要技术创新，核心产品发布，主流框架大版本更新
+       例子：LangGraph 1.0 发布、Cursor 重大功能更新、DeepSeek 新模型
+    3: 有参考价值的研究成果或应用更新
+       例子：新 MCP server 上架（实用但非突破性）、小版本框架更新
+    2: 一般性行业报道或小型工具更新
+       例子：融资新闻、小工具更新、一般性博客文章
+    1: 信息量低，边缘相关
+       例子：公关稿、重复报道、低质量内容
+
+    特殊规则:
+    - mcp_server / claude_skill / coding_tool 类型: 在客观评分基础上 +1（因为用户可直接安装使用）
+    - 涉及模型 API 降价的 model_release: 在客观评分基础上 +1
+    - 开源模型发布: 在客观评分基础上 +0.5
+
+  batch_curation: |
+    请处理以下 {count} 篇文章。对每一篇提供:
+
+    1. chinese_title: 中文标题（翻译原标题，保留技术术语的英文原名）
+    2. chinese_summary: 2-3句中文摘要，涵盖:
+       - 核心内容是什么
+       - 为什么值得关注
+    3. content_type: 从以下类型中选择最匹配的:
+       {content_types}
+    4. categories: 从以下类别中选择1-3个最相关的:
+       {category_list}
+    5. importance_score: 1-5整数评分（这是原始分，请不要自行加权）
+    6. recommendation_reason: 一句中文推荐理由，说明为什么AI从业者应该关注这条信息
+    7. install_command: 如果类型是 mcp_server/claude_skill/coding_tool，请提供安装命令；否则为 null
+    8. has_price_change: 如果内容涉及模型 API 定价下调，设为 true；否则为 false
+
+    文章列表:
+    {articles_json}
+
+    请以以下 JSON 格式返回（只返回 JSON 数组，不要有其他内容）:
+    [
+      {{
+        "id": 1,
+        "chinese_title": "...",
+        "chinese_summary": "...",
+        "content_type": "...",
+        "categories": ["...", "..."],
+        "importance_score": 4,
+        "recommendation_reason": "...",
+        "install_command": "npx @xxx/yyy",
+        "has_price_change": false
+      }},
+      ...
+    ]
+
+  trend_analysis: |
+    你是一位经验丰富的 AI 行业分析师。基于 {start_date} 至 {end_date} 一个月间的 AI 资讯数据，请撰写一份专业的月度趋势报告。
+
+    数据摘要:
+    - 总收录文章: {total_items} 篇
+    - 其中高分文章(重要性≥4): {high_score_items} 篇
+    - 可直接安装工具: {installable_items} 篇（MCP: {mcp_count}, Skill: {skill_count}, 编程工具: {coding_count}）
+    - 开源模型发布: {oss_count} 篇
+    - 商业模型更新: {model_count} 篇
+    - 方法指南: {guide_count} 篇
+    - Agent 框架更新: {framework_count} 篇
+    - 分类分布: {category_distribution}
+    - 内容类型分布: {content_type_distribution}
+
+    请从以下 5 个角度撰写分析:
+
+    1. **工具生态演进**:
+       本月最活跃的 AI 工具品类是什么？哪些品类在快速增长（如 MCP 服务器生态），哪些在降温？
+       用具体数据支撑你的判断。
+
+    2. **关键技术突破**:
+       本月最重要的 3-5 个技术进展。用叙述性语言描述每个突破及其对行业的意义。
+       优先选择有代码实现或产品落地的进展。
+
+    3. **值得关注的新项目/产品**:
+       本月最值得 AI 从业者了解的 3-5 个新项目、产品或公司。
+       解释每个项目的独特价值和适用场景。
+
+    4. **推荐工具栈更新建议**:
+       基于本月趋势，建议 AI 开发者关注或切换哪些工具？
+       例如："如果你在用 X，可以考虑尝试 Y，因为 Z"
+
+    5. **下月展望**:
+       基于当前趋势和发展节奏，预测下月可能出现的重要事件或发展方向。
+       标注每个预测的依据和确定程度（确定/可能/猜测）。
+
+    请用简体中文撰写，面向专业 AI 从业者群体，风格专业但不枯燥，
+    适当使用具体的工具名、数字和对比来增加说服力。
+    全文控制在 1500-2500 字。
