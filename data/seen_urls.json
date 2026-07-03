@@ -1197,10 +1197,19 @@
       "content_type": "agent_framework",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://twitter.com/AnthropicAI/status/2072106151890809341": {
+      "canonical_url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "first_seen": "2026-07-03 06:58:31.363068",
+      "last_seen": "2026-07-03 06:58:31.363068",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 133,
+    "total_unique_urls": 134,
     "last_pruned": null
   }
 }
