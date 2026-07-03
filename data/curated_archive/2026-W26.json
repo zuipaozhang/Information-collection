@@ -1,0 +1,164 @@
+{
+  "week": "2026-W26",
+  "start_date": "2026-06-29",
+  "end_date": "2026-07-03",
+  "items": [
+    {
+      "title": "Your MCP Servers Are Burning Tokens Before You Type a Word",
+      "url": "https://dev.to/enjoy_kumawat/your-mcp-servers-are-burning-tokens-before-you-type-a-word-3076",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "你的MCP服务器在你输入任何内容之前就在消耗Token",
+      "chinese_summary": "文章揭示了MCP服务器的一个隐性成本：即使工具未被调用，其完整的JSON Schema也会被加载到系统提示词中，导致大量Token被浪费。作者通过计算47个工具的Schema大小，量化了这一问题的严重性。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "这是每个MCP用户都必须了解的Token浪费陷阱，优化工具加载策略能直接降低你的API调用成本。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "Six MCP tools, one trade: walking an AI agent from RFQ to refund",
+      "url": "https://dev.to/barissozen/six-mcp-tools-one-trade-walking-an-ai-agent-from-rfq-to-refund-595m",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "六个MCP工具，一次交易：引导AI代理从询价到退款的全流程",
+      "chinese_summary": "本文通过一个具体的交易案例，逐步骤展示了AI代理如何利用六个MCP工具，在没有托管人的情况下与陌生人完成从询价到退款的完整商业流程。它提供了代理商业落地的底层实操细节，而非抽象架构图。",
+      "categories": [
+        "AI Agents",
+        "AI Applications",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你想了解AI代理如何真正执行复杂的商业交易，这篇文章提供了最详尽的逐调用级实操演示。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "The MCP server that provisions a full backend your AI agent can deploy, and you can walk away",
+      "url": "https://dev.to/oscdev/the-mcp-server-that-provisions-a-full-backend-your-ai-agent-can-deploy-and-you-can-walk-away-1pba",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "一个能为你AI代理部署完整后端的MCP服务器，部署后即可放手",
+      "chinese_summary": "本文介绍了一个MCP服务器，它允许AI代理自动部署完整的后端基础设施，解决了“代码写完后在哪里运行、归谁所有”的核心问题。值得关注的是，它标志着AI代理从“能调用部署工具”进化到“能自主配置和管理云资源”的新阶段。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你正在构建能独立交付完整应用的AI代理，这个MCP服务器能帮你解决后端部署和所有权这个最棘手的环节。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "I built a trust firewall for my AI agent's memory — on Cognee's four verbs",
+      "url": "https://dev.to/himanshu_748/i-built-a-trust-firewall-for-my-ai-agents-memory-on-cognees-four-verbs-29g2",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "我为AI代理的记忆构建了一个信任防火墙——基于Cognee的四个动词",
+      "chinese_summary": "本文介绍了一个基于Cognee框架构建的MCP服务器，为AI代理的长期记忆添加了信任和权限控制层，解决了“记忆被污染”或“敏感信息泄露”的安全隐患。这是AI代理从“能用”到“可信”的关键一步。",
+      "categories": [
+        "AI Safety",
+        "AI Agents",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你担心AI代理的记忆被恶意数据污染或泄露敏感信息，这个信任防火墙方案值得深入研究。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "Stop Chunking Your Relationships: Why We Paired a Knowledge Graph with a Vector DB",
+      "url": "https://dev.to/contextual_layer_guy/stop-chunking-your-relationships-why-we-paired-a-knowledge-graph-with-a-vector-db-1id3",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "别再对关系进行分块：为什么我们将知识图谱与向量数据库配对",
+      "chinese_summary": "文章指出传统RAG系统在处理企业级复杂关系时存在“RAG墙”，并提出将知识图谱与向量数据库结合的新方案，以保留实体间的结构化关系。这为构建更智能的企业级AI代理提供了关键基础设施。",
+      "categories": [
+        "AI Infrastructure",
+        "AI Applications",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你正在构建企业级RAG系统并遇到了语义搜索的瓶颈，知识图谱+向量数据库的组合方案是突破的关键。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "5 MCP Servers I Would Install First as an AI Builder",
+      "url": "https://dev.to/usepairoa/5-mcp-servers-i-would-install-first-as-an-ai-builder-nb",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "作为AI构建者，我会首先安装的5个MCP服务器",
+      "chinese_summary": "文章推荐了5个最实用的MCP服务器，帮助AI构建者摆脱手动复制文件、粘贴文档的低效循环，让AI真正拥有“有用的双手”。这些服务器能显著提升AI代理的自主性和开发效率。",
+      "categories": [
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "importance_score": 3,
+      "weighted_score": 4.0,
+      "recommendation_reason": "这是一份经过实践检验的MCP服务器清单，能帮你快速搭建高效的AI代理工作流，避免走弯路。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "Claude Code正在通过隐写术标记请求",
+      "chinese_summary": "有开发者发现Claude Code会在其发出的API请求中嵌入隐写标记，用于追踪和识别请求来源。这一发现引发了关于隐私和透明度的广泛讨论，在Hacker News上获得了2400多分和700多条评论。",
+      "categories": [
+        "AI Safety",
+        "Industry",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这是关于AI工具隐私和安全的重要发现，所有使用Claude Code的开发者都应了解其请求被标记的机制和影响。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    },
+    {
+      "title": "🤗 google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "chinese_title": "🤗 google/gemma-4-31B-it 开源模型发布",
+      "chinese_summary": "Google发布了Gemma-4-31B-it开源模型，下载量已超过1100万次，获得了3100多个点赞。这是一个31B参数的高性能指令微调模型，适合本地部署和微调。",
+      "categories": [
+        "Open Source",
+        "LLM"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.5,
+      "recommendation_reason": "Gemma-4-31B-it是Google最新开源的大模型，性能强劲且社区热度极高，值得立即下载测试。",
+      "install_command": null,
+      "curation_date": "2026-07-03"
+    }
+  ],
+  "category_counts": {
+    "AI Infrastructure": 3,
+    "Developer Tools": 5,
+    "AI Agents": 4,
+    "AI Applications": 2,
+    "Industry": 2,
+    "AI Safety": 2,
+    "Research": 1,
+    "Open Source": 1,
+    "LLM": 1
+  },
+  "content_type_counts": {
+    "mcp_server": 6,
+    "industry": 1,
+    "open_source_model": 1
+  }
+}

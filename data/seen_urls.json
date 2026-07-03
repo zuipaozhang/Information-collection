@@ -1215,10 +1215,82 @@
       "content_type": "research",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://thereallo.dev/blog/claude-code-prompt-steganography": {
+      "canonical_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "first_seen": "2026-07-03 08:11:27.598326",
+      "last_seen": "2026-07-03 08:11:27.598326",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/oscdev/the-mcp-server-that-provisions-a-full-backend-your-ai-agent-can-deploy-and-you-can-walk-away-1pba": {
+      "canonical_url": "https://dev.to/oscdev/the-mcp-server-that-provisions-a-full-backend-your-ai-agent-can-deploy-and-you-can-walk-away-1pba",
+      "first_seen": "2026-07-03 08:11:27.598387",
+      "last_seen": "2026-07-03 08:11:27.598387",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/usepairoa/5-mcp-servers-i-would-install-first-as-an-ai-builder-nb": {
+      "canonical_url": "https://dev.to/usepairoa/5-mcp-servers-i-would-install-first-as-an-ai-builder-nb",
+      "first_seen": "2026-07-03 08:11:27.598407",
+      "last_seen": "2026-07-03 08:11:27.598407",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/barissozen/six-mcp-tools-one-trade-walking-an-ai-agent-from-rfq-to-refund-595m": {
+      "canonical_url": "https://dev.to/barissozen/six-mcp-tools-one-trade-walking-an-ai-agent-from-rfq-to-refund-595m",
+      "first_seen": "2026-07-03 08:11:27.598428",
+      "last_seen": "2026-07-03 08:11:27.598428",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/enjoy_kumawat/your-mcp-servers-are-burning-tokens-before-you-type-a-word-3076": {
+      "canonical_url": "https://dev.to/enjoy_kumawat/your-mcp-servers-are-burning-tokens-before-you-type-a-word-3076",
+      "first_seen": "2026-07-03 08:11:27.598443",
+      "last_seen": "2026-07-03 08:11:27.598443",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/himanshu_748/i-built-a-trust-firewall-for-my-ai-agents-memory-on-cognees-four-verbs-29g2": {
+      "canonical_url": "https://dev.to/himanshu_748/i-built-a-trust-firewall-for-my-ai-agents-memory-on-cognees-four-verbs-29g2",
+      "first_seen": "2026-07-03 08:11:27.598457",
+      "last_seen": "2026-07-03 08:11:27.598457",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/contextual_layer_guy/stop-chunking-your-relationships-why-we-paired-a-knowledge-graph-with-a-vector-db-1id3": {
+      "canonical_url": "https://dev.to/contextual_layer_guy/stop-chunking-your-relationships-why-we-paired-a-knowledge-graph-with-a-vector-db-1id3",
+      "first_seen": "2026-07-03 08:11:27.598470",
+      "last_seen": "2026-07-03 08:11:27.598470",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/google/gemma-4-31B-it": {
+      "canonical_url": "https://huggingface.co/google/gemma-4-31B-it",
+      "first_seen": "2026-07-03 08:11:27.598936",
+      "last_seen": "2026-07-03 08:11:27.598936",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 135,
+    "total_unique_urls": 143,
     "last_pruned": null
   }
 }

@@ -1,0 +1,20 @@
+{
+  "digests": [
+    {
+      "digest_type": "daily",
+      "date": "2026-07-03",
+      "items_count": 8,
+      "by_type": {
+        "mcp_server": 6,
+        "industry": 1,
+        "open_source_model": 1
+      },
+      "auxiliary_matches": 15,
+      "message_id": "3441cd39-5f1d-4206-b281-248bbc86b1b8",
+      "sent_at": "2026-07-03 08:11:44.941626",
+      "llm_model": "deepseek-chat",
+      "tokens_used": 2549,
+      "cost_rmb": 0.0016120971428571428
+    }
+  ]
+}
