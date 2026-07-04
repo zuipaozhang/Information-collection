@@ -1,156 +1,166 @@
 {
   "week": "2026-W26",
   "start_date": "2026-06-29",
-  "end_date": "2026-07-03",
+  "end_date": "2026-07-04",
   "items": [
     {
-      "title": "I just made my MCP server charge $0.001 per call — here is how x402 works",
-      "url": "https://dev.to/scotia1973bot/i-just-made-my-mcp-server-charge-0001-per-call-here-is-how-x402-works-5cd7",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "我刚刚让我的MCP服务器每次调用收费0.001美元——x402协议的工作原理",
-      "chinese_summary": "本文介绍了x402支付协议，它利用HTTP 402 Payment Required状态码，让AI代理在调用MCP服务器工具时自动支付USDC（基于Base链），无需API密钥或注册。作者展示了如何实现每次调用收费0.001美元的MCP服务器。",
-      "categories": [
-        "AI Infrastructure",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "为MCP服务器商业化提供了即用型支付方案，解决了AI代理工具调用的计费痛点，对构建付费AI服务有直接参考价值。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
-    },
-    {
-      "title": "The MCP Paradox: How to Secure the Agentic Supply Chain",
-      "url": "https://dev.to/agdex_ai/the-mcp-paradox-how-to-secure-the-agentic-supply-chain-4lbm",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP悖论：如何保护代理供应链安全",
-      "chinese_summary": "本文深入分析了Model Context Protocol (MCP)在解决AI代理集成难题的同时，引入的供应链安全风险。文章提出了MCP安全悖论，并给出了保护代理供应链的实践建议。",
-      "categories": [
-        "AI Safety",
-        "AI Infrastructure"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "直击MCP生态的核心安全挑战，对任何构建或使用MCP服务器的团队都是必读的安全指南。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
-    },
-    {
-      "title": "Meet NyxID: Your AI Agents Get Access. You Keep Control.",
-      "url": "https://dev.to/nwnwnw413/meet-nyxid-your-ai-agents-get-access-you-keep-control-3h25",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "认识NyxID：你的AI代理获得访问权限，你保持控制",
-      "chinese_summary": "NyxID是一个身份与访问管理解决方案，允许AI代理安全地访问SaaS API、内部服务和本地数据库，同时让开发者保持对密钥和权限的完全控制。它解决了AI代理调用真实服务时的密钥管理和安全难题。",
-      "categories": [
-        "AI Safety",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "为AI代理安全访问外部服务提供了实用的身份管理方案，解决了密钥泄露和权限失控的常见痛点。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
-    },
-    {
-      "title": "The Safari MCP server for web developers",
-      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
-      "source": "hacker_news",
-      "content_type": "mcp_server",
-      "chinese_title": "面向Web开发者的Safari MCP服务器",
-      "chinese_summary": "这是一个为Web开发者设计的Safari MCP服务器，允许通过MCP协议与Safari浏览器进行交互，实现自动化控制、数据提取等功能。该工具在Hacker News上获得了106分和22条评论，表明社区对其有较高关注度，值得Web开发者和AI工具链开发者关注。",
+      "title": "anthropics/claude-code: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he",
+      "url": "https://github.com/anthropics/claude-code",
+      "source": "github_trending",
+      "content_type": "coding_tool",
+      "chinese_title": "anthropics/claude-code: 驻留在终端中的智能编码工具 Claude Code",
+      "chinese_summary": "Claude Code 是一个智能编码工具，直接运行在终端中，能够理解你的代码库，并通过自然语言指令执行日常任务、解释复杂代码和处理 Git 工作流。它代表了 AI 辅助编程从 IDE 插件向终端原生 Agent 的演进方向，值得关注。",
       "categories": [
         "Developer Tools",
         "AI Applications"
       ],
-      "importance_score": 3,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你从事Web开发或AI自动化工作，这个MCP服务器能让你通过标准协议控制Safari浏览器，扩展AI Agent的浏览器操作能力。",
-      "install_command": "npx @safari-mcp/server",
-      "curation_date": "2026-07-03"
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "如果你日常使用终端进行开发，Claude Code 能让你用自然语言直接操控代码库，大幅提升编码效率。",
+      "install_command": "npm install -g @anthropic-ai/claude-code",
+      "curation_date": "2026-07-04"
     },
     {
-      "title": "What Happens When a Drought Signal Doesn't Go Anywhere",
-      "url": "https://dev.to/gabrielmahia/what-happens-when-a-drought-signal-doesnt-go-anywhere-3ln4",
+      "title": "I just published Postgres MCP Server in Go!",
+      "url": "https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "当干旱信号无处可去时会发生什么",
-      "chinese_summary": "本文探讨了肯尼亚图尔卡纳县小农户的指数型作物保险案例：当降雨量低于季节均值40%时，卫星数据自动触发赔付，无需现场评估或索赔表格。它揭示了MCP（模型上下文协议）在连接现实世界数据源与AI代理时的关键作用，以及数据信号中断可能导致的系统性风险。",
+      "chinese_title": "Postgres MCP Server 在 Go 中发布",
+      "chinese_summary": "这是一个用 Go 语言编写的开源 MCP 服务器，可将 Claude Code 或 Cursor 直接连接到实时 PostgreSQL 数据库。它简化了 AI 代理与数据库的交互，值得关注因为它提供了高性能的数据库连接方案。",
       "categories": [
-        "AI Applications",
-        "Industry"
+        "Developer Tools",
+        "AI Infrastructure"
       ],
-      "importance_score": 3,
-      "weighted_score": 4.0,
-      "recommendation_reason": "通过真实农业保险案例，展示了MCP在连接物理世界数据与AI决策链中的实际价值与脆弱性。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你使用 Claude Code 或 Cursor 进行开发，这个 MCP 服务器能让你直接通过 AI 查询和操作 PostgreSQL 数据库，极大提升效率。",
+      "install_command": "git clone https://github.com/gupta-akshay/postgres-mcp.git && cd postgres-mcp && go build",
+      "curation_date": "2026-07-04"
     },
     {
-      "title": "[ggml-org/llama.cpp] b9862: b9862",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9862",
+      "title": "MCP vs API: Why Traditional APIs Are Failing AI Agents",
+      "url": "https://dev.to/chaudharidevam/mcp-vs-api-why-traditional-apis-are-failing-ai-agents-28m8",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP 与 API：为什么传统 API 正在让 AI 代理失败",
+      "chinese_summary": "文章探讨了传统 REST 和 GraphQL API 在 AI 代理场景下的局限性，并论证 MCP 协议如何更好地满足代理需求。值得关注因为它为开发者选择 API 架构提供了新视角。",
+      "categories": [
+        "AI Agents",
+        "Developer Tools",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在构建 AI 代理或集成外部工具，这篇文章能帮你理解 MCP 相比传统 API 的优势。",
+      "install_command": null,
+      "curation_date": "2026-07-04"
+    },
+    {
+      "title": "🤗 mistralai/Leanstral-1.5-119B-A6B",
+      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "chinese_title": "Mistral 发布 Leanstral-1.5-119B-A6B 开源模型",
+      "chinese_summary": "Mistral AI 发布了 Leanstral-1.5-119B-A6B 开源模型，总参数量 1190 亿，激活参数 60 亿，采用 MoE 架构。该模型在 Hugging Face 上获得 62 个赞和 4 次下载，显示出社区关注。",
+      "categories": [
+        "Open Source",
+        "LLM"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.5,
+      "recommendation_reason": "这是一个高参数量的 MoE 开源模型，适合研究高效推理和模型压缩的从业者关注。",
+      "install_command": null,
+      "curation_date": "2026-07-04"
+    },
+    {
+      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+      "url": "https://www.qbitai.com/2026/07/442746.html",
+      "source": "rss_量子位",
+      "content_type": "research",
+      "chinese_title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+      "chinese_summary": "中国团队将JEPA架构应用于细胞内部建模，探索从LLM到世界模型的新路径。这展示了AI架构在生物计算领域的创新应用，可能为生命科学研究和药物发现带来新范式。",
+      "categories": [
+        "Research",
+        "AI Applications",
+        "Multimodal"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "了解JEPA架构在生物领域的跨界应用，启发AI从业者探索非传统场景的模型设计思路。",
+      "install_command": null,
+      "curation_date": "2026-07-04"
+    },
+    {
+      "title": "supabase/supabase: The Postgres development platform. Supabase gives you a dedicated Postgres database to build your we",
+      "url": "https://github.com/supabase/supabase",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "chinese_title": "supabase/supabase: Postgres 开发平台，为 Web、移动和 AI 应用提供专用数据库",
+      "chinese_summary": "Supabase 是一个 Postgres 开发平台，提供专用数据库来构建 Web、移动和 AI 应用。它集成了数据库、认证、存储和实时功能，是 AI 应用后端基础设施的热门选择。",
+      "categories": [
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在构建 AI 应用，Supabase 提供了开箱即用的 Postgres 数据库和后端服务，能快速搭建数据层。",
+      "install_command": null,
+      "curation_date": "2026-07-04"
+    },
+    {
+      "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+      "url": "https://arxiv.org/abs/2607.01686",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+      "chinese_summary": "本文提出WARP方法，通过分析模型权重空间来推断和恢复训练数据的组成。这项研究有助于理解模型训练数据的来源和分布，对数据合规性和模型可解释性有重要意义。",
+      "categories": [
+        "Research",
+        "AI Safety",
+        "LLM"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "对于关注数据隐私和模型透明度的从业者，WARP提供了一种逆向分析训练数据的新工具。",
+      "install_command": null,
+      "curation_date": "2026-07-04"
+    },
+    {
+      "title": "[ggml-org/llama.cpp] b9866: b9866",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
       "source": "framework_watch",
       "content_type": "agent_framework",
-      "chinese_title": "llama.cpp b9862：移除gated_delta_net后的冗余CUDA拷贝",
-      "chinese_summary": "此版本移除了gated_delta_net (GDN) 操作后的冗余CUDA内存拷贝，优化了循环状态快照的写入流程，减少了不必要的显存传输。对于使用MTP（多令牌预测）的推理场景，性能提升明显。",
+      "chinese_title": "llama.cpp b9866: CUDA 支持 288 专家 TopK-MoE 融合",
+      "chinese_summary": "该版本扩展了 CUDA 上的 TopK-MoE 融合支持，从仅支持 2 的幂次专家数扩展到 288 个专家（如 Step-3.7-Flash 模型），避免了回退到非融合的逐层路由。这显著提升了特定 MoE 模型在 GPU 上的推理性能。",
       "categories": [
         "AI Infrastructure",
         "Developer Tools"
       ],
-      "importance_score": 3,
-      "weighted_score": 3.0,
-      "recommendation_reason": "对llama.cpp用户是重要的性能优化更新，特别是使用GDN和MTP进行推理的场景。",
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在 GPU 上运行非标准专家数的 MoE 模型（如 288 专家），这个融合优化能大幅提升推理速度。",
       "install_command": null,
-      "curation_date": "2026-07-03"
-    },
-    {
-      "title": "AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition",
-      "url": "https://arxiv.org/abs/2607.02271",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "AGVBench：面向静脉识别的数据增强可靠性基准测试",
-      "chinese_summary": "AGVBench是一个专注于静脉识别任务中数据增强方法可靠性的基准测试。它系统评估了各种数据增强技术对静脉识别模型性能的影响，为生物特征识别领域提供了标准化的评估框架。",
-      "categories": [
-        "Computer Vision",
-        "Research"
-      ],
-      "importance_score": 2,
-      "weighted_score": 2.0,
-      "recommendation_reason": "对从事生物特征识别或数据增强研究的从业者具有参考价值，但领域较为垂直。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
-    },
-    {
-      "title": "[ggml-org/llama.cpp] b9861: b9861",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9861",
-      "source": "framework_watch",
-      "content_type": "agent_framework",
-      "chinese_title": "llama.cpp b9861：更新cpp-httplib至0.49.0",
-      "chinese_summary": "此版本将cpp-httplib依赖库更新至0.49.0，并提供了macOS Apple Silicon (arm64) 的预编译二进制包。这是一个常规的依赖更新和发布版本。",
-      "categories": [
-        "Developer Tools"
-      ],
-      "importance_score": 2,
-      "weighted_score": 2.0,
-      "recommendation_reason": "常规依赖更新，对大多数用户影响较小，但保持最新版本有助于安全性和兼容性。",
-      "install_command": null,
-      "curation_date": "2026-07-03"
+      "curation_date": "2026-07-04"
     }
   ],
   "category_counts": {
-    "AI Infrastructure": 3,
     "Developer Tools": 5,
-    "AI Safety": 2,
     "AI Applications": 2,
+    "AI Infrastructure": 3,
+    "AI Agents": 1,
     "Industry": 1,
-    "Computer Vision": 1,
-    "Research": 1
+    "Open Source": 1,
+    "LLM": 2,
+    "Research": 2,
+    "Multimodal": 1,
+    "AI Safety": 1
   },
   "content_type_counts": {
-    "mcp_server": 5,
-    "agent_framework": 2,
-    "research": 1
+    "coding_tool": 1,
+    "mcp_server": 2,
+    "open_source_model": 1,
+    "research": 2,
+    "dev_tool": 1,
+    "agent_framework": 1
   }
 }

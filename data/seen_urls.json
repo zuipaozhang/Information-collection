@@ -1395,10 +1395,424 @@
       "content_type": "agent_framework",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442958.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442958.html",
+      "first_seen": "2026-07-04 10:05:53.033201",
+      "last_seen": "2026-07-04 10:05:53.033201",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442746.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442746.html",
+      "first_seen": "2026-07-04 10:05:53.033255",
+      "last_seen": "2026-07-04 10:05:53.033255",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442567.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442567.html",
+      "first_seen": "2026-07-04 10:05:53.033273",
+      "last_seen": "2026-07-04 10:05:53.033273",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442531.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442531.html",
+      "first_seen": "2026-07-04 10:05:53.033285",
+      "last_seen": "2026-07-04 10:05:53.033285",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442517.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442517.html",
+      "first_seen": "2026-07-04 10:05:53.033296",
+      "last_seen": "2026-07-04 10:05:53.033296",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442503.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442503.html",
+      "first_seen": "2026-07-04 10:05:53.033306",
+      "last_seen": "2026-07-04 10:05:53.033306",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
+      "canonical_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+      "first_seen": "2026-07-04 10:05:53.033374",
+      "last_seen": "2026-07-04 10:05:53.033374",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026": {
+      "canonical_url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026",
+      "first_seen": "2026-07-04 10:05:53.033393",
+      "last_seen": "2026-07-04 10:05:53.033393",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ansible/ansible": {
+      "canonical_url": "https://github.com/ansible/ansible",
+      "first_seen": "2026-07-04 10:05:53.033581",
+      "last_seen": "2026-07-04 10:05:53.033581",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/facebook/astryx": {
+      "canonical_url": "https://github.com/facebook/astryx",
+      "first_seen": "2026-07-04 10:05:53.033595",
+      "last_seen": "2026-07-04 10:05:53.033595",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code": {
+      "canonical_url": "https://github.com/anthropics/claude-code",
+      "first_seen": "2026-07-04 10:05:53.033610",
+      "last_seen": "2026-07-04 10:05:53.033610",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ogulcancelik/herdr": {
+      "canonical_url": "https://github.com/ogulcancelik/herdr",
+      "first_seen": "2026-07-04 10:05:53.033620",
+      "last_seen": "2026-07-04 10:05:53.033620",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/supabase/supabase": {
+      "canonical_url": "https://github.com/supabase/supabase",
+      "first_seen": "2026-07-04 10:05:53.033640",
+      "last_seen": "2026-07-04 10:05:53.033640",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/TencentCloud/CubeSandbox": {
+      "canonical_url": "https://github.com/TencentCloud/CubeSandbox",
+      "first_seen": "2026-07-04 10:05:53.033650",
+      "last_seen": "2026-07-04 10:05:53.033650",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01283": {
+      "canonical_url": "https://arxiv.org/abs/2607.01283",
+      "first_seen": "2026-07-04 10:05:53.033671",
+      "last_seen": "2026-07-04 10:05:53.033671",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.27821": {
+      "canonical_url": "https://arxiv.org/abs/2606.27821",
+      "first_seen": "2026-07-04 10:05:53.033686",
+      "last_seen": "2026-07-04 10:05:53.033686",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01686": {
+      "canonical_url": "https://arxiv.org/abs/2607.01686",
+      "first_seen": "2026-07-04 10:05:53.033718",
+      "last_seen": "2026-07-04 10:05:53.033718",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01224": {
+      "canonical_url": "https://arxiv.org/abs/2607.01224",
+      "first_seen": "2026-07-04 10:05:53.033732",
+      "last_seen": "2026-07-04 10:05:53.033732",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.29961": {
+      "canonical_url": "https://arxiv.org/abs/2606.29961",
+      "first_seen": "2026-07-04 10:05:53.033746",
+      "last_seen": "2026-07-04 10:05:53.033746",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01002": {
+      "canonical_url": "https://arxiv.org/abs/2607.01002",
+      "first_seen": "2026-07-04 10:05:53.033760",
+      "last_seen": "2026-07-04 10:05:53.033760",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making": {
+      "canonical_url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making",
+      "first_seen": "2026-07-04 10:05:53.033945",
+      "last_seen": "2026-07-04 10:05:53.033945",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jamesob/local-llm": {
+      "canonical_url": "https://github.com/jamesob/local-llm",
+      "first_seen": "2026-07-04 10:05:53.033956",
+      "last_seen": "2026-07-04 10:05:53.033956",
+      "source": "hacker_news",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://epoch.ai/data-insights/cve-severity-spike": {
+      "canonical_url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "first_seen": "2026-07-04 10:05:53.033966",
+      "last_seen": "2026-07-04 10:05:53.033966",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus": {
+      "canonical_url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus",
+      "first_seen": "2026-07-04 10:05:53.033980",
+      "last_seen": "2026-07-04 10:05:53.033980",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type": {
+      "canonical_url": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
+      "first_seen": "2026-07-04 10:05:53.033990",
+      "last_seen": "2026-07-04 10:05:53.033990",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://righttointelligence.org/": {
+      "canonical_url": "https://righttointelligence.org/",
+      "first_seen": "2026-07-04 10:05:53.034002",
+      "last_seen": "2026-07-04 10:05:53.034002",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03": {
+      "canonical_url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03",
+      "first_seen": "2026-07-04 10:05:53.034036",
+      "last_seen": "2026-07-04 10:05:53.034036",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/vdalal/the-nsa-wrote-the-mcp-threat-model-it-never-says-what-your-agent-does-after-the-block-3959": {
+      "canonical_url": "https://dev.to/vdalal/the-nsa-wrote-the-mcp-threat-model-it-never-says-what-your-agent-does-after-the-block-3959",
+      "first_seen": "2026-07-04 10:05:53.034070",
+      "last_seen": "2026-07-04 10:05:53.034070",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/anhmtk/the-agent-gateway-problem-15-billion-websites-are-about-to-miss-the-next-internet-1mo": {
+      "canonical_url": "https://dev.to/anhmtk/the-agent-gateway-problem-15-billion-websites-are-about-to-miss-the-next-internet-1mo",
+      "first_seen": "2026-07-04 10:05:53.034085",
+      "last_seen": "2026-07-04 10:05:53.034085",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/priyanshu_goel_a1bb476dad/i-built-a-privacy-first-health-record-mcp-server-that-runs-entirely-on-your-machine-18ki": {
+      "canonical_url": "https://dev.to/priyanshu_goel_a1bb476dad/i-built-a-privacy-first-health-record-mcp-server-that-runs-entirely-on-your-machine-18ki",
+      "first_seen": "2026-07-04 10:05:53.034100",
+      "last_seen": "2026-07-04 10:05:53.034100",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/rohit_raj_8c7902b7d37cf21/safari-mcp-server-apples-official-debugger-vs-the-community-tools-2026-guide-4pkc": {
+      "canonical_url": "https://dev.to/rohit_raj_8c7902b7d37cf21/safari-mcp-server-apples-official-debugger-vs-the-community-tools-2026-guide-4pkc",
+      "first_seen": "2026-07-04 10:05:53.034113",
+      "last_seen": "2026-07-04 10:05:53.034113",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab": {
+      "canonical_url": "https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab",
+      "first_seen": "2026-07-04 10:05:53.034126",
+      "last_seen": "2026-07-04 10:05:53.034126",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/enjoy_kumawat/i-ditched-vector-search-for-my-coding-agents-memory-fts5-won-22g2": {
+      "canonical_url": "https://dev.to/enjoy_kumawat/i-ditched-vector-search-for-my-coding-agents-memory-fts5-won-22g2",
+      "first_seen": "2026-07-04 10:05:53.034140",
+      "last_seen": "2026-07-04 10:05:53.034140",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/chaudharidevam/mcp-vs-api-why-traditional-apis-are-failing-ai-agents-28m8": {
+      "canonical_url": "https://dev.to/chaudharidevam/mcp-vs-api-why-traditional-apis-are-failing-ai-agents-28m8",
+      "first_seen": "2026-07-04 10:05:53.034159",
+      "last_seen": "2026-07-04 10:05:53.034159",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/instatunnel/scaling-quic-ingress-ebpf-socket-steering-for-http3-connection-migration-1h6b": {
+      "canonical_url": "https://dev.to/instatunnel/scaling-quic-ingress-ebpf-socket-steering-for-http3-connection-migration-1h6b",
+      "first_seen": "2026-07-04 10:05:53.034173",
+      "last_seen": "2026-07-04 10:05:53.034173",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/neurolink/mcp-server-tutorial-build-your-own-ai-tools-in-30-minutes-3nfe": {
+      "canonical_url": "https://dev.to/neurolink/mcp-server-tutorial-build-your-own-ai-tools-in-30-minutes-3nfe",
+      "first_seen": "2026-07-04 10:05:53.034187",
+      "last_seen": "2026-07-04 10:05:53.034187",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lazymac2x/smart-contract-scanner-api-5bun-ane-peurojegteue-tonghabhagi-5cma": {
+      "canonical_url": "https://dev.to/lazymac2x/smart-contract-scanner-api-5bun-ane-peurojegteue-tonghabhagi-5cma",
+      "first_seen": "2026-07-04 10:05:53.034199",
+      "last_seen": "2026-07-04 10:05:53.034199",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.13.0": {
+      "canonical_url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.13.0",
+      "first_seen": "2026-07-04 10:05:53.034213",
+      "last_seen": "2026-07-04 10:05:53.034213",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pydantic/pydantic-ai/releases/tag/v2.5.0": {
+      "canonical_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.5.0",
+      "first_seen": "2026-07-04 10:05:53.034223",
+      "last_seen": "2026-07-04 10:05:53.034223",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9870": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
+      "first_seen": "2026-07-04 10:05:53.034231",
+      "last_seen": "2026-07-04 10:05:53.034231",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9867": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9867",
+      "first_seen": "2026-07-04 10:05:53.034240",
+      "last_seen": "2026-07-04 10:05:53.034240",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9866": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
+      "first_seen": "2026-07-04 10:05:53.034249",
+      "last_seen": "2026-07-04 10:05:53.034249",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9864": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9864",
+      "first_seen": "2026-07-04 10:05:53.034257",
+      "last_seen": "2026-07-04 10:05:53.034257",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.201": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
+      "first_seen": "2026-07-04 10:05:53.034271",
+      "last_seen": "2026-07-04 10:05:53.034271",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.200": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
+      "first_seen": "2026-07-04 10:05:53.034285",
+      "last_seen": "2026-07-04 10:05:53.034285",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B": {
+      "canonical_url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+      "first_seen": "2026-07-04 10:05:53.034421",
+      "last_seen": "2026-07-04 10:05:53.034421",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 155,
+    "total_unique_urls": 201,
     "last_pruned": null
   }
 }
