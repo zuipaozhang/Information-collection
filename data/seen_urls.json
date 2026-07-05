@@ -1809,10 +1809,271 @@
       "content_type": "open_source_model",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443066.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443066.html",
+      "first_seen": "2026-07-05 10:08:19.810845",
+      "last_seen": "2026-07-05 10:08:19.810845",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/442964.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/442964.html",
+      "first_seen": "2026-07-05 10:08:19.810891",
+      "last_seen": "2026-07-05 10:08:19.810891",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai",
+      "first_seen": "2026-07-05 10:08:19.810966",
+      "last_seen": "2026-07-05 10:08:19.810966",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage": {
+      "canonical_url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage",
+      "first_seen": "2026-07-05 10:08:19.810980",
+      "last_seen": "2026-07-05 10:08:19.810980",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code": {
+      "canonical_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code",
+      "first_seen": "2026-07-05 10:08:19.810993",
+      "last_seen": "2026-07-05 10:08:19.810993",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor": {
+      "canonical_url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+      "first_seen": "2026-07-05 10:08:19.811004",
+      "last_seen": "2026-07-05 10:08:19.811004",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/alibaba/page-agent": {
+      "canonical_url": "https://github.com/alibaba/page-agent",
+      "first_seen": "2026-07-05 10:08:19.811113",
+      "last_seen": "2026-07-05 10:08:19.811113",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/Zackriya-Solutions/meetily": {
+      "canonical_url": "https://github.com/Zackriya-Solutions/meetily",
+      "first_seen": "2026-07-05 10:08:19.811138",
+      "last_seen": "2026-07-05 10:08:19.811138",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/asgeirtj/system_prompts_leaks": {
+      "canonical_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "first_seen": "2026-07-05 10:08:19.811148",
+      "last_seen": "2026-07-05 10:08:19.811148",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/dotnet/skills": {
+      "canonical_url": "https://github.com/dotnet/skills",
+      "first_seen": "2026-07-05 10:08:19.811166",
+      "last_seen": "2026-07-05 10:08:19.811166",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/mattpocock/skills": {
+      "canonical_url": "https://github.com/mattpocock/skills",
+      "first_seen": "2026-07-05 10:08:19.811182",
+      "last_seen": "2026-07-05 10:08:19.811182",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/CoplayDev/unity-mcp": {
+      "canonical_url": "https://github.com/CoplayDev/unity-mcp",
+      "first_seen": "2026-07-05 10:08:19.811192",
+      "last_seen": "2026-07-05 10:08:19.811192",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/alirezarezvani/claude-skills": {
+      "canonical_url": "https://github.com/alirezarezvani/claude-skills",
+      "first_seen": "2026-07-05 10:08:19.811202",
+      "last_seen": "2026-07-05 10:08:19.811202",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/crynta/terax-ai": {
+      "canonical_url": "https://github.com/crynta/terax-ai",
+      "first_seen": "2026-07-05 10:08:19.811212",
+      "last_seen": "2026-07-05 10:08:19.811212",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/openai/codex/issues/30364": {
+      "canonical_url": "https://github.com/openai/codex/issues/30364",
+      "first_seen": "2026-07-05 10:08:19.811390",
+      "last_seen": "2026-07-05 10:08:19.811390",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://danluu.com/ai-coding": {
+      "canonical_url": "https://danluu.com/ai-coding",
+      "first_seen": "2026-07-05 10:08:19.811400",
+      "last_seen": "2026-07-05 10:08:19.811400",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage": {
+      "canonical_url": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
+      "first_seen": "2026-07-05 10:08:19.811408",
+      "last_seen": "2026-07-05 10:08:19.811408",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/wozaisuzhou/i-am-building-a-wrapper-tool-for-various-api-backend-system-to-mcp-server-in-a-week-2726": {
+      "canonical_url": "https://dev.to/wozaisuzhou/i-am-building-a-wrapper-tool-for-various-api-backend-system-to-mcp-server-in-a-week-2726",
+      "first_seen": "2026-07-05 10:08:19.811419",
+      "last_seen": "2026-07-05 10:08:19.811419",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/eshaiju/nodellm-117-mcp-sampling-concurrent-tool-execution-and-smarter-orm-control-dek": {
+      "canonical_url": "https://dev.to/eshaiju/nodellm-117-mcp-sampling-concurrent-tool-execution-and-smarter-orm-control-dek",
+      "first_seen": "2026-07-05 10:08:19.811432",
+      "last_seen": "2026-07-05 10:08:19.811432",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lazymac2x/seo-analyzer-api-5bun-ane-peurojegteue-tonghabhagi-48k2": {
+      "canonical_url": "https://dev.to/lazymac2x/seo-analyzer-api-5bun-ane-peurojegteue-tonghabhagi-48k2",
+      "first_seen": "2026-07-05 10:08:19.811442",
+      "last_seen": "2026-07-05 10:08:19.811442",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/halton_chen/mcp-tool-from-integration-chaos-to-one-clean-connection-42gl": {
+      "canonical_url": "https://dev.to/halton_chen/mcp-tool-from-integration-chaos-to-one-clean-connection-42gl",
+      "first_seen": "2026-07-05 10:08:19.811452",
+      "last_seen": "2026-07-05 10:08:19.811452",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/edison_flores_6d2cd381b13/top-10-free-mcp-skills-you-can-install-right-now-no-signup-no-payment-39p3": {
+      "canonical_url": "https://dev.to/edison_flores_6d2cd381b13/top-10-free-mcp-skills-you-can-install-right-now-no-signup-no-payment-39p3",
+      "first_seen": "2026-07-05 10:08:19.811461",
+      "last_seen": "2026-07-05 10:08:19.811461",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/edison_flores_6d2cd381b13/how-to-monetize-your-mcp-server-x402-usdc-and-the-agent-economy-3n6l": {
+      "canonical_url": "https://dev.to/edison_flores_6d2cd381b13/how-to-monetize-your-mcp-server-x402-usdc-and-the-agent-economy-3n6l",
+      "first_seen": "2026-07-05 10:08:19.811471",
+      "last_seen": "2026-07-05 10:08:19.811471",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/ksparth12/the-safari-mcp-server-could-change-how-developers-debug-websites-223g": {
+      "canonical_url": "https://dev.to/ksparth12/the-safari-mcp-server-could-change-how-developers-debug-websites-223g",
+      "first_seen": "2026-07-05 10:08:19.811480",
+      "last_seen": "2026-07-05 10:08:19.811480",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/paperquire_e3fdb510bbe49c/paperquire-v030-your-ai-agents-pdf-tool-3c1n": {
+      "canonical_url": "https://dev.to/paperquire_e3fdb510bbe49c/paperquire-v030-your-ai-agents-pdf-tool-3c1n",
+      "first_seen": "2026-07-05 10:08:19.811490",
+      "last_seen": "2026-07-05 10:08:19.811490",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/scotia1973bot/how-to-monetize-your-mcp-server-in-one-line-of-code-x402-stripe-395l": {
+      "canonical_url": "https://dev.to/scotia1973bot/how-to-monetize-your-mcp-server-in-one-line-of-code-x402-stripe-395l",
+      "first_seen": "2026-07-05 10:08:19.811499",
+      "last_seen": "2026-07-05 10:08:19.811499",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/edison_flores_6d2cd381b13/marketnow-20-5-languages-63-countries-675-npm-downloads-2-weeks-in-16bk": {
+      "canonical_url": "https://dev.to/edison_flores_6d2cd381b13/marketnow-20-5-languages-63-countries-675-npm-downloads-2-weeks-in-16bk",
+      "first_seen": "2026-07-05 10:08:19.811509",
+      "last_seen": "2026-07-05 10:08:19.811509",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9873": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9873",
+      "first_seen": "2026-07-05 10:08:19.811518",
+      "last_seen": "2026-07-05 10:08:19.811518",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9871": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9871",
+      "first_seen": "2026-07-05 10:08:19.811524",
+      "last_seen": "2026-07-05 10:08:19.811524",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 201,
+    "total_unique_urls": 230,
     "last_pruned": null
   }
 }

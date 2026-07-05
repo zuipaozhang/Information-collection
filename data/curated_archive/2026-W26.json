@@ -1,166 +1,168 @@
 {
   "week": "2026-W26",
   "start_date": "2026-06-29",
-  "end_date": "2026-07-04",
+  "end_date": "2026-07-05",
   "items": [
     {
-      "title": "anthropics/claude-code: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he",
-      "url": "https://github.com/anthropics/claude-code",
+      "title": "CoplayDev/unity-mcp: Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manag",
+      "url": "https://github.com/CoplayDev/unity-mcp",
       "source": "github_trending",
-      "content_type": "coding_tool",
-      "chinese_title": "anthropics/claude-code: 驻留在终端中的智能编码工具 Claude Code",
-      "chinese_summary": "Claude Code 是一个智能编码工具，直接运行在终端中，能够理解你的代码库，并通过自然语言指令执行日常任务、解释复杂代码和处理 Git 工作流。它代表了 AI 辅助编程从 IDE 插件向终端原生 Agent 的演进方向，值得关注。",
-      "categories": [
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "如果你日常使用终端进行开发，Claude Code 能让你用自然语言直接操控代码库，大幅提升编码效率。",
-      "install_command": "npm install -g @anthropic-ai/claude-code",
-      "curation_date": "2026-07-04"
-    },
-    {
-      "title": "I just published Postgres MCP Server in Go!",
-      "url": "https://dev.to/akshay_gupta/i-just-published-postgres-mcp-server-in-go-10ab",
-      "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "Postgres MCP Server 在 Go 中发布",
-      "chinese_summary": "这是一个用 Go 语言编写的开源 MCP 服务器，可将 Claude Code 或 Cursor 直接连接到实时 PostgreSQL 数据库。它简化了 AI 代理与数据库的交互，值得关注因为它提供了高性能的数据库连接方案。",
+      "chinese_title": "CoplayDev/unity-mcp: Unity MCP 桥接 AI 助手与 Unity 编辑器",
+      "chinese_summary": "Unity MCP 是一个开源工具，作为 AI 助手与 Unity 编辑器之间的桥梁，允许 LLM 管理资源、控制场景、编辑脚本和自动化任务。它极大地简化了 Unity 开发中的 AI 集成流程。",
       "categories": [
         "Developer Tools",
-        "AI Infrastructure"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你使用 Claude Code 或 Cursor 进行开发，这个 MCP 服务器能让你直接通过 AI 查询和操作 PostgreSQL 数据库，极大提升效率。",
-      "install_command": "git clone https://github.com/gupta-akshay/postgres-mcp.git && cd postgres-mcp && go build",
-      "curation_date": "2026-07-04"
-    },
-    {
-      "title": "MCP vs API: Why Traditional APIs Are Failing AI Agents",
-      "url": "https://dev.to/chaudharidevam/mcp-vs-api-why-traditional-apis-are-failing-ai-agents-28m8",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP 与 API：为什么传统 API 正在让 AI 代理失败",
-      "chinese_summary": "文章探讨了传统 REST 和 GraphQL API 在 AI 代理场景下的局限性，并论证 MCP 协议如何更好地满足代理需求。值得关注因为它为开发者选择 API 架构提供了新视角。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
+        "AI Applications",
         "Industry"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你在构建 AI 代理或集成外部工具，这篇文章能帮你理解 MCP 相比传统 API 的优势。",
-      "install_command": null,
-      "curation_date": "2026-07-04"
+      "recommendation_reason": "如果你是 Unity 开发者，这个 MCP 服务器能让你用自然语言直接操控编辑器，大幅提升开发效率。",
+      "install_command": "npm install -g unity-mcp",
+      "curation_date": "2026-07-05"
     },
     {
-      "title": "🤗 mistralai/Leanstral-1.5-119B-A6B",
-      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-      "source": "oss_models",
-      "content_type": "open_source_model",
-      "chinese_title": "Mistral 发布 Leanstral-1.5-119B-A6B 开源模型",
-      "chinese_summary": "Mistral AI 发布了 Leanstral-1.5-119B-A6B 开源模型，总参数量 1190 亿，激活参数 60 亿，采用 MoE 架构。该模型在 Hugging Face 上获得 62 个赞和 4 次下载，显示出社区关注。",
+      "title": "alirezarezvani/claude-skills: 337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, custo",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "source": "github_trending",
+      "content_type": "claude_skill",
+      "chinese_title": "alirezarezvani/claude-skills: 337 个 Claude Code 技能与 Agent 技能及插件",
+      "chinese_summary": "这是一个包含 337 个 Claude Code 技能、30 多个 Agent、70 多个自定义命令和可定制脚本的庞大技能库，支持 Claude Code、Codex、Gemini CLI、Cursor 等 11 种编码 Agent。它覆盖了工程、营销、产品、合规、研究等多个领域，是快速扩展 AI 编程助手能力的宝库。",
       "categories": [
-        "Open Source",
-        "LLM"
+        "AI Agents",
+        "Developer Tools",
+        "AI Applications"
       ],
       "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "这是一个高参数量的 MoE 开源模型，适合研究高效推理和模型压缩的从业者关注。",
-      "install_command": null,
-      "curation_date": "2026-07-04"
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你使用 Claude Code 或 Cursor 等 AI 编程工具，这个技能库能让你一键获得数百个现成的专业能力，大幅提升开发效率。",
+      "install_command": "git clone https://github.com/alirezarezvani/claude-skills.git",
+      "curation_date": "2026-07-05"
     },
     {
-      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
-      "url": "https://www.qbitai.com/2026/07/442746.html",
+      "title": "How to Monetize Your MCP Server in One Line of Code — x402 + Stripe",
+      "url": "https://dev.to/scotia1973bot/how-to-monetize-your-mcp-server-in-one-line-of-code-x402-stripe-395l",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "如何用一行代码变现你的 MCP 服务器 — x402 + Stripe",
+      "chinese_summary": "x402 是基于 HTTP 402 Payment Required 协议的支付通道，专为 AI 代理设计，允许 MCP 服务器在代理未付费时返回支付请求。结合 Stripe，开发者可以轻松实现按需付费的 API 变现模式。",
+      "categories": [
+        "AI Infrastructure",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这是 AI 代理经济中首个标准化支付协议，对构建商业化 MCP 服务的开发者至关重要。",
+      "install_command": "npm install x402",
+      "curation_date": "2026-07-05"
+    },
+    {
+      "title": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
+      "url": "https://www.qbitai.com/2026/07/443066.html",
       "source": "rss_量子位",
       "content_type": "research",
-      "chinese_title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
-      "chinese_summary": "中国团队将JEPA架构应用于细胞内部建模，探索从LLM到世界模型的新路径。这展示了AI架构在生物计算领域的创新应用，可能为生命科学研究和药物发现带来新范式。",
+      "chinese_title": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
+      "chinese_summary": "该论文提出了一种名为 Real2Sim 的新方法，通过从真实世界视频中生成无限训练场景，以低成本解决具身智能中 Sim2Real 的迁移难题。值得关注的是，它由李飞飞团队署名，为机器人训练提供了更高效、更经济的替代方案。",
       "categories": [
-        "Research",
-        "AI Applications",
-        "Multimodal"
+        "Robotics",
+        "Computer Vision",
+        "Research"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "了解JEPA架构在生物领域的跨界应用，启发AI从业者探索非传统场景的模型设计思路。",
+      "recommendation_reason": "如果你从事机器人或具身智能研究，这篇论文提供了一种颠覆性的低成本训练范式，值得深入阅读。",
       "install_command": null,
-      "curation_date": "2026-07-04"
+      "curation_date": "2026-07-05"
     },
     {
-      "title": "supabase/supabase: The Postgres development platform. Supabase gives you a dedicated Postgres database to build your we",
-      "url": "https://github.com/supabase/supabase",
-      "source": "github_trending",
-      "content_type": "dev_tool",
-      "chinese_title": "supabase/supabase: Postgres 开发平台，为 Web、移动和 AI 应用提供专用数据库",
-      "chinese_summary": "Supabase 是一个 Postgres 开发平台，提供专用数据库来构建 Web、移动和 AI 应用。它集成了数据库、认证、存储和实时功能，是 AI 应用后端基础设施的热门选择。",
+      "title": "How to monetize your MCP server (x402, USDC, and the agent economy)",
+      "url": "https://dev.to/edison_flores_6d2cd381b13/how-to-monetize-your-mcp-server-x402-usdc-and-the-agent-economy-3n6l",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "如何通过 MCP 服务器盈利（x402、USDC 和 Agent 经济）",
+      "chinese_summary": "文章介绍了如何通过构建 MCP 服务器向全球 AI Agent 销售服务来盈利，涉及 x402 协议和 USDC 支付。它指出当前有 8560 个 MCP 技能被索引，每周有 675 名开发者安装 MCP 服务器，展示了 Agent 经济中的商业化机会。",
       "categories": [
-        "Developer Tools",
+        "Industry",
+        "AI Agents",
         "AI Infrastructure"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在构建 AI 应用，Supabase 提供了开箱即用的 Postgres 数据库和后端服务，能快速搭建数据层。",
+      "recommendation_reason": "如果你正在开发 MCP 服务器或考虑 AI 工具商业化，这篇文章提供了具体的盈利模式和市场规模数据，极具参考价值。",
       "install_command": null,
-      "curation_date": "2026-07-04"
+      "curation_date": "2026-07-05"
     },
     {
-      "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
-      "url": "https://arxiv.org/abs/2607.01686",
-      "source": "huggingface_papers",
+      "title": "asgeirtj/system_prompts_leaks: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "chinese_title": "asgeirtj/system_prompts_leaks: 从 Anthropic、OpenAI、Google 等提取的系统提示词泄露集合",
+      "chinese_summary": "该项目收集了来自 Anthropic、OpenAI、Google 等多家公司的 AI 系统提示词，包括 Claude、ChatGPT、Gemini 等模型的内部指令。这些泄露的提示词为 AI 从业者提供了了解大模型行为调优的宝贵参考。",
+      "categories": [
+        "LLM",
+        "Developer Tools",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你从事提示工程或模型调优，这些泄露的系统提示词能帮你理解顶级 AI 公司的设计思路。",
+      "install_command": "git clone https://github.com/asgeirtj/system_prompts_leaks.git",
+      "curation_date": "2026-07-05"
+    },
+    {
+      "title": "刚刚，LeCun团队让世界模型学会持续学习！",
+      "url": "https://www.qbitai.com/2026/07/442964.html",
+      "source": "rss_量子位",
       "content_type": "research",
-      "chinese_title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
-      "chinese_summary": "本文提出WARP方法，通过分析模型权重空间来推断和恢复训练数据的组成。这项研究有助于理解模型训练数据的来源和分布，对数据合规性和模型可解释性有重要意义。",
+      "chinese_title": "刚刚，LeCun团队让世界模型学会持续学习！",
+      "chinese_summary": "LeCun 团队的最新研究让世界模型具备了持续学习能力，使其能够在不遗忘旧知识的情况下不断适应新环境。这标志着世界模型向通用人工智能迈出了重要一步，对 AI 研究和应用具有深远影响。",
       "categories": [
         "Research",
-        "AI Safety",
+        "AI Infrastructure",
         "LLM"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "对于关注数据隐私和模型透明度的从业者，WARP提供了一种逆向分析训练数据的新工具。",
+      "recommendation_reason": "如果你关注世界模型或持续学习的前沿进展，这项研究将为你提供关键的技术洞察。",
       "install_command": null,
-      "curation_date": "2026-07-04"
+      "curation_date": "2026-07-05"
     },
     {
-      "title": "[ggml-org/llama.cpp] b9866: b9866",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9866",
-      "source": "framework_watch",
-      "content_type": "agent_framework",
-      "chinese_title": "llama.cpp b9866: CUDA 支持 288 专家 TopK-MoE 融合",
-      "chinese_summary": "该版本扩展了 CUDA 上的 TopK-MoE 融合支持，从仅支持 2 的幂次专家数扩展到 288 个专家（如 Step-3.7-Flash 模型），避免了回退到非融合的逐层路由。这显著提升了特定 MoE 模型在 GPU 上的推理性能。",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "GPT-5.5 Codex 推理 token 聚类可能导致性能下降",
+      "chinese_summary": "有报道指出 GPT-5.5 Codex 的推理 token 聚类机制可能导致了模型性能退化，引发了社区广泛讨论。该问题涉及 AI 模型内部推理机制的优化方向。",
       "categories": [
-        "AI Infrastructure",
-        "Developer Tools"
+        "Research",
+        "Industry"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在 GPU 上运行非标准专家数的 MoE 模型（如 288 专家），这个融合优化能大幅提升推理速度。",
+      "recommendation_reason": "如果你依赖 GPT-5.5 Codex 进行代码生成，了解这个潜在的性能问题有助于评估模型选择。",
       "install_command": null,
-      "curation_date": "2026-07-04"
+      "curation_date": "2026-07-05"
     }
   ],
   "category_counts": {
-    "Developer Tools": 5,
+    "Developer Tools": 3,
     "AI Applications": 2,
+    "Industry": 4,
+    "AI Agents": 2,
     "AI Infrastructure": 3,
-    "AI Agents": 1,
-    "Industry": 1,
-    "Open Source": 1,
-    "LLM": 2,
-    "Research": 2,
-    "Multimodal": 1,
-    "AI Safety": 1
+    "Robotics": 1,
+    "Computer Vision": 1,
+    "Research": 4,
+    "LLM": 2
   },
   "content_type_counts": {
-    "coding_tool": 1,
     "mcp_server": 2,
-    "open_source_model": 1,
+    "claude_skill": 1,
     "research": 2,
+    "guide": 1,
     "dev_tool": 1,
-    "agent_framework": 1
+    "industry": 1
   }
 }
