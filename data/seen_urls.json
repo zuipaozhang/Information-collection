@@ -2070,10 +2070,586 @@
       "content_type": "agent_framework",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/444733.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/444733.html",
+      "first_seen": "2026-07-06 12:01:22.919356",
+      "last_seen": "2026-07-06 12:01:22.919356",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/444721.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/444721.html",
+      "first_seen": "2026-07-06 12:01:22.919419",
+      "last_seen": "2026-07-06 12:01:22.919419",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/444049.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/444049.html",
+      "first_seen": "2026-07-06 12:01:22.919438",
+      "last_seen": "2026-07-06 12:01:22.919438",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/444043.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/444043.html",
+      "first_seen": "2026-07-06 12:01:22.919451",
+      "last_seen": "2026-07-06 12:01:22.919451",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443868.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443868.html",
+      "first_seen": "2026-07-06 12:01:22.919462",
+      "last_seen": "2026-07-06 12:01:22.919462",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443869.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443869.html",
+      "first_seen": "2026-07-06 12:01:22.919472",
+      "last_seen": "2026-07-06 12:01:22.919472",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443867.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443867.html",
+      "first_seen": "2026-07-06 12:01:22.919482",
+      "last_seen": "2026-07-06 12:01:22.919482",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443863.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443863.html",
+      "first_seen": "2026-07-06 12:01:22.919492",
+      "last_seen": "2026-07-06 12:01:22.919492",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443842.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443842.html",
+      "first_seen": "2026-07-06 12:01:22.919501",
+      "last_seen": "2026-07-06 12:01:22.919501",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/443665.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/443665.html",
+      "first_seen": "2026-07-06 12:01:22.919515",
+      "last_seen": "2026-07-06 12:01:22.919515",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk": {
+      "canonical_url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk",
+      "first_seen": "2026-07-06 12:01:22.919561",
+      "last_seen": "2026-07-06 12:01:22.919561",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/addyosmani/agent-skills": {
+      "canonical_url": "https://github.com/addyosmani/agent-skills",
+      "first_seen": "2026-07-06 12:01:22.919766",
+      "last_seen": "2026-07-06 12:01:22.919766",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/Leonxlnx/taste-skill": {
+      "canonical_url": "https://github.com/Leonxlnx/taste-skill",
+      "first_seen": "2026-07-06 12:01:22.919785",
+      "last_seen": "2026-07-06 12:01:22.919785",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/mvanhorn/last30days-skill": {
+      "canonical_url": "https://github.com/mvanhorn/last30days-skill",
+      "first_seen": "2026-07-06 12:01:22.919806",
+      "last_seen": "2026-07-06 12:01:22.919806",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/bradautomates/claude-video": {
+      "canonical_url": "https://github.com/bradautomates/claude-video",
+      "first_seen": "2026-07-06 12:01:22.919821",
+      "last_seen": "2026-07-06 12:01:22.919821",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/karakeep-app/karakeep": {
+      "canonical_url": "https://github.com/karakeep-app/karakeep",
+      "first_seen": "2026-07-06 12:01:22.919830",
+      "last_seen": "2026-07-06 12:01:22.919830",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/steipete/CodexBar": {
+      "canonical_url": "https://github.com/steipete/CodexBar",
+      "first_seen": "2026-07-06 12:01:22.919839",
+      "last_seen": "2026-07-06 12:01:22.919839",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/gastownhall/gastown": {
+      "canonical_url": "https://github.com/gastownhall/gastown",
+      "first_seen": "2026-07-06 12:01:22.919851",
+      "last_seen": "2026-07-06 12:01:22.919851",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.28551": {
+      "canonical_url": "https://arxiv.org/abs/2606.28551",
+      "first_seen": "2026-07-06 12:01:22.919868",
+      "last_seen": "2026-07-06 12:01:22.919868",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02471": {
+      "canonical_url": "https://arxiv.org/abs/2607.02471",
+      "first_seen": "2026-07-06 12:01:22.919883",
+      "last_seen": "2026-07-06 12:01:22.919883",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02461": {
+      "canonical_url": "https://arxiv.org/abs/2607.02461",
+      "first_seen": "2026-07-06 12:01:22.919896",
+      "last_seen": "2026-07-06 12:01:22.919896",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01420": {
+      "canonical_url": "https://arxiv.org/abs/2607.01420",
+      "first_seen": "2026-07-06 12:01:22.919910",
+      "last_seen": "2026-07-06 12:01:22.919910",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.01804": {
+      "canonical_url": "https://arxiv.org/abs/2607.01804",
+      "first_seen": "2026-07-06 12:01:22.919923",
+      "last_seen": "2026-07-06 12:01:22.919923",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.31227": {
+      "canonical_url": "https://arxiv.org/abs/2606.31227",
+      "first_seen": "2026-07-06 12:01:22.919937",
+      "last_seen": "2026-07-06 12:01:22.919937",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.00052": {
+      "canonical_url": "https://arxiv.org/abs/2607.00052",
+      "first_seen": "2026-07-06 12:01:22.919950",
+      "last_seen": "2026-07-06 12:01:22.919950",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2606.29526": {
+      "canonical_url": "https://arxiv.org/abs/2606.29526",
+      "first_seen": "2026-07-06 12:01:22.919962",
+      "last_seen": "2026-07-06 12:01:22.919962",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.02501": {
+      "canonical_url": "https://arxiv.org/abs/2607.02501",
+      "first_seen": "2026-07-06 12:01:22.919976",
+      "last_seen": "2026-07-06 12:01:22.919976",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.map.signalbox.io": {
+      "canonical_url": "https://www.map.signalbox.io",
+      "first_seen": "2026-07-06 12:01:22.920155",
+      "last_seen": "2026-07-06 12:01:22.920155",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://twitter.com/thsottiaux/status/2073933490513752151": {
+      "canonical_url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "first_seen": "2026-07-06 12:01:22.920169",
+      "last_seen": "2026-07-06 12:01:22.920169",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2605.20049": {
+      "canonical_url": "https://arxiv.org/abs/2605.20049",
+      "first_seen": "2026-07-06 12:01:22.920179",
+      "last_seen": "2026-07-06 12:01:22.920179",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02": {
+      "canonical_url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02",
+      "first_seen": "2026-07-06 12:01:22.920195",
+      "last_seen": "2026-07-06 12:01:22.920195",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2": {
+      "canonical_url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2",
+      "first_seen": "2026-07-06 12:01:22.920210",
+      "last_seen": "2026-07-06 12:01:22.920210",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf": {
+      "canonical_url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "first_seen": "2026-07-06 12:01:22.920220",
+      "last_seen": "2026-07-06 12:01:22.920220",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451": {
+      "canonical_url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451",
+      "first_seen": "2026-07-06 12:01:22.920233",
+      "last_seen": "2026-07-06 12:01:22.920233",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://tomtunguz.com/ai-spend-breakeven-2029": {
+      "canonical_url": "https://tomtunguz.com/ai-spend-breakeven-2029",
+      "first_seen": "2026-07-06 12:01:22.920247",
+      "last_seen": "2026-07-06 12:01:22.920247",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt": {
+      "canonical_url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "first_seen": "2026-07-06 12:01:22.920256",
+      "last_seen": "2026-07-06 12:01:22.920256",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2605.21997": {
+      "canonical_url": "https://arxiv.org/abs/2605.21997",
+      "first_seen": "2026-07-06 12:01:22.920266",
+      "last_seen": "2026-07-06 12:01:22.920266",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/gabrielmahia/building-parametric-crop-insurance-with-wapimaji-mcp-and-bima-mcp-1fmd": {
+      "canonical_url": "https://dev.to/gabrielmahia/building-parametric-crop-insurance-with-wapimaji-mcp-and-bima-mcp-1fmd",
+      "first_seen": "2026-07-06 12:01:22.920280",
+      "last_seen": "2026-07-06 12:01:22.920280",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/zain-sajid/how-to-make-ai-agents-generate-on-brand-presentations-using-mcp-a4l": {
+      "canonical_url": "https://dev.to/zain-sajid/how-to-make-ai-agents-generate-on-brand-presentations-using-mcp-a4l",
+      "first_seen": "2026-07-06 12:01:22.920294",
+      "last_seen": "2026-07-06 12:01:22.920294",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/curatedmcp/mcp-ecosystem-week-28-cross-ide-standardization-now-matters-heres-why-your-allowlist-needs-it-je6": {
+      "canonical_url": "https://dev.to/curatedmcp/mcp-ecosystem-week-28-cross-ide-standardization-now-matters-heres-why-your-allowlist-needs-it-je6",
+      "first_seen": "2026-07-06 12:01:22.920308",
+      "last_seen": "2026-07-06 12:01:22.920308",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/curatedmcp/datadog-mcp-let-claude-debug-your-stack-in-real-time-1ch2": {
+      "canonical_url": "https://dev.to/curatedmcp/datadog-mcp-let-claude-debug-your-stack-in-real-time-1ch2",
+      "first_seen": "2026-07-06 12:01:22.920322",
+      "last_seen": "2026-07-06 12:01:22.920322",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/thryvate/i-gave-my-ai-a-publish-this-tool-over-mcp-here-is-what-that-tool-actually-has-to-do-3h19": {
+      "canonical_url": "https://dev.to/thryvate/i-gave-my-ai-a-publish-this-tool-over-mcp-here-is-what-that-tool-actually-has-to-do-3h19",
+      "first_seen": "2026-07-06 12:01:22.920336",
+      "last_seen": "2026-07-06 12:01:22.920336",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/redirhub/build-a-redirect-bot-from-zero-to-ai-powered-redirect-manager-with-mcp-2oab": {
+      "canonical_url": "https://dev.to/redirhub/build-a-redirect-bot-from-zero-to-ai-powered-redirect-manager-with-mcp-2oab",
+      "first_seen": "2026-07-06 12:01:22.920350",
+      "last_seen": "2026-07-06 12:01:22.920350",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/stn1slv/integration-digest-for-june-2026-339l": {
+      "canonical_url": "https://dev.to/stn1slv/integration-digest-for-june-2026-339l",
+      "first_seen": "2026-07-06 12:01:22.920364",
+      "last_seen": "2026-07-06 12:01:22.920364",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/976905690/deep-code-terminal-ai-coding-assistant-4gp3": {
+      "canonical_url": "https://dev.to/976905690/deep-code-terminal-ai-coding-assistant-4gp3",
+      "first_seen": "2026-07-06 12:01:22.920377",
+      "last_seen": "2026-07-06 12:01:22.920377",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/helmuthdu/the-missing-layer-between-llms-and-your-dom-18bl": {
+      "canonical_url": "https://dev.to/helmuthdu/the-missing-layer-between-llms-and-your-dom-18bl",
+      "first_seen": "2026-07-06 12:01:22.920394",
+      "last_seen": "2026-07-06 12:01:22.920394",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/quant001/closing-the-loop-on-automated-trading-for-ai-agents-ai-trader-fmz-mcp-runjobs-in-practice-58o3": {
+      "canonical_url": "https://dev.to/quant001/closing-the-loop-on-automated-trading-for-ai-agents-ai-trader-fmz-mcp-runjobs-in-practice-58o3",
+      "first_seen": "2026-07-06 12:01:22.920407",
+      "last_seen": "2026-07-06 12:01:22.920407",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/69e9da61081ca7809ce17f496e2542e8a556a704": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/69e9da61081ca7809ce17f496e2542e8a556a704",
+      "first_seen": "2026-07-06 12:01:22.920421",
+      "last_seen": "2026-07-06 12:01:22.920421",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/1c978ab7e3f2af5a2bc2a5083c89d618ad89d395": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/1c978ab7e3f2af5a2bc2a5083c89d618ad89d395",
+      "first_seen": "2026-07-06 12:01:22.920435",
+      "last_seen": "2026-07-06 12:01:22.920435",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/59dbe2972a4d4fc407899d42b6e55940db89c2e4": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/59dbe2972a4d4fc407899d42b6e55940db89c2e4",
+      "first_seen": "2026-07-06 12:01:22.920448",
+      "last_seen": "2026-07-06 12:01:22.920448",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/0e249501ca8c46c8a19b0c0a9aff04b1d73762cd": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/0e249501ca8c46c8a19b0c0a9aff04b1d73762cd",
+      "first_seen": "2026-07-06 12:01:22.920461",
+      "last_seen": "2026-07-06 12:01:22.920461",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/369f602edd9bae77e0f99d2bf96e1b2731b82a43": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/369f602edd9bae77e0f99d2bf96e1b2731b82a43",
+      "first_seen": "2026-07-06 12:01:22.920474",
+      "last_seen": "2026-07-06 12:01:22.920474",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/41f19fde3d914f72014f8d0c445c4f6fd4f4c2a1": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/41f19fde3d914f72014f8d0c445c4f6fd4f4c2a1",
+      "first_seen": "2026-07-06 12:01:22.920486",
+      "last_seen": "2026-07-06 12:01:22.920486",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/393e35e0cd7f10bc44d618c32f6171678140e17a": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/393e35e0cd7f10bc44d618c32f6171678140e17a",
+      "first_seen": "2026-07-06 12:01:22.920499",
+      "last_seen": "2026-07-06 12:01:22.920499",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/faf24673acf9842fc9e4c69537da8688075dd81d": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/faf24673acf9842fc9e4c69537da8688075dd81d",
+      "first_seen": "2026-07-06 12:01:22.920511",
+      "last_seen": "2026-07-06 12:01:22.920511",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/3018e608238f795e8a69bcf4870312d632d23252": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/3018e608238f795e8a69bcf4870312d632d23252",
+      "first_seen": "2026-07-06 12:01:22.920524",
+      "last_seen": "2026-07-06 12:01:22.920524",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.32": {
+      "canonical_url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.32",
+      "first_seen": "2026-07-06 12:01:22.920540",
+      "last_seen": "2026-07-06 12:01:22.920540",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9886": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9886",
+      "first_seen": "2026-07-06 12:01:22.920550",
+      "last_seen": "2026-07-06 12:01:22.920550",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9885": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9885",
+      "first_seen": "2026-07-06 12:01:22.920560",
+      "last_seen": "2026-07-06 12:01:22.920560",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9884": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9884",
+      "first_seen": "2026-07-06 12:01:22.920568",
+      "last_seen": "2026-07-06 12:01:22.920568",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9882": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9882",
+      "first_seen": "2026-07-06 12:01:22.920577",
+      "last_seen": "2026-07-06 12:01:22.920577",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9881": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9881",
+      "first_seen": "2026-07-06 12:01:22.920586",
+      "last_seen": "2026-07-06 12:01:22.920586",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates": {
+      "canonical_url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+      "first_seen": "2026-07-06 12:01:22.920723",
+      "last_seen": "2026-07-06 12:01:22.920723",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
+      "canonical_url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "first_seen": "2026-07-06 12:01:22.920761",
+      "last_seen": "2026-07-06 12:01:22.920761",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 230,
+    "total_unique_urls": 294,
     "last_pruned": null
   }
 }
