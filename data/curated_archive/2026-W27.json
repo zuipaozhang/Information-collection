@@ -1,8 +1,168 @@
 {
   "week": "2026-W27",
   "start_date": "2026-07-06",
-  "end_date": "2026-07-12",
-  "items": [],
-  "category_counts": {},
-  "content_type_counts": {}
+  "end_date": "2026-07-07",
+  "items": [
+    {
+      "title": "One tweet drained an AI agent's wallet. A smarter agent wouldn't have saved it.",
+      "url": "https://dev.to/barissozen/one-tweet-drained-an-ai-agents-wallet-a-smarter-agent-wouldnt-have-saved-it-15m7",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "一条推文掏空了 AI 代理的钱包：更智能的代理本可避免",
+      "chinese_summary": "一名用户通过摩斯密码推文诱导 AI 代理翻译，成功盗取了其钱包中六位数的资产。该事件揭示了当前 AI 代理在安全防护和上下文理解方面的严重缺陷。",
+      "categories": [
+        "AI Safety",
+        "AI Agents",
+        "Research"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "这是一个真实的安全攻击案例，提醒所有构建自主 AI 代理的开发者必须重视输入验证和权限控制，否则你的代理可能成为黑客的提款机。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "I scanned 50 MCP servers. 40 had critical vulnerabilities.",
+      "url": "https://dev.to/scotia1973bot/i-scanned-50-mcp-servers-40-had-critical-vulnerabilities-1707",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "我扫描了 50 个 MCP 服务器：其中 40 个存在严重漏洞",
+      "chinese_summary": "一项安全审计发现，GitHub 上排名前 50 的 MCP 服务器中有 40 个存在高危或严重安全漏洞。这暴露了当前 MCP 生态在安全实践上的普遍缺失，对 AI 代理的供应链安全构成直接威胁。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools",
+        "Research"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "这是对 MCP 生态安全现状的当头棒喝，所有使用或开发 MCP 服务器的从业者都必须立即检查自己的依赖，避免成为下一个攻击目标。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
+      "url": "https://www.qbitai.com/2026/07/445230.html",
+      "source": "rss_量子位",
+      "content_type": "open_source_model",
+      "chinese_title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
+      "chinese_summary": "蚂蚁灵波开源了首个空间原生的具身视觉基模，使机器人能够更好地理解和感知三维空间环境。这一开源模型将加速机器人视觉领域的研发进程。",
+      "categories": [
+        "Computer Vision",
+        "Robotics",
+        "Open Source"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.5,
+      "recommendation_reason": "首个空间原生具身视觉基模开源，为机器人视觉研究提供了强大的基础模型，值得立即关注和试用。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "Amazon AWS just turned on crypto payments for AI agents",
+      "url": "https://dev.to/scotia1973bot/amazon-aws-just-turned-on-crypto-payments-for-ai-agents-5dam",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "Amazon AWS 为 AI 代理开启加密货币支付功能",
+      "chinese_summary": "AWS 宣布支持 AI 代理使用加密货币进行支付，标志着传统云服务与去中心化金融的深度融合。这一动向对构建自主交易型 AI 代理的开发者具有里程碑意义。",
+      "categories": [
+        "AI Agents",
+        "Industry",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这是云服务巨头首次为 AI 代理原生集成加密支付，预示着未来 AI 代理将能自主执行金融交易，值得所有 Agent 开发者关注。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "[Anthropic Research] A global workspace in language modelsInterpretabilityJul 6, 2026New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "source": "official_blogs",
+      "content_type": "research",
+      "chinese_title": "Anthropic 研究：语言模型中的全局工作空间——Claude 内部涌现的思维空间",
+      "chinese_summary": "Anthropic 发布可解释性研究，发现 Claude 模型中存在一个涌现的“全局工作空间”，用于持有内部思维，这些思维不会直接出现在模型输出中。该发现揭示了语言模型内部信息处理的隐藏机制。",
+      "categories": [
+        "AI Safety",
+        "Research",
+        "LLM"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这项研究揭示了模型内部思维的黑箱，对理解 AI 安全、可解释性和模型行为控制至关重要。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "url": "https://arxiv.org/abs/2607.05391",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "LLM-as-a-Verifier：通用验证框架",
+      "chinese_summary": "该论文提出将大语言模型（LLM）作为通用验证器，用于检查其他模型或系统的输出正确性。它展示了LLM在推理、代码生成等任务中作为质量把关者的潜力，提升了AI系统的可靠性。",
+      "categories": [
+        "LLM",
+        "Research",
+        "AI Safety"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这是提升AI系统可信度的关键思路，尤其适合需要高可靠性输出的场景，如代码审查或事实核查。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification",
+      "url": "https://arxiv.org/abs/2607.01793",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "大规模安全测试 LLM Agents：从风险发现到基于证据的验证",
+      "chinese_summary": "本文提出了一套大规模安全测试 LLM Agents 的方法论，涵盖从风险发现到证据验证的完整流程。该工作为 AI 安全领域提供了可操作的测试框架，对保障 AI Agent 在实际部署中的安全性至关重要。",
+      "categories": [
+        "AI Safety",
+        "AI Agents",
+        "Research"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你正在开发或部署 LLM Agent，这篇论文的安全测试框架能帮助你系统性地发现和验证潜在风险。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    },
+    {
+      "title": "机器人视觉迎来新突破！蚂蚁灵波空间感知模型LingBot-Depth 2.0正式发布",
+      "url": "https://www.qbitai.com/2026/07/445184.html",
+      "source": "rss_量子位",
+      "content_type": "open_source_model",
+      "chinese_title": "机器人视觉迎来新突破！蚂蚁灵波空间感知模型LingBot-Depth 2.0正式发布",
+      "chinese_summary": "蚂蚁灵波发布了空间感知模型LingBot-Depth 2.0，在机器人深度感知和三维理解方面取得新突破。该模型提升了机器人在复杂环境中的空间定位与导航能力。",
+      "categories": [
+        "Computer Vision",
+        "Robotics",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.5,
+      "recommendation_reason": "深度感知是机器人自主导航的核心，LingBot-Depth 2.0的发布为相关研究提供了更先进的工具。",
+      "install_command": null,
+      "curation_date": "2026-07-07"
+    }
+  ],
+  "category_counts": {
+    "AI Safety": 5,
+    "AI Agents": 3,
+    "Research": 6,
+    "Developer Tools": 1,
+    "Computer Vision": 2,
+    "Robotics": 2,
+    "Open Source": 1,
+    "Industry": 1,
+    "AI Infrastructure": 1,
+    "LLM": 2
+  },
+  "content_type_counts": {
+    "mcp_server": 3,
+    "open_source_model": 2,
+    "research": 3
+  }
 }
