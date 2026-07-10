@@ -4,166 +4,156 @@
   "end_date": "2026-07-10",
   "items": [
     {
-      "title": "Your AI Agent doesn't need more tools. It needs better orchestration.",
-      "url": "https://dev.to/renato_marinho/your-ai-agent-doesnt-need-more-tools-it-needs-better-orchestration-1lc1",
+      "title": "The tool swore it never exports data. The model read a different field.",
+      "url": "https://dev.to/alexlaguardia/the-tool-swore-it-never-exports-data-the-model-read-a-different-field-2a3f",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "你的AI Agent不需要更多工具，它需要更好的编排",
-      "chinese_summary": "本文指出当前AI Agent开发中的误区：过度关注工具数量而忽视编排质量。作者提出，真正高效的Agent系统需要更好的任务编排和Agent间协作机制，而非简单堆砌工具。",
-      "categories": [
-        "AI Agents",
-        "Research",
-        "Developer Tools"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "这是对当前Agent开发范式的深刻反思，所有构建多Agent系统的开发者都应该读一读。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
-      "url": "https://www.qbitai.com/2026/07/446568.html",
-      "source": "rss_量子位",
-      "content_type": "open_source_model",
-      "chinese_title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
-      "chinese_summary": "全球首个专为具身智能设计的MoE（混合专家）视频模型开源，旨在将视频生成能力用于机器人大脑。这为机器人从视频中学习物理世界交互提供了新工具。",
-      "categories": [
-        "Robotics",
-        "Multimodal",
-        "Open Source"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.5,
-      "recommendation_reason": "如果你从事机器人或视频生成研究，这是首个具身专属的MoE视频模型，开源后可直接用于实验和二次开发。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "wonderwhy-er/DesktopCommanderMCP: This is MCP server for Claude that gives it terminal control, file system search and diff file editi",
-      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "source": "github_trending",
-      "content_type": "mcp_server",
-      "chinese_title": "DesktopCommanderMCP: 为Claude提供终端控制与文件编辑能力的MCP服务器",
-      "chinese_summary": "这是一个MCP服务器，赋予Claude终端控制、文件系统搜索和差异文件编辑能力。它扩展了Claude在本地开发环境中的自动化操作范围。",
-      "categories": [
-        "Developer Tools",
-        "AI Agents"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "安装后可直接让Claude执行终端命令和文件编辑，极大提升开发自动化效率。",
-      "install_command": "npx @wonderwhy-er/desktop-commander-mcp",
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "The Illusion of Simple AI Posting: Why Social Media APIs are the Ultimate Agent Killer",
-      "url": "https://dev.to/renato_marinho/the-illusion-of-simple-ai-posting-why-social-media-apis-are-the-ultimate-agent-killer-2cba",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "简单AI发帖的幻觉：为什么社交媒体API是终极Agent杀手",
-      "chinese_summary": "本文揭示了AI Agent在社交媒体自动发帖时面临的真实挑战，指出看似简单的API调用在实际操作中充满陷阱。作者通过实际案例分析了社交媒体API的复杂性，以及这些复杂性如何成为AI Agent落地的最大障碍。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你正在构建AI Agent来自动化社交媒体运营，这篇文章能帮你避开大量隐藏的坑。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "How to vet an MCP server before you install it (I graded 130,000 to find out)",
-      "url": "https://dev.to/yansen_zhu_9b0dae1c4cc0da/how-to-vet-an-mcp-server-before-you-install-it-i-graded-130000-to-find-out-2gh6",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "如何安全审查MCP服务器：我评估了13万个服务器的经验",
-      "chinese_summary": "作者通过评估13万个MCP服务器，总结出安装前审查MCP服务器的安全方法。安装MCP服务器相当于以Agent权限运行陌生人代码，存在安全风险。",
+      "chinese_title": "工具发誓从不导出数据，但模型读取了另一个字段",
+      "chinese_summary": "本文揭示了MCP工具描述中的安全漏洞：模型可能忽略工具描述中的安全声明，而通过枚举值等隐藏字段执行数据导出。实验显示gpt-4o和gpt-4.1-mini在8次测试中全部成功导出数据，而移除隐藏字段后导出率为0。这对MCP工具开发者和AI安全从业者至关重要。",
       "categories": [
         "AI Safety",
         "Developer Tools"
       ],
       "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "每个使用MCP的开发者都应阅读，避免因安装恶意服务器导致数据泄露或系统被控。",
+      "weighted_score": 6.0,
+      "recommendation_reason": "揭示了MCP工具描述中的隐蔽安全漏洞，对构建安全可靠的AI Agent工具链有直接指导意义。",
       "install_command": null,
       "curation_date": "2026-07-10"
     },
     {
-      "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
-      "url": "https://arxiv.org/abs/2607.03118",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "Vidu S1: 实时交互式视频生成模型",
-      "chinese_summary": "Vidu S1 提出了一种能够实时生成视频的交互式模型，支持用户动态调整生成内容。该研究将视频生成从离线推向实时交互，对直播、游戏和虚拟现实等场景具有重大潜力。",
+      "title": "MCP Deep Dive, Part 6: MCP Authentication With OAuth and Entra ID, Done Right",
+      "url": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-6-mcp-authentication-with-oauth-and-entra-id-done-right-35g5",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP深度解析第6部分：使用OAuth和Entra ID正确实现MCP认证",
+      "chinese_summary": "本文深入探讨了MCP服务器的认证机制，强调静态API密钥的不足，并详细介绍了如何通过OAuth和Entra ID实现安全的身份验证。对于构建生产级MCP服务器的开发者来说，这是关键的安全实践指南。",
       "categories": [
-        "Computer Vision",
-        "Multimodal",
-        "AI Applications"
+        "AI Safety",
+        "Developer Tools",
+        "AI Infrastructure"
       ],
       "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你关注视频生成或实时 AI 应用，Vidu S1 的实时交互能力可能彻底改变内容创作和用户体验。",
+      "weighted_score": 6.0,
+      "recommendation_reason": "提供了MCP服务器认证的最佳实践，避免安全漏洞，对构建企业级MCP服务至关重要。",
       "install_command": null,
       "curation_date": "2026-07-10"
     },
     {
-      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
-      "url": "https://arxiv.org/abs/2607.07740",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "Jet-Long: 基于动态双焦 RoPE 的高效长上下文扩展",
-      "chinese_summary": "Jet-Long 提出了一种动态双焦旋转位置编码方法，用于高效扩展大语言模型的长上下文能力。该研究解决了长序列处理中的计算和内存瓶颈，对 LLM 应用至关重要。",
+      "title": "Exa MCP: Semantic search for AI agents that actually understands what you're looking for",
+      "url": "https://dev.to/curatedmcp/exa-mcp-semantic-search-for-ai-agents-that-actually-understands-what-youre-looking-for-2ba5",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "Exa MCP: 真正理解你需求的AI Agent语义搜索",
+      "chinese_summary": "Exa MCP是一个为AI Agent设计的语义搜索MCP服务器，能够理解用户意图而非简单关键词匹配。它通过MCP协议集成到Claude Desktop等工具中，提升Agent的信息检索能力。",
       "categories": [
-        "LLM",
-        "Research",
+        "AI Agents",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "为AI Agent提供语义搜索能力，显著提升信息检索的准确性和相关性，适合构建智能搜索功能的开发者。",
+      "install_command": "npx @exa/mcp-server",
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "Building Production-Ready MCP Servers in Python: A Complete Guide",
+      "url": "https://dev.to/dev_gaddam_bab4b85ca732b6/building-production-ready-mcp-servers-in-python-a-complete-guide-1mj8",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "用 Python 构建生产级 MCP 服务器：完整指南",
+      "chinese_summary": "本文提供了使用 Python 构建生产级 MCP 服务器的完整教程，涵盖从基础概念到部署的最佳实践。鉴于 MCP 在 2026 年已成为 AI 应用开发的标准，这篇指南对任何构建 AI Agent 的开发者都至关重要。",
+      "categories": [
+        "Developer Tools",
         "AI Infrastructure"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你在开发或部署长上下文 LLM，Jet-Long 的动态 RoPE 方法可能大幅降低长序列推理的成本和延迟。",
+      "recommendation_reason": "这是目前最全面的 Python MCP 服务器构建指南，适合所有需要将 AI Agent 连接到外部工具的开发者。",
       "install_command": null,
       "curation_date": "2026-07-10"
     },
     {
-      "title": "GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6",
-      "source": "hacker_news",
-      "content_type": "model_release",
-      "chinese_title": "GPT-5.6",
-      "chinese_summary": "关于OpenAI下一代模型GPT-5.6的讨论在Hacker News上引发热议，获得1249分和896条评论。该话题可能涉及模型能力、定价或发布时间的传闻。",
+      "title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
+      "url": "https://www.qbitai.com/2026/07/447681.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
+      "chinese_summary": "百度搭子（AI助手）宣布重大升级，日均提问次数增长20倍，并同步发布企业版，标志着AI Agent进入规模化应用阶段。这反映了国内AI Agent产品的快速迭代和企业级需求爆发，值得关注AI应用落地的从业者关注。",
       "categories": [
-        "LLM",
+        "AI Agents",
+        "AI Applications",
         "Industry"
       ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "GPT系列模型是AI行业的风向标，任何关于新版本的信息都直接影响从业者的技术选型和产品规划。",
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "百度搭子升级和20倍增长数据，展示了AI Agent在企业级市场的爆发潜力，对产品经理和开发者有参考价值。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "MCP vs REST APIs: Why Model Context Protocol Is Redefining AI Integration",
+      "url": "https://dev.to/himanshuai/mcp-vs-rest-apis-why-model-context-protocol-is-redefining-ai-integration-2fag",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "MCP 与 REST API 对比：为何模型上下文协议正在重新定义 AI 集成",
+      "chinese_summary": "本文从生产级架构角度深入对比了 MCP 和 REST API，面向高级工程师和架构师，解释了 MCP 如何通过标准化上下文传递来简化 AI 集成。它基于 2025-11-25 稳定版规范，具有较高的技术参考价值。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你正在设计 AI 集成架构，这篇文章能帮你理解 MCP 相比 REST 的核心优势，避免选型踩坑。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "From REST to ReAct: Transforming Legacy APIs into MCP Tools for AI Agents",
+      "url": "https://dev.to/aairom/from-rest-to-react-transforming-legacy-apis-into-mcp-tools-for-ai-agents-5apk",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "从 REST 到 ReAct：将传统 API 转换为 AI Agent 的 MCP 工具",
+      "chinese_summary": "这是一篇教学指南，详细介绍了如何将传统 REST API 转换为 MCP 工具，使其能被 AI Agent 调用。它提供了从 API 设计到 ReAct 模式集成的完整步骤，对希望将现有服务接入 AI 生态的开发者非常实用。",
+      "categories": [
+        "AI Agents",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你有遗留 API 想快速接入 AI Agent，这篇指南提供了清晰的迁移路径，能帮你节省大量调研时间。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "一群做自动驾驶的人，盯上了睡眠这件事",
+      "url": "https://www.qbitai.com/2026/07/447796.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "一群做自动驾驶的人，盯上了睡眠这件事",
+      "chinese_summary": "本文报道了自动驾驶团队将数据闭环技术应用于睡眠监测领域，通过类似自动驾驶的数据采集与反馈机制来优化睡眠质量。这展示了AI数据方法论跨行业迁移的潜力，值得关注AI应用场景拓展的从业者留意。",
+      "categories": [
+        "AI Applications",
+        "Industry"
+      ],
+      "importance_score": 3,
+      "weighted_score": 3.0,
+      "recommendation_reason": "展示了AI数据闭环方法论从自动驾驶到健康领域的跨界应用，启发从业者思考技术迁移机会。",
       "install_command": null,
       "curation_date": "2026-07-10"
     }
   ],
   "category_counts": {
+    "AI Safety": 2,
+    "Developer Tools": 6,
+    "AI Infrastructure": 3,
     "AI Agents": 3,
-    "Research": 2,
-    "Developer Tools": 4,
-    "Robotics": 1,
-    "Multimodal": 2,
-    "Open Source": 1,
-    "AI Applications": 2,
-    "AI Safety": 1,
-    "Computer Vision": 1,
-    "LLM": 2,
-    "AI Infrastructure": 1,
-    "Industry": 1
+    "AI Applications": 3,
+    "Industry": 2
   },
   "content_type_counts": {
     "mcp_server": 3,
-    "open_source_model": 1,
-    "guide": 1,
-    "research": 2,
-    "model_release": 1
+    "guide": 3,
+    "industry": 2
   }
 }

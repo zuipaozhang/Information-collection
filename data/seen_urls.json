@@ -4896,10 +4896,136 @@
       "content_type": "open_source_model",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447796.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447796.html",
+      "first_seen": "2026-07-10 10:50:07.004203",
+      "last_seen": "2026-07-10 10:50:07.004203",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447691.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447691.html",
+      "first_seen": "2026-07-10 10:50:07.004272",
+      "last_seen": "2026-07-10 10:50:07.004272",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447682.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447682.html",
+      "first_seen": "2026-07-10 10:50:07.004289",
+      "last_seen": "2026-07-10 10:50:07.004289",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447681.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447681.html",
+      "first_seen": "2026-07-10 10:50:07.004300",
+      "last_seen": "2026-07-10 10:50:07.004300",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/alexlaguardia/the-tool-swore-it-never-exports-data-the-model-read-a-different-field-2a3f": {
+      "canonical_url": "https://dev.to/alexlaguardia/the-tool-swore-it-never-exports-data-the-model-read-a-different-field-2a3f",
+      "first_seen": "2026-07-10 10:50:07.004874",
+      "last_seen": "2026-07-10 10:50:07.004874",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/curatedmcp/exa-mcp-semantic-search-for-ai-agents-that-actually-understands-what-youre-looking-for-2ba5": {
+      "canonical_url": "https://dev.to/curatedmcp/exa-mcp-semantic-search-for-ai-agents-that-actually-understands-what-youre-looking-for-2ba5",
+      "first_seen": "2026-07-10 10:50:07.004893",
+      "last_seen": "2026-07-10 10:50:07.004893",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/bruce_he/mcp-vs-skills-why-cli-skill-wins-the-agent-toolchain-1o9a": {
+      "canonical_url": "https://dev.to/bruce_he/mcp-vs-skills-why-cli-skill-wins-the-agent-toolchain-1o9a",
+      "first_seen": "2026-07-10 10:50:07.004906",
+      "last_seen": "2026-07-10 10:50:07.004906",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-6-mcp-authentication-with-oauth-and-entra-id-done-right-35g5": {
+      "canonical_url": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-6-mcp-authentication-with-oauth-and-entra-id-done-right-35g5",
+      "first_seen": "2026-07-10 10:50:07.004920",
+      "last_seen": "2026-07-10 10:50:07.004920",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/javidjamae/ffmpeg-mcp-server-for-vs-code-process-videos-with-github-copilot-422g": {
+      "canonical_url": "https://dev.to/javidjamae/ffmpeg-mcp-server-for-vs-code-process-videos-with-github-copilot-422g",
+      "first_seen": "2026-07-10 10:50:07.004933",
+      "last_seen": "2026-07-10 10:50:07.004933",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/himanshuai/mcp-vs-rest-apis-why-model-context-protocol-is-redefining-ai-integration-2fag": {
+      "canonical_url": "https://dev.to/himanshuai/mcp-vs-rest-apis-why-model-context-protocol-is-redefining-ai-integration-2fag",
+      "first_seen": "2026-07-10 10:50:07.004951",
+      "last_seen": "2026-07-10 10:50:07.004951",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/gabrielmahia/the-information-asymmetry-that-costs-east-african-farmers-billions-4imc": {
+      "canonical_url": "https://dev.to/gabrielmahia/the-information-asymmetry-that-costs-east-african-farmers-billions-4imc",
+      "first_seen": "2026-07-10 10:50:07.004964",
+      "last_seen": "2026-07-10 10:50:07.004964",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/aairom/from-rest-to-react-transforming-legacy-apis-into-mcp-tools-for-ai-agents-5apk": {
+      "canonical_url": "https://dev.to/aairom/from-rest-to-react-transforming-legacy-apis-into-mcp-tools-for-ai-agents-5apk",
+      "first_seen": "2026-07-10 10:50:07.004976",
+      "last_seen": "2026-07-10 10:50:07.004976",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/dev_gaddam_bab4b85ca732b6/building-production-ready-mcp-servers-in-python-a-complete-guide-1mj8": {
+      "canonical_url": "https://dev.to/dev_gaddam_bab4b85ca732b6/building-production-ready-mcp-servers-in-python-a-complete-guide-1mj8",
+      "first_seen": "2026-07-10 10:50:07.004988",
+      "last_seen": "2026-07-10 10:50:07.004988",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9949": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9949",
+      "first_seen": "2026-07-10 10:50:07.005064",
+      "last_seen": "2026-07-10 10:50:07.005064",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 544,
+    "total_unique_urls": 558,
     "last_pruned": null
   }
 }
