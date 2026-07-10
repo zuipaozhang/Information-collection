@@ -58,7 +58,7 @@ jobs:
           git add data/
           if ! git diff --staged --quiet; then
             git commit -m "chore: update state after monthly report [skip ci]"
-            git push
+            git pull --rebase origin main && git push
           else
             echo "No state changes to commit"
           fi
