@@ -1,85 +1,121 @@
 {
   "week": "2026-W27",
   "start_date": "2026-07-06",
-  "end_date": "2026-07-08",
+  "end_date": "2026-07-10",
   "items": [
     {
-      "title": "OfficeCLI: Give AI Agents Real Control of Word, Excel & PowerPoint (2026 Guide)",
-      "url": "https://dev.to/rohit_raj_8c7902b7d37cf21/officecli-give-ai-agents-real-control-of-word-excel-powerpoint-2026-guide-4oed",
+      "title": "Your AI Agent doesn't need more tools. It needs better orchestration.",
+      "url": "https://dev.to/renato_marinho/your-ai-agent-doesnt-need-more-tools-it-needs-better-orchestration-1lc1",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "OfficeCLI: 让AI代理真正控制Word、Excel和PowerPoint（2026指南）",
-      "chinese_summary": "OfficeCLI是一个开源工具，允许AI代理通过命令行直接操作Word、Excel和PowerPoint文件。它填补了AI代理在办公文档自动化方面的空白。",
+      "chinese_title": "你的AI Agent不需要更多工具，它需要更好的编排",
+      "chinese_summary": "本文指出当前AI Agent开发中的误区：过度关注工具数量而忽视编排质量。作者提出，真正高效的Agent系统需要更好的任务编排和Agent间协作机制，而非简单堆砌工具。",
       "categories": [
-        "AI Applications",
+        "AI Agents",
+        "Research",
         "Developer Tools"
       ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你需要让AI代理自动生成或编辑Office文档，OfficeCLI是目前最直接的开源解决方案。",
-      "install_command": "npm install -g officecli",
-      "curation_date": "2026-07-08"
-    },
-    {
-      "title": "MCP clients can't easily authenticate with Entra. Here's the bridge.",
-      "url": "https://dev.to/acartag7/mcp-clients-cant-easily-authenticate-with-entra-heres-the-bridge-1hip",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP 客户端无法轻松通过 Entra 认证？这是桥梁方案",
-      "chinese_summary": "本文提出了一种解决 MCP 服务器与 Microsoft Entra ID 认证集成难题的桥梁方案。对于在企业环境中使用 AI 和 MCP 的团队来说，这解决了 API 密钥明文存储、无过期时间等安全痛点，值得关注。",
-      "categories": [
-        "AI Infrastructure",
-        "Developer Tools",
-        "AI Safety"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你在企业环境中部署 MCP 服务器，这个方案能帮你解决 Entra 认证的棘手问题，提升安全性。",
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "这是对当前Agent开发范式的深刻反思，所有构建多Agent系统的开发者都应该读一读。",
       "install_command": null,
-      "curation_date": "2026-07-08"
+      "curation_date": "2026-07-10"
     },
     {
-      "title": "MCP vs Traditional API Integration: A Side-by-Side Cost and Latency Comparison",
-      "url": "https://dev.to/tisatechcourses/mcp-vs-traditional-api-integration-a-side-by-side-cost-and-latency-comparison-44li",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP 与传统 API 集成：成本与延迟的对比分析",
-      "chinese_summary": "本文从成本和延迟角度，对比了 MCP 与传统 REST API 在 AI Agent 集成中的优劣。它揭示了选择的关键不在于协议本身，而在于调用方是开发者还是 AI 代理，为架构决策提供了实用参考。",
+      "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
+      "url": "https://www.qbitai.com/2026/07/446568.html",
+      "source": "rss_量子位",
+      "content_type": "open_source_model",
+      "chinese_title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
+      "chinese_summary": "全球首个专为具身智能设计的MoE（混合专家）视频模型开源，旨在将视频生成能力用于机器人大脑。这为机器人从视频中学习物理世界交互提供了新工具。",
       "categories": [
-        "AI Infrastructure",
+        "Robotics",
+        "Multimodal",
+        "Open Source"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.5,
+      "recommendation_reason": "如果你从事机器人或视频生成研究，这是首个具身专属的MoE视频模型，开源后可直接用于实验和二次开发。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "wonderwhy-er/DesktopCommanderMCP: This is MCP server for Claude that gives it terminal control, file system search and diff file editi",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "source": "github_trending",
+      "content_type": "mcp_server",
+      "chinese_title": "DesktopCommanderMCP: 为Claude提供终端控制与文件编辑能力的MCP服务器",
+      "chinese_summary": "这是一个MCP服务器，赋予Claude终端控制、文件系统搜索和差异文件编辑能力。它扩展了Claude在本地开发环境中的自动化操作范围。",
+      "categories": [
         "Developer Tools",
         "AI Agents"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "当你在为 AI Agent 选择集成方案时，这篇对比分析能帮你做出更明智的架构决策。",
-      "install_command": null,
-      "curation_date": "2026-07-08"
+      "recommendation_reason": "安装后可直接让Claude执行终端命令和文件编辑，极大提升开发自动化效率。",
+      "install_command": "npx @wonderwhy-er/desktop-commander-mcp",
+      "curation_date": "2026-07-10"
     },
     {
-      "title": "DeepSeek秘密造芯！专攻推理，一年前已启动，招聘全程不公开",
-      "url": "https://www.qbitai.com/2026/07/445883.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "DeepSeek秘密造芯！专攻推理，一年前已启动，招聘全程不公开",
-      "chinese_summary": "DeepSeek被曝已秘密启动AI推理芯片自研项目，一年前开始与芯片设计公司、晶圆代工厂和存储器供应商接洽，招聘全程不公开。此举表明DeepSeek正从模型层向硬件层延伸，以优化推理成本与性能。",
+      "title": "The Illusion of Simple AI Posting: Why Social Media APIs are the Ultimate Agent Killer",
+      "url": "https://dev.to/renato_marinho/the-illusion-of-simple-ai-posting-why-social-media-apis-are-the-ultimate-agent-killer-2cba",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "简单AI发帖的幻觉：为什么社交媒体API是终极Agent杀手",
+      "chinese_summary": "本文揭示了AI Agent在社交媒体自动发帖时面临的真实挑战，指出看似简单的API调用在实际操作中充满陷阱。作者通过实际案例分析了社交媒体API的复杂性，以及这些复杂性如何成为AI Agent落地的最大障碍。",
       "categories": [
-        "AI Infrastructure",
-        "Industry"
+        "AI Agents",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你正在构建AI Agent来自动化社交媒体运营，这篇文章能帮你避开大量隐藏的坑。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "How to vet an MCP server before you install it (I graded 130,000 to find out)",
+      "url": "https://dev.to/yansen_zhu_9b0dae1c4cc0da/how-to-vet-an-mcp-server-before-you-install-it-i-graded-130000-to-find-out-2gh6",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "如何安全审查MCP服务器：我评估了13万个服务器的经验",
+      "chinese_summary": "作者通过评估13万个MCP服务器，总结出安装前审查MCP服务器的安全方法。安装MCP服务器相当于以Agent权限运行陌生人代码，存在安全风险。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "DeepSeek自研推理芯片可能重塑AI推理成本结构，对模型部署和硬件选型有深远影响。",
+      "recommendation_reason": "每个使用MCP的开发者都应阅读，避免因安装恶意服务器导致数据泄露或系统被控。",
       "install_command": null,
-      "curation_date": "2026-07-08"
+      "curation_date": "2026-07-10"
     },
     {
-      "title": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
-      "url": "https://arxiv.org/abs/2607.02980",
+      "title": "Vidu S1: A Real-Time Interactive Video Generation Model",
+      "url": "https://arxiv.org/abs/2607.03118",
       "source": "huggingface_papers",
       "content_type": "research",
-      "chinese_title": "Hierarchical Sparse Attention Done Right：迈向无限上下文建模",
-      "chinese_summary": "该论文提出了一种正确的分层稀疏注意力机制，旨在实现无限上下文长度的建模。通过精心设计的分层稀疏模式，它在保持计算效率的同时大幅扩展了有效上下文窗口，值得关注因为它可能突破当前LLM的上下文长度瓶颈。",
+      "chinese_title": "Vidu S1: 实时交互式视频生成模型",
+      "chinese_summary": "Vidu S1 提出了一种能够实时生成视频的交互式模型，支持用户动态调整生成内容。该研究将视频生成从离线推向实时交互，对直播、游戏和虚拟现实等场景具有重大潜力。",
+      "categories": [
+        "Computer Vision",
+        "Multimodal",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你关注视频生成或实时 AI 应用，Vidu S1 的实时交互能力可能彻底改变内容创作和用户体验。",
+      "install_command": null,
+      "curation_date": "2026-07-10"
+    },
+    {
+      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
+      "url": "https://arxiv.org/abs/2607.07740",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "Jet-Long: 基于动态双焦 RoPE 的高效长上下文扩展",
+      "chinese_summary": "Jet-Long 提出了一种动态双焦旋转位置编码方法，用于高效扩展大语言模型的长上下文能力。该研究解决了长序列处理中的计算和内存瓶颈，对 LLM 应用至关重要。",
       "categories": [
         "LLM",
         "Research",
@@ -87,82 +123,47 @@
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你在优化LLM的长上下文能力，这篇论文的分层稀疏注意力方案可能是你突破上下文长度限制的关键技术参考。",
+      "recommendation_reason": "如果你在开发或部署长上下文 LLM，Jet-Long 的动态 RoPE 方法可能大幅降低长序列推理的成本和延迟。",
       "install_command": null,
-      "curation_date": "2026-07-08"
+      "curation_date": "2026-07-10"
     },
     {
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6",
       "source": "hacker_news",
-      "content_type": "industry",
-      "chinese_title": "GitLost: 我们欺骗GitHub的AI代理泄露了私有仓库",
-      "chinese_summary": "研究人员通过提示注入攻击，成功让GitHub的AI代理泄露了私有仓库内容，揭示了AI代理在代码安全方面的严重漏洞。这一发现对使用AI编程工具的开发者具有重要警示意义。",
+      "content_type": "model_release",
+      "chinese_title": "GPT-5.6",
+      "chinese_summary": "关于OpenAI下一代模型GPT-5.6的讨论在Hacker News上引发热议，获得1249分和896条评论。该话题可能涉及模型能力、定价或发布时间的传闻。",
       "categories": [
-        "AI Safety",
-        "Developer Tools",
+        "LLM",
         "Industry"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你使用GitHub Copilot或其他AI编程代理，必须了解这种安全风险并采取防护措施。",
+      "recommendation_reason": "GPT系列模型是AI行业的风向标，任何关于新版本的信息都直接影响从业者的技术选型和产品规划。",
       "install_command": null,
-      "curation_date": "2026-07-08"
-    },
-    {
-      "title": "60000小时炼出新开源VLA！20多种机器人都能用",
-      "url": "https://www.qbitai.com/2026/07/445678.html",
-      "source": "rss_量子位",
-      "content_type": "open_source_model",
-      "chinese_title": "60000小时炼出新开源VLA！20多种机器人都能用",
-      "chinese_summary": "蚂蚁灵波发布了Lingbot-VLA 2.0，这是一个经过60000小时训练的开源视觉-语言-动作（VLA）模型，支持20多种机器人构型。该模型旨在提升机器人的泛化能力和任务执行效率。",
-      "categories": [
-        "Robotics",
-        "Multimodal",
-        "Open Source"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "如果你从事机器人开发，这个开源VLA模型支持多种机器人，能大幅降低多构型机器人的开发门槛。",
-      "install_command": null,
-      "curation_date": "2026-07-08"
-    },
-    {
-      "title": "支持17家机器人厂商20多种构型，蚂蚁灵波LingBot-VLA 2.0正式开源",
-      "url": "https://www.qbitai.com/2026/07/445668.html",
-      "source": "rss_量子位",
-      "content_type": "open_source_model",
-      "chinese_title": "支持17家机器人厂商20多种构型，蚂蚁灵波LingBot-VLA 2.0正式开源",
-      "chinese_summary": "蚂蚁灵波正式开源LingBot-VLA 2.0，支持17家机器人厂商的20多种构型，提供统一的视觉-语言-动作能力。该开源项目旨在推动机器人领域的标准化和协作。",
-      "categories": [
-        "Robotics",
-        "Multimodal",
-        "Open Source"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "如果你需要跨厂商、跨构型的机器人解决方案，这个开源VLA模型是当前最全面的选择之一。",
-      "install_command": null,
-      "curation_date": "2026-07-08"
+      "curation_date": "2026-07-10"
     }
   ],
   "category_counts": {
-    "AI Applications": 1,
+    "AI Agents": 3,
+    "Research": 2,
     "Developer Tools": 4,
-    "AI Infrastructure": 4,
-    "AI Safety": 2,
-    "AI Agents": 1,
-    "Industry": 2,
-    "LLM": 1,
-    "Research": 1,
-    "Robotics": 2,
+    "Robotics": 1,
     "Multimodal": 2,
-    "Open Source": 2
+    "Open Source": 1,
+    "AI Applications": 2,
+    "AI Safety": 1,
+    "Computer Vision": 1,
+    "LLM": 2,
+    "AI Infrastructure": 1,
+    "Industry": 1
   },
   "content_type_counts": {
     "mcp_server": 3,
-    "industry": 2,
-    "research": 1,
-    "open_source_model": 2
+    "open_source_model": 1,
+    "guide": 1,
+    "research": 2,
+    "model_release": 1
   }
 }
