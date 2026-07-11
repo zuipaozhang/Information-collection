@@ -1,159 +1,162 @@
 {
   "week": "2026-W27",
   "start_date": "2026-07-06",
-  "end_date": "2026-07-10",
+  "end_date": "2026-07-11",
   "items": [
     {
-      "title": "The tool swore it never exports data. The model read a different field.",
-      "url": "https://dev.to/alexlaguardia/the-tool-swore-it-never-exports-data-the-model-read-a-different-field-2a3f",
+      "title": "google-labs-code/stitch-skills: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "source": "github_trending",
+      "content_type": "mcp_server",
+      "chinese_title": "google-labs-code/stitch-skills: 面向Stitch MCP服务器的Agent Skills库",
+      "chinese_summary": "这是一个Agent Skills库，专为Stitch MCP服务器设计，遵循Agent Skills开放标准，兼容Antigravity、Gemini CLI、Claude Code、Cursor等多种编码Agent。它提供了可复用的技能模块，简化了Agent的扩展和集成。",
+      "categories": [
+        "AI Agents",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "MCP生态正在快速发展，这个兼容多Agent的Skills库是构建可互操作Agent工作流的实用资源。",
+      "install_command": "git clone https://github.com/google-labs-code/stitch-skills.git",
+      "curation_date": "2026-07-11"
+    },
+    {
+      "title": "Build an MCP Server in Go (for Claude Code)",
+      "url": "https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "工具发誓从不导出数据，但模型读取了另一个字段",
-      "chinese_summary": "本文揭示了MCP工具描述中的安全漏洞：模型可能忽略工具描述中的安全声明，而通过枚举值等隐藏字段执行数据导出。实验显示gpt-4o和gpt-4.1-mini在8次测试中全部成功导出数据，而移除隐藏字段后导出率为0。这对MCP工具开发者和AI安全从业者至关重要。",
+      "chinese_title": "用 Go 构建 MCP 服务器（用于 Claude Code）",
+      "chinese_summary": "本文介绍了如何使用 Go 语言为 Claude Code 构建 MCP 服务器，使其能够直接查询内部 API 而无需手动复制粘贴 JSON 响应。MCP 服务器是 Claude Code 读取仓库、运行 CLI、查询数据库的入口点，对扩展 AI 代理能力至关重要。",
       "categories": [
-        "AI Safety",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "学习用 Go 构建 MCP 服务器，可让 Claude Code 无缝集成你的内部系统，提升自动化工作流效率。",
+      "install_command": "go get github.com/mark3labs/mcp-go",
+      "curation_date": "2026-07-11"
+    },
+    {
+      "title": "Microsoft Flint Turns Agent-Made Charts Into a Compiler Problem",
+      "url": "https://dev.to/euk_ela_a3e7ed01aa3f7314e/microsoft-flint-turns-agent-made-charts-into-a-compiler-problem-55go",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "Microsoft Flint：将 AI 生成的图表转化为编译器问题",
+      "chinese_summary": "Microsoft Flint 将图表生成视为编译器问题，而非简单让模型生成 Vega-Lite 或 ECharts 代码。它通过编译优化生成更高效、更准确的图表，对构建数据代理的开发者具有重要参考价值。",
+      "categories": [
+        "Research",
+        "AI Applications",
         "Developer Tools"
       ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "揭示了MCP工具描述中的隐蔽安全漏洞，对构建安全可靠的AI Agent工具链有直接指导意义。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "MCP Deep Dive, Part 6: MCP Authentication With OAuth and Entra ID, Done Right",
-      "url": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-6-mcp-authentication-with-oauth-and-entra-id-done-right-35g5",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP深度解析第6部分：使用OAuth和Entra ID正确实现MCP认证",
-      "chinese_summary": "本文深入探讨了MCP服务器的认证机制，强调静态API密钥的不足，并详细介绍了如何通过OAuth和Entra ID实现安全的身份验证。对于构建生产级MCP服务器的开发者来说，这是关键的安全实践指南。",
-      "categories": [
-        "AI Safety",
-        "Developer Tools",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "提供了MCP服务器认证的最佳实践，避免安全漏洞，对构建企业级MCP服务至关重要。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "Exa MCP: Semantic search for AI agents that actually understands what you're looking for",
-      "url": "https://dev.to/curatedmcp/exa-mcp-semantic-search-for-ai-agents-that-actually-understands-what-youre-looking-for-2ba5",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "Exa MCP: 真正理解你需求的AI Agent语义搜索",
-      "chinese_summary": "Exa MCP是一个为AI Agent设计的语义搜索MCP服务器，能够理解用户意图而非简单关键词匹配。它通过MCP协议集成到Claude Desktop等工具中，提升Agent的信息检索能力。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "AI Applications"
-      ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "为AI Agent提供语义搜索能力，显著提升信息检索的准确性和相关性，适合构建智能搜索功能的开发者。",
-      "install_command": "npx @exa/mcp-server",
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "Building Production-Ready MCP Servers in Python: A Complete Guide",
-      "url": "https://dev.to/dev_gaddam_bab4b85ca732b6/building-production-ready-mcp-servers-in-python-a-complete-guide-1mj8",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "用 Python 构建生产级 MCP 服务器：完整指南",
-      "chinese_summary": "本文提供了使用 Python 构建生产级 MCP 服务器的完整教程，涵盖从基础概念到部署的最佳实践。鉴于 MCP 在 2026 年已成为 AI 应用开发的标准，这篇指南对任何构建 AI Agent 的开发者都至关重要。",
-      "categories": [
-        "Developer Tools",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "这是目前最全面的 Python MCP 服务器构建指南，适合所有需要将 AI Agent 连接到外部工具的开发者。",
+      "recommendation_reason": "Flint 的编译器思路为 AI 生成结构化输出提供了新范式，值得数据代理开发者深入研究。",
       "install_command": null,
-      "curation_date": "2026-07-10"
+      "curation_date": "2026-07-11"
     },
     {
-      "title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
-      "url": "https://www.qbitai.com/2026/07/447681.html",
+      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+      "url": "https://www.qbitai.com/2026/07/447891.html",
       "source": "rss_量子位",
       "content_type": "industry",
-      "chinese_title": "日均提问次数暴增 20 倍！百度搭子宣布重磅升级，企业版同步发布",
-      "chinese_summary": "百度搭子（AI助手）宣布重大升级，日均提问次数增长20倍，并同步发布企业版，标志着AI Agent进入规模化应用阶段。这反映了国内AI Agent产品的快速迭代和企业级需求爆发，值得关注AI应用落地的从业者关注。",
-      "categories": [
-        "AI Agents",
-        "AI Applications",
-        "Industry"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "百度搭子升级和20倍增长数据，展示了AI Agent在企业级市场的爆发潜力，对产品经理和开发者有参考价值。",
-      "install_command": null,
-      "curation_date": "2026-07-10"
-    },
-    {
-      "title": "MCP vs REST APIs: Why Model Context Protocol Is Redefining AI Integration",
-      "url": "https://dev.to/himanshuai/mcp-vs-rest-apis-why-model-context-protocol-is-redefining-ai-integration-2fag",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "MCP 与 REST API 对比：为何模型上下文协议正在重新定义 AI 集成",
-      "chinese_summary": "本文从生产级架构角度深入对比了 MCP 和 REST API，面向高级工程师和架构师，解释了 MCP 如何通过标准化上下文传递来简化 AI 集成。它基于 2025-11-25 稳定版规范，具有较高的技术参考价值。",
+      "chinese_title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+      "chinese_summary": "中国首个十万卡规模的AI算力集群正式落成，采用全国产算力方案，覆盖从FP64到INT8的全精度计算。这标志着中国在超大规模AI基础设施领域取得重大突破，对国内AI训练和推理的自主可控具有里程碑意义。",
       "categories": [
         "AI Infrastructure",
-        "Developer Tools"
+        "Industry"
       ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你正在设计 AI 集成架构，这篇文章能帮你理解 MCP 相比 REST 的核心优势，避免选型踩坑。",
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "十万卡集群是AI算力的新标杆，关注国产算力生态的从业者必须了解这一进展。",
       "install_command": null,
-      "curation_date": "2026-07-10"
+      "curation_date": "2026-07-11"
     },
     {
-      "title": "From REST to ReAct: Transforming Legacy APIs into MCP Tools for AI Agents",
-      "url": "https://dev.to/aairom/from-rest-to-react-transforming-legacy-apis-into-mcp-tools-for-ai-agents-5apk",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "从 REST 到 ReAct：将传统 API 转换为 AI Agent 的 MCP 工具",
-      "chinese_summary": "这是一篇教学指南，详细介绍了如何将传统 REST API 转换为 MCP 工具，使其能被 AI Agent 调用。它提供了从 API 设计到 ReAct 模式集成的完整步骤，对希望将现有服务接入 AI 生态的开发者非常实用。",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "source": "hacker_news",
+      "content_type": "research",
+      "chinese_title": "GPT-5.6 Sol Ultra 生成 Cycle Double Cover 猜想的证明 [pdf]",
+      "chinese_summary": "据报道，GPT-5.6 Sol Ultra 模型成功生成了数学中 Cycle Double Cover 猜想的证明。这标志着 AI 在数学推理领域取得了重大突破，对 AI 研究者和数学爱好者来说是一个里程碑事件。",
       "categories": [
-        "AI Agents",
-        "Developer Tools"
+        "Research",
+        "LLM"
       ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你有遗留 API 想快速接入 AI Agent，这篇指南提供了清晰的迁移路径，能帮你节省大量调研时间。",
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这是 AI 在数学证明领域的重大进展，值得所有关注 AI 推理能力的研究者深入研读。",
       "install_command": null,
-      "curation_date": "2026-07-10"
+      "curation_date": "2026-07-11"
     },
     {
-      "title": "一群做自动驾驶的人，盯上了睡眠这件事",
-      "url": "https://www.qbitai.com/2026/07/447796.html",
+      "title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
+      "url": "https://www.qbitai.com/2026/07/447832.html",
       "source": "rss_量子位",
       "content_type": "industry",
-      "chinese_title": "一群做自动驾驶的人，盯上了睡眠这件事",
-      "chinese_summary": "本文报道了自动驾驶团队将数据闭环技术应用于睡眠监测领域，通过类似自动驾驶的数据采集与反馈机制来优化睡眠质量。这展示了AI数据方法论跨行业迁移的潜力，值得关注AI应用场景拓展的从业者留意。",
+      "chinese_title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
+      "chinese_summary": "许锦波团队发布了MoleculeOS，一个将AI作为研发流程“组织者”的生物研发操作系统，现已正式开放。这标志着AI在生物医药领域的应用从单一工具升级为全流程平台，有望大幅加速药物发现和分子设计。",
       "categories": [
         "AI Applications",
         "Industry"
       ],
-      "importance_score": 3,
-      "weighted_score": 3.0,
-      "recommendation_reason": "展示了AI数据闭环方法论从自动驾驶到健康领域的跨界应用，启发从业者思考技术迁移机会。",
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "AI+生物是热门赛道，MoleculeOS的开放为相关开发者提供了新的平台级工具。",
       "install_command": null,
-      "curation_date": "2026-07-10"
+      "curation_date": "2026-07-11"
+    },
+    {
+      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+      "url": "https://www.qbitai.com/2026/07/447873.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+      "chinese_summary": "文章报道了GPT-5.6在数学推理和多Agent协作方面的惊人能力，仅用一小时解决了一个困扰学界50年的数学猜想，并通过700词的Prompt成功协调64个子Agent协同工作。这展示了大型语言模型在复杂推理和Agent编排上的巨大潜力。",
+      "categories": [
+        "AI Agents",
+        "Research",
+        "LLM"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "多Agent协作和复杂推理是当前AI前沿，此案例为Agent架构设计提供了重要参考。",
+      "install_command": null,
+      "curation_date": "2026-07-11"
+    },
+    {
+      "title": "hashicorp/terraform: Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a ",
+      "url": "https://github.com/hashicorp/terraform",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "chinese_title": "hashicorp/terraform: 安全可预测的基础设施即代码工具",
+      "chinese_summary": "Terraform 是一个将 API 编码为声明式配置文件的源可用工具，支持团队成员共享、编辑、审查和版本控制基础设施代码。它能够安全且可预测地创建、更改和改进基础设施，是 DevOps 和云基础设施管理的核心工具。",
+      "categories": [
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "Terraform 是管理 AI 基础设施（如 GPU 集群、云资源）的标准工具，掌握它可大幅提升部署效率。",
+      "install_command": null,
+      "curation_date": "2026-07-11"
     }
   ],
   "category_counts": {
-    "AI Safety": 2,
-    "Developer Tools": 6,
-    "AI Infrastructure": 3,
     "AI Agents": 3,
-    "AI Applications": 3,
-    "Industry": 2
+    "Developer Tools": 4,
+    "Open Source": 1,
+    "Research": 3,
+    "AI Applications": 2,
+    "AI Infrastructure": 2,
+    "Industry": 2,
+    "LLM": 2
   },
   "content_type_counts": {
     "mcp_server": 3,
-    "guide": 3,
-    "industry": 2
+    "industry": 3,
+    "research": 1,
+    "dev_tool": 1
   }
 }

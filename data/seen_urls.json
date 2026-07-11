@@ -5022,10 +5022,514 @@
       "content_type": "agent_framework",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447891.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447891.html",
+      "first_seen": "2026-07-11 09:24:47.127668",
+      "last_seen": "2026-07-11 09:24:47.127668",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447873.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447873.html",
+      "first_seen": "2026-07-11 09:24:47.127720",
+      "last_seen": "2026-07-11 09:24:47.127720",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447846.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447846.html",
+      "first_seen": "2026-07-11 09:24:47.127742",
+      "last_seen": "2026-07-11 09:24:47.127742",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447832.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447832.html",
+      "first_seen": "2026-07-11 09:24:47.127755",
+      "last_seen": "2026-07-11 09:24:47.127755",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash": {
+      "canonical_url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash",
+      "first_seen": "2026-07-11 09:24:47.127833",
+      "last_seen": "2026-07-11 09:24:47.127833",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft": {
+      "canonical_url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
+      "first_seen": "2026-07-11 09:24:47.127852",
+      "last_seen": "2026-07-11 09:24:47.127852",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue": {
+      "canonical_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue",
+      "first_seen": "2026-07-11 09:24:47.127869",
+      "last_seen": "2026-07-11 09:24:47.127869",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs": {
+      "canonical_url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs",
+      "first_seen": "2026-07-11 09:24:47.127886",
+      "last_seen": "2026-07-11 09:24:47.127886",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai",
+      "first_seen": "2026-07-11 09:24:47.127902",
+      "last_seen": "2026-07-11 09:24:47.127902",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/TencentCloud/TencentDB-Agent-Memory": {
+      "canonical_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "first_seen": "2026-07-11 09:24:47.128057",
+      "last_seen": "2026-07-11 09:24:47.128057",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/davila7/claude-code-templates": {
+      "canonical_url": "https://github.com/davila7/claude-code-templates",
+      "first_seen": "2026-07-11 09:24:47.128074",
+      "last_seen": "2026-07-11 09:24:47.128074",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/tailscale/tailscale": {
+      "canonical_url": "https://github.com/tailscale/tailscale",
+      "first_seen": "2026-07-11 09:24:47.128091",
+      "last_seen": "2026-07-11 09:24:47.128091",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/google-labs-code/stitch-skills": {
+      "canonical_url": "https://github.com/google-labs-code/stitch-skills",
+      "first_seen": "2026-07-11 09:24:47.128106",
+      "last_seen": "2026-07-11 09:24:47.128106",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/hashicorp/terraform": {
+      "canonical_url": "https://github.com/hashicorp/terraform",
+      "first_seen": "2026-07-11 09:24:47.128130",
+      "last_seen": "2026-07-11 09:24:47.128130",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.08716": {
+      "canonical_url": "https://arxiv.org/abs/2607.08716",
+      "first_seen": "2026-07-11 09:24:47.128146",
+      "last_seen": "2026-07-11 09:24:47.128146",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.04690": {
+      "canonical_url": "https://arxiv.org/abs/2607.04690",
+      "first_seen": "2026-07-11 09:24:47.128161",
+      "last_seen": "2026-07-11 09:24:47.128161",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.08688": {
+      "canonical_url": "https://arxiv.org/abs/2607.08688",
+      "first_seen": "2026-07-11 09:24:47.128175",
+      "last_seen": "2026-07-11 09:24:47.128175",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.07816": {
+      "canonical_url": "https://arxiv.org/abs/2607.07816",
+      "first_seen": "2026-07-11 09:24:47.128189",
+      "last_seen": "2026-07-11 09:24:47.128189",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft": {
+      "canonical_url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft",
+      "first_seen": "2026-07-11 09:24:47.128394",
+      "last_seen": "2026-07-11 09:24:47.128394",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://ai-2040.com/": {
+      "canonical_url": "https://ai-2040.com/",
+      "first_seen": "2026-07-11 09:24:47.128407",
+      "last_seen": "2026-07-11 09:24:47.128407",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf": {
+      "canonical_url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "first_seen": "2026-07-11 09:24:47.128419",
+      "last_seen": "2026-07-11 09:24:47.128419",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346": {
+      "canonical_url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346",
+      "first_seen": "2026-07-11 09:24:47.128435",
+      "last_seen": "2026-07-11 09:24:47.128435",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://casp.ac/reports/ai-enabled-terrorism": {
+      "canonical_url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "first_seen": "2026-07-11 09:24:47.128457",
+      "last_seen": "2026-07-11 09:24:47.128457",
+      "source": "hacker_news",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand": {
+      "canonical_url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand",
+      "first_seen": "2026-07-11 09:24:47.128472",
+      "last_seen": "2026-07-11 09:24:47.128472",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://nevo-project.epfl.ch/": {
+      "canonical_url": "https://nevo-project.epfl.ch/",
+      "first_seen": "2026-07-11 09:24:47.128496",
+      "last_seen": "2026-07-11 09:24:47.128496",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.ello.com/blog/teaching-a-child-in-1000-ms": {
+      "canonical_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+      "first_seen": "2026-07-11 09:24:47.128533",
+      "last_seen": "2026-07-11 09:24:47.128533",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246": {
+      "canonical_url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+      "first_seen": "2026-07-11 09:24:47.128546",
+      "last_seen": "2026-07-11 09:24:47.128546",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://unstack.io/write-code-like-a-human-will-maintain-it": {
+      "canonical_url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "first_seen": "2026-07-11 09:24:47.128557",
+      "last_seen": "2026-07-11 09:24:47.128557",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models": {
+      "canonical_url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+      "first_seen": "2026-07-11 09:24:47.128574",
+      "last_seen": "2026-07-11 09:24:47.128574",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i": {
+      "canonical_url": "https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i",
+      "first_seen": "2026-07-11 09:24:47.128591",
+      "last_seen": "2026-07-11 09:24:47.128591",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/leobaniak/a-running-cost-meter-and-an-mcp-tripwire-land-in-visual-studios-june-update-4p59": {
+      "canonical_url": "https://dev.to/leobaniak/a-running-cost-meter-and-an-mcp-tripwire-land-in-visual-studios-june-update-4p59",
+      "first_seen": "2026-07-11 09:24:47.128606",
+      "last_seen": "2026-07-11 09:24:47.128606",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/euk_ela_a3e7ed01aa3f7314e/microsoft-flint-turns-agent-made-charts-into-a-compiler-problem-55go": {
+      "canonical_url": "https://dev.to/euk_ela_a3e7ed01aa3f7314e/microsoft-flint-turns-agent-made-charts-into-a-compiler-problem-55go",
+      "first_seen": "2026-07-11 09:24:47.128620",
+      "last_seen": "2026-07-11 09:24:47.128620",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-an-ai-that-builds-and-sells-ai-products-fully-autonomous-l84": {
+      "canonical_url": "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-an-ai-that-builds-and-sells-ai-products-fully-autonomous-l84",
+      "first_seen": "2026-07-11 09:24:47.128634",
+      "last_seen": "2026-07-11 09:24:47.128634",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/creator-api/connect-onlyfans-and-fansly-to-claude-and-chatgpt-with-one-mcp-server-2kh8": {
+      "canonical_url": "https://dev.to/creator-api/connect-onlyfans-and-fansly-to-claude-and-chatgpt-with-one-mcp-server-2kh8",
+      "first_seen": "2026-07-11 09:24:47.128650",
+      "last_seen": "2026-07-11 09:24:47.128650",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-3-mcp-servers-for-ai-agents-heres-how-they-work-np3": {
+      "canonical_url": "https://dev.to/kenneth_doster_5d86c3cf4f/i-built-3-mcp-servers-for-ai-agents-heres-how-they-work-np3",
+      "first_seen": "2026-07-11 09:24:47.128666",
+      "last_seen": "2026-07-11 09:24:47.128666",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/flatdefi/the-first-mcp-server-that-pays-your-ai-agent-1of2": {
+      "canonical_url": "https://dev.to/flatdefi/the-first-mcp-server-that-pays-your-ai-agent-1of2",
+      "first_seen": "2026-07-11 09:24:47.128680",
+      "last_seen": "2026-07-11 09:24:47.128680",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/renato_marinho/the-signal-problem-why-your-ai-agent-needs-social-intelligence-not-just-price-feeds-5dhm": {
+      "canonical_url": "https://dev.to/renato_marinho/the-signal-problem-why-your-ai-agent-needs-social-intelligence-not-just-price-feeds-5dhm",
+      "first_seen": "2026-07-11 09:24:47.128694",
+      "last_seen": "2026-07-11 09:24:47.128694",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/barissozen/the-week-in-review-agents-got-wallets-rails-marketplaces-and-escrow-they-still-dont-have-5h75": {
+      "canonical_url": "https://dev.to/barissozen/the-week-in-review-agents-got-wallets-rails-marketplaces-and-escrow-they-still-dont-have-5h75",
+      "first_seen": "2026-07-11 09:24:47.128715",
+      "last_seen": "2026-07-11 09:24:47.128715",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/renato_marinho/moving-beyond-write-only-ai-executing-social-media-operations-via-mcp-34hh": {
+      "canonical_url": "https://dev.to/renato_marinho/moving-beyond-write-only-ai-executing-social-media-operations-via-mcp-34hh",
+      "first_seen": "2026-07-11 09:24:47.128729",
+      "last_seen": "2026-07-11 09:24:47.128729",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/5722371a09cae10789d50115154c0fa7a5e953df": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/5722371a09cae10789d50115154c0fa7a5e953df",
+      "first_seen": "2026-07-11 09:24:47.128745",
+      "last_seen": "2026-07-11 09:24:47.128745",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/f7cd44365abf69cea1b7df8a0534154ac30cb538": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/f7cd44365abf69cea1b7df8a0534154ac30cb538",
+      "first_seen": "2026-07-11 09:24:47.128758",
+      "last_seen": "2026-07-11 09:24:47.128758",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/5e8ede128c6ab7688746cf3f69892781ef552911": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/5e8ede128c6ab7688746cf3f69892781ef552911",
+      "first_seen": "2026-07-11 09:24:47.128771",
+      "last_seen": "2026-07-11 09:24:47.128771",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/59e2a5074c873fcb5e6949bc844ea28e36bb3d33": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/59e2a5074c873fcb5e6949bc844ea28e36bb3d33",
+      "first_seen": "2026-07-11 09:24:47.128785",
+      "last_seen": "2026-07-11 09:24:47.128785",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/4ab5c8e74f46091db26afeb8b5821a2c5ae7ab6d": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/4ab5c8e74f46091db26afeb8b5821a2c5ae7ab6d",
+      "first_seen": "2026-07-11 09:24:47.128797",
+      "last_seen": "2026-07-11 09:24:47.128797",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/9ecdfbb807f3af7c506a9cb372e2292dcbf7f8a2": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/9ecdfbb807f3af7c506a9cb372e2292dcbf7f8a2",
+      "first_seen": "2026-07-11 09:24:47.128810",
+      "last_seen": "2026-07-11 09:24:47.128810",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/00fc4d66acad0c896a77169075a7e6547d38275e": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/00fc4d66acad0c896a77169075a7e6547d38275e",
+      "first_seen": "2026-07-11 09:24:47.128823",
+      "last_seen": "2026-07-11 09:24:47.128823",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/langchain-ai/langgraph/releases/tag/cli==0.4.31": {
+      "canonical_url": "https://github.com/langchain-ai/langgraph/releases/tag/cli==0.4.31",
+      "first_seen": "2026-07-11 09:24:47.128835",
+      "last_seen": "2026-07-11 09:24:47.128835",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2": {
+      "canonical_url": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2",
+      "first_seen": "2026-07-11 09:24:47.128848",
+      "last_seen": "2026-07-11 09:24:47.128848",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0": {
+      "canonical_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
+      "first_seen": "2026-07-11 09:24:47.128861",
+      "last_seen": "2026-07-11 09:24:47.128861",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.1": {
+      "canonical_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.1",
+      "first_seen": "2026-07-11 09:24:47.128874",
+      "last_seen": "2026-07-11 09:24:47.128874",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9963": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9963",
+      "first_seen": "2026-07-11 09:24:47.128883",
+      "last_seen": "2026-07-11 09:24:47.128883",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9960": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9960",
+      "first_seen": "2026-07-11 09:24:47.128892",
+      "last_seen": "2026-07-11 09:24:47.128892",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9959": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9959",
+      "first_seen": "2026-07-11 09:24:47.128900",
+      "last_seen": "2026-07-11 09:24:47.128900",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9957": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9957",
+      "first_seen": "2026-07-11 09:24:47.128909",
+      "last_seen": "2026-07-11 09:24:47.128909",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9956": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9956",
+      "first_seen": "2026-07-11 09:24:47.128917",
+      "last_seen": "2026-07-11 09:24:47.128917",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.207": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "first_seen": "2026-07-11 09:24:47.128931",
+      "last_seen": "2026-07-11 09:24:47.128931",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 558,
+    "total_unique_urls": 614,
     "last_pruned": null
   }
 }
