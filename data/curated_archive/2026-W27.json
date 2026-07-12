@@ -1,162 +1,165 @@
 {
   "week": "2026-W27",
   "start_date": "2026-07-06",
-  "end_date": "2026-07-11",
+  "end_date": "2026-07-12",
   "items": [
     {
-      "title": "google-labs-code/stitch-skills: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "source": "github_trending",
+      "title": "Making an email API agent-native: llms.txt, a /api/me endpoint, and a zero-DNS sandbox sender",
+      "url": "https://dev.to/spruikco/making-an-email-api-agent-native-llmstxt-a-apime-endpoint-and-a-zero-dns-sandbox-sender-446",
+      "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "google-labs-code/stitch-skills: 面向Stitch MCP服务器的Agent Skills库",
-      "chinese_summary": "这是一个Agent Skills库，专为Stitch MCP服务器设计，遵循Agent Skills开放标准，兼容Antigravity、Gemini CLI、Claude Code、Cursor等多种编码Agent。它提供了可复用的技能模块，简化了Agent的扩展和集成。",
+      "chinese_title": "打造 Agent 原生邮件 API：llms.txt、/api/me 端点与零 DNS 沙箱发件人",
+      "chinese_summary": "本文探讨了如何将邮件 API 设计为“Agent 原生”，即 AI 代理可以独立完成整个任务而无需人工干预。作者分享了在 Send16 项目中通过 llms.txt、/api/me 端点和零 DNS 沙箱发件人等技术实现这一目标的经验。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "学习如何设计 Agent 原生 API，能让你构建的 AI 代理更自主、更可靠，减少人工介入。",
+      "install_command": null,
+      "curation_date": "2026-07-12"
+    },
+    {
+      "title": "Agent Payments: How AI Agents Can Pay for Services Autonomously",
+      "url": "https://dev.to/rumblingb/agent-payments-how-ai-agents-can-pay-for-services-autonomously-2056",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "Agent 支付：AI 代理如何自主支付服务费用",
+      "chinese_summary": "AgentPay Labs 构建了61个产品和26个 MCP 服务器，使 AI 代理不仅能接收付款，还能自主支付服务费用，形成完整的经济循环。这标志着 AI 代理经济闭环的关键一步。",
       "categories": [
         "AI Agents",
-        "Developer Tools",
-        "Open Source"
+        "Industry",
+        "AI Infrastructure"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "MCP生态正在快速发展，这个兼容多Agent的Skills库是构建可互操作Agent工作流的实用资源。",
-      "install_command": "git clone https://github.com/google-labs-code/stitch-skills.git",
-      "curation_date": "2026-07-11"
-    },
-    {
-      "title": "Build an MCP Server in Go (for Claude Code)",
-      "url": "https://dev.to/ohugonnot/build-an-mcp-server-in-go-for-claude-code-2o2i",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "用 Go 构建 MCP 服务器（用于 Claude Code）",
-      "chinese_summary": "本文介绍了如何使用 Go 语言为 Claude Code 构建 MCP 服务器，使其能够直接查询内部 API 而无需手动复制粘贴 JSON 响应。MCP 服务器是 Claude Code 读取仓库、运行 CLI、查询数据库的入口点，对扩展 AI 代理能力至关重要。",
-      "categories": [
-        "Developer Tools",
-        "AI Agents"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "学习用 Go 构建 MCP 服务器，可让 Claude Code 无缝集成你的内部系统，提升自动化工作流效率。",
-      "install_command": "go get github.com/mark3labs/mcp-go",
-      "curation_date": "2026-07-11"
-    },
-    {
-      "title": "Microsoft Flint Turns Agent-Made Charts Into a Compiler Problem",
-      "url": "https://dev.to/euk_ela_a3e7ed01aa3f7314e/microsoft-flint-turns-agent-made-charts-into-a-compiler-problem-55go",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "Microsoft Flint：将 AI 生成的图表转化为编译器问题",
-      "chinese_summary": "Microsoft Flint 将图表生成视为编译器问题，而非简单让模型生成 Vega-Lite 或 ECharts 代码。它通过编译优化生成更高效、更准确的图表，对构建数据代理的开发者具有重要参考价值。",
-      "categories": [
-        "Research",
-        "AI Applications",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "Flint 的编译器思路为 AI 生成结构化输出提供了新范式，值得数据代理开发者深入研究。",
+      "recommendation_reason": "了解 AI 代理自主支付机制，是探索未来去中心化 AI 经济和应用场景的必备知识。",
       "install_command": null,
-      "curation_date": "2026-07-11"
+      "curation_date": "2026-07-12"
+    },
+    {
+      "title": "Week 13: a second team is now running an AI agent on atomic HTLC swaps. Here is what that validates.",
+      "url": "https://dev.to/barissozen/week-13-a-second-team-is-now-running-an-ai-agent-on-atomic-htlc-swaps-here-is-what-that-validates-5h69",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "第13周：第二个团队正在原子 HTLC 交换上运行 AI 代理——这验证了什么",
+      "chinese_summary": "本文报道了第二个团队成功在原子 HTLC（哈希时间锁定合约）交换上运行 AI 代理，验证了 AI 代理在加密货币和区块链领域进行去中心化金融操作的可行性。这标志着 AI 代理经济在区块链基础设施上的重要进展。",
+      "categories": [
+        "AI Agents",
+        "Industry",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "关注 AI 代理与区块链结合的前沿实践，对探索去中心化 AI 应用和金融自动化有重要参考价值。",
+      "install_command": null,
+      "curation_date": "2026-07-12"
     },
     {
       "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-      "url": "https://www.qbitai.com/2026/07/447891.html",
+      "url": "https://www.qbitai.com/2026/07/447902.html",
       "source": "rss_量子位",
       "content_type": "industry",
       "chinese_title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-      "chinese_summary": "中国首个十万卡规模的AI算力集群正式落成，采用全国产算力方案，覆盖从FP64到INT8的全精度计算。这标志着中国在超大规模AI基础设施领域取得重大突破，对国内AI训练和推理的自主可控具有里程碑意义。",
+      "chinese_summary": "中国首个十万卡规模的AI算力集群建成，采用全国产算力，已跑通300余项应用。这标志着国产AI基础设施的重大突破，对大规模模型训练和推理有直接推动作用。",
       "categories": [
         "AI Infrastructure",
         "Industry"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "十万卡集群是AI算力的新标杆，关注国产算力生态的从业者必须了解这一进展。",
+      "recommendation_reason": "关注国产算力进展，评估未来大模型训练和部署的国产化替代方案。",
       "install_command": null,
-      "curation_date": "2026-07-11"
+      "curation_date": "2026-07-12"
     },
     {
-      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
-      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "source": "hacker_news",
-      "content_type": "research",
-      "chinese_title": "GPT-5.6 Sol Ultra 生成 Cycle Double Cover 猜想的证明 [pdf]",
-      "chinese_summary": "据报道，GPT-5.6 Sol Ultra 模型成功生成了数学中 Cycle Double Cover 猜想的证明。这标志着 AI 在数学推理领域取得了重大突破，对 AI 研究者和数学爱好者来说是一个里程碑事件。",
+      "title": "🤗 unsloth/Qwen3.6-27B-NVFP4",
+      "url": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "chinese_title": "Unsloth 发布 Qwen3.6-27B-NVFP4：基于 Qwen 的 4 位浮点量化模型",
+      "chinese_summary": "Unsloth 团队发布了 Qwen3.6-27B-NVFP4 模型，这是一个基于 Qwen 架构的 27B 参数模型，采用 NVFP4（NVIDIA 4 位浮点）量化格式。该模型在 Hugging Face 上已获得 137 万次下载和 173 个赞，显示出社区的高度关注。",
       "categories": [
-        "Research",
-        "LLM"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "这是 AI 在数学证明领域的重大进展，值得所有关注 AI 推理能力的研究者深入研读。",
-      "install_command": null,
-      "curation_date": "2026-07-11"
-    },
-    {
-      "title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
-      "url": "https://www.qbitai.com/2026/07/447832.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
-      "chinese_summary": "许锦波团队发布了MoleculeOS，一个将AI作为研发流程“组织者”的生物研发操作系统，现已正式开放。这标志着AI在生物医药领域的应用从单一工具升级为全流程平台，有望大幅加速药物发现和分子设计。",
-      "categories": [
-        "AI Applications",
-        "Industry"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "AI+生物是热门赛道，MoleculeOS的开放为相关开发者提供了新的平台级工具。",
-      "install_command": null,
-      "curation_date": "2026-07-11"
-    },
-    {
-      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-      "url": "https://www.qbitai.com/2026/07/447873.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-      "chinese_summary": "文章报道了GPT-5.6在数学推理和多Agent协作方面的惊人能力，仅用一小时解决了一个困扰学界50年的数学猜想，并通过700词的Prompt成功协调64个子Agent协同工作。这展示了大型语言模型在复杂推理和Agent编排上的巨大潜力。",
-      "categories": [
-        "AI Agents",
-        "Research",
-        "LLM"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "多Agent协作和复杂推理是当前AI前沿，此案例为Agent架构设计提供了重要参考。",
-      "install_command": null,
-      "curation_date": "2026-07-11"
-    },
-    {
-      "title": "hashicorp/terraform: Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a ",
-      "url": "https://github.com/hashicorp/terraform",
-      "source": "github_trending",
-      "content_type": "dev_tool",
-      "chinese_title": "hashicorp/terraform: 安全可预测的基础设施即代码工具",
-      "chinese_summary": "Terraform 是一个将 API 编码为声明式配置文件的源可用工具，支持团队成员共享、编辑、审查和版本控制基础设施代码。它能够安全且可预测地创建、更改和改进基础设施，是 DevOps 和云基础设施管理的核心工具。",
-      "categories": [
-        "Developer Tools",
+        "Open Source",
+        "LLM",
         "AI Infrastructure"
       ],
       "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "Terraform 是管理 AI 基础设施（如 GPU 集群、云资源）的标准工具，掌握它可大幅提升部署效率。",
+      "weighted_score": 4.5,
+      "recommendation_reason": "NVFP4 是 NVIDIA 最新的 4 位量化格式，此模型展示了如何在保持精度的同时大幅降低显存占用，适合在消费级 GPU 上运行大模型。",
       "install_command": null,
-      "curation_date": "2026-07-11"
+      "curation_date": "2026-07-12"
+    },
+    {
+      "title": "openai/plugins: OpenAI Plugins",
+      "url": "https://github.com/openai/plugins",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "chinese_title": "openai/plugins: OpenAI Plugins",
+      "chinese_summary": "OpenAI官方发布的插件仓库，提供扩展AI模型功能的插件框架。值得关注的是，这是OpenAI生态系统的核心组件，对开发者构建AI应用有重要参考价值。",
+      "categories": [
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "学习OpenAI插件开发，扩展AI应用功能。",
+      "install_command": null,
+      "curation_date": "2026-07-12"
+    },
+    {
+      "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+      "url": "https://www.qbitai.com/2026/07/447981.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+      "chinese_summary": "NVIDIA在ComputeX发布的RTX Spark超级芯片已在真机中落地，CPU和GPU集成设计，使笔记本能运行120B参数的大模型。这标志着AI硬件小型化的重要突破，对边缘计算和本地AI部署有重大意义。",
+      "categories": [
+        "AI Infrastructure",
+        "Industry",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "关注AI硬件小型化趋势，了解未来本地大模型运行的可能性。",
+      "install_command": null,
+      "curation_date": "2026-07-12"
+    },
+    {
+      "title": "[vllm-project/vllm] v0.25.0: v0.25.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "chinese_title": "vLLM v0.25.0 发布：Model Runner V2 成为所有密集模型的默认执行路径",
+      "chinese_summary": "vLLM v0.25.0 版本包含来自 232 位贡献者的 558 次提交，其中最重要的变化是 Model Runner V2 (MRv2) 现在成为所有密集模型的默认执行路径。这一更新显著提升了推理引擎的稳定性和性能，是使用 vLLM 进行生产部署的关键升级。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools",
+        "LLM"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "vLLM 是当前最主流的 LLM 推理框架之一，MRv2 成为默认执行路径意味着所有密集模型用户都能直接受益于性能优化，建议尽快升级。",
+      "install_command": null,
+      "curation_date": "2026-07-12"
     }
   ],
   "category_counts": {
-    "AI Agents": 3,
+    "AI Infrastructure": 7,
     "Developer Tools": 4,
-    "Open Source": 1,
-    "Research": 3,
     "AI Applications": 2,
-    "AI Infrastructure": 2,
-    "Industry": 2,
+    "AI Agents": 2,
+    "Industry": 4,
+    "Open Source": 1,
     "LLM": 2
   },
   "content_type_counts": {
     "mcp_server": 3,
-    "industry": 3,
-    "research": 1,
-    "dev_tool": 1
+    "industry": 2,
+    "open_source_model": 1,
+    "dev_tool": 1,
+    "agent_framework": 1
   }
 }

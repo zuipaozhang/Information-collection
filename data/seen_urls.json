@@ -5526,10 +5526,370 @@
       "content_type": "coding_tool",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/448034.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/448034.html",
+      "first_seen": "2026-07-12 09:48:06.278316",
+      "last_seen": "2026-07-12 09:48:06.278316",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447981.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447981.html",
+      "first_seen": "2026-07-12 09:48:06.278370",
+      "last_seen": "2026-07-12 09:48:06.278370",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447914.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447914.html",
+      "first_seen": "2026-07-12 09:48:06.278390",
+      "last_seen": "2026-07-12 09:48:06.278390",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/447902.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/447902.html",
+      "first_seen": "2026-07-12 09:48:06.278405",
+      "last_seen": "2026-07-12 09:48:06.278405",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households": {
+      "canonical_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
+      "first_seen": "2026-07-12 09:48:06.278505",
+      "last_seen": "2026-07-12 09:48:06.278505",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/openai/plugins": {
+      "canonical_url": "https://github.com/openai/plugins",
+      "first_seen": "2026-07-12 09:48:06.278683",
+      "last_seen": "2026-07-12 09:48:06.278683",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/DayuanJiang/next-ai-draw-io": {
+      "canonical_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "first_seen": "2026-07-12 09:48:06.278701",
+      "last_seen": "2026-07-12 09:48:06.278701",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.iroh.computer/blog/mesh-llm": {
+      "canonical_url": "https://www.iroh.computer/blog/mesh-llm",
+      "first_seen": "2026-07-12 09:48:06.278955",
+      "last_seen": "2026-07-12 09:48:06.278955",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://thebeach.dev/posts/lisp-agent": {
+      "canonical_url": "https://thebeach.dev/posts/lisp-agent",
+      "first_seen": "2026-07-12 09:48:06.278971",
+      "last_seen": "2026-07-12 09:48:06.278971",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains": {
+      "canonical_url": "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains",
+      "first_seen": "2026-07-12 09:48:06.278986",
+      "last_seen": "2026-07-12 09:48:06.278986",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey": {
+      "canonical_url": "https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey",
+      "first_seen": "2026-07-12 09:48:06.278997",
+      "last_seen": "2026-07-12 09:48:06.278997",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547": {
+      "canonical_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "first_seen": "2026-07-12 09:48:06.279006",
+      "last_seen": "2026-07-12 09:48:06.279006",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.mixfont.com/ghost-font": {
+      "canonical_url": "https://www.mixfont.com/ghost-font",
+      "first_seen": "2026-07-12 09:48:06.279017",
+      "last_seen": "2026-07-12 09:48:06.279017",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://pluralistic.net/2025/09/11/vulgar-thatcherism": {
+      "canonical_url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism",
+      "first_seen": "2026-07-12 09:48:06.279043",
+      "last_seen": "2026-07-12 09:48:06.279043",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html": {
+      "canonical_url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+      "first_seen": "2026-07-12 09:48:06.279087",
+      "last_seen": "2026-07-12 09:48:06.279087",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/rumblingb/mcp-directory-26-smithery-servers-stripe-1783847318-25p5": {
+      "canonical_url": "https://dev.to/rumblingb/mcp-directory-26-smithery-servers-stripe-1783847318-25p5",
+      "first_seen": "2026-07-12 09:48:06.279109",
+      "last_seen": "2026-07-12 09:48:06.279109",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/yashwanth_kasi/day-230-llm-tool-calls-1gnk": {
+      "canonical_url": "https://dev.to/yashwanth_kasi/day-230-llm-tool-calls-1gnk",
+      "first_seen": "2026-07-12 09:48:06.279124",
+      "last_seen": "2026-07-12 09:48:06.279124",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/yashwanth_kasi/day-130-react-pattern-explained-3nbf": {
+      "canonical_url": "https://dev.to/yashwanth_kasi/day-130-react-pattern-explained-3nbf",
+      "first_seen": "2026-07-12 09:48:06.279138",
+      "last_seen": "2026-07-12 09:48:06.279138",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/spruikco/making-an-email-api-agent-native-llmstxt-a-apime-endpoint-and-a-zero-dns-sandbox-sender-446": {
+      "canonical_url": "https://dev.to/spruikco/making-an-email-api-agent-native-llmstxt-a-apime-endpoint-and-a-zero-dns-sandbox-sender-446",
+      "first_seen": "2026-07-12 09:48:06.279154",
+      "last_seen": "2026-07-12 09:48:06.279154",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/rumblingb/agent-payments-how-ai-agents-can-pay-for-services-autonomously-2056": {
+      "canonical_url": "https://dev.to/rumblingb/agent-payments-how-ai-agents-can-pay-for-services-autonomously-2056",
+      "first_seen": "2026-07-12 09:48:06.279168",
+      "last_seen": "2026-07-12 09:48:06.279168",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/goldbean/67-baidu-ai-endpoints-behind-a-single-rest-api-a-no-chinese-phone-needed-5dpp": {
+      "canonical_url": "https://dev.to/goldbean/67-baidu-ai-endpoints-behind-a-single-rest-api-a-no-chinese-phone-needed-5dpp",
+      "first_seen": "2026-07-12 09:48:06.279181",
+      "last_seen": "2026-07-12 09:48:06.279181",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/vishdevwork/ai-fundamentals-part-4-building-real-ai-applications-56h6": {
+      "canonical_url": "https://dev.to/vishdevwork/ai-fundamentals-part-4-building-real-ai-applications-56h6",
+      "first_seen": "2026-07-12 09:48:06.279198",
+      "last_seen": "2026-07-12 09:48:06.279198",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/barissozen/week-13-a-second-team-is-now-running-an-ai-agent-on-atomic-htlc-swaps-here-is-what-that-validates-5h69": {
+      "canonical_url": "https://dev.to/barissozen/week-13-a-second-team-is-now-running-an-ai-agent-on-atomic-htlc-swaps-here-is-what-that-validates-5h69",
+      "first_seen": "2026-07-12 09:48:06.279214",
+      "last_seen": "2026-07-12 09:48:06.279214",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/govind_sisara/indian-stock-market-mcp-the-best-mcp-servers-for-nse-bse-data-2026-p28": {
+      "canonical_url": "https://dev.to/govind_sisara/indian-stock-market-mcp-the-best-mcp-servers-for-nse-bse-data-2026-p28",
+      "first_seen": "2026-07-12 09:48:06.279228",
+      "last_seen": "2026-07-12 09:48:06.279228",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lazymac2x/fake-data-generator-api-5bun-ane-peurojegteue-tonghabhagi-41k7": {
+      "canonical_url": "https://dev.to/lazymac2x/fake-data-generator-api-5bun-ane-peurojegteue-tonghabhagi-41k7",
+      "first_seen": "2026-07-12 09:48:06.279242",
+      "last_seen": "2026-07-12 09:48:06.279242",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/ed3fcabca5fbcbe6457d7c1241e77ea51db897d8": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/ed3fcabca5fbcbe6457d7c1241e77ea51db897d8",
+      "first_seen": "2026-07-12 09:48:06.279256",
+      "last_seen": "2026-07-12 09:48:06.279256",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/3a434329bb26d729445336178e0a46c18a44b133": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/3a434329bb26d729445336178e0a46c18a44b133",
+      "first_seen": "2026-07-12 09:48:06.279269",
+      "last_seen": "2026-07-12 09:48:06.279269",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/2e55c333c6cb2946a12e92389a79e824158f3938": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/2e55c333c6cb2946a12e92389a79e824158f3938",
+      "first_seen": "2026-07-12 09:48:06.279283",
+      "last_seen": "2026-07-12 09:48:06.279283",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/ee29d28ff19e575b4803ccd7ebc69e99624517b4": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/ee29d28ff19e575b4803ccd7ebc69e99624517b4",
+      "first_seen": "2026-07-12 09:48:06.279296",
+      "last_seen": "2026-07-12 09:48:06.279296",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/11921a5b3694003b5499fbfbdf50f365bbca07ba": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/11921a5b3694003b5499fbfbdf50f365bbca07ba",
+      "first_seen": "2026-07-12 09:48:06.279310",
+      "last_seen": "2026-07-12 09:48:06.279310",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/34fa1ffb85120c58c83ada56f4ba85c14db45c76": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/34fa1ffb85120c58c83ada56f4ba85c14db45c76",
+      "first_seen": "2026-07-12 09:48:06.279322",
+      "last_seen": "2026-07-12 09:48:06.279322",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/4a2063b7dcb786468bc0f27dd78573aa06768d3a": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/4a2063b7dcb786468bc0f27dd78573aa06768d3a",
+      "first_seen": "2026-07-12 09:48:06.279336",
+      "last_seen": "2026-07-12 09:48:06.279336",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/98396f49c8ac3ebf55e060dd69a590380bc0a631": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/98396f49c8ac3ebf55e060dd69a590380bc0a631",
+      "first_seen": "2026-07-12 09:48:06.279349",
+      "last_seen": "2026-07-12 09:48:06.279349",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.25.0": {
+      "canonical_url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0",
+      "first_seen": "2026-07-12 09:48:06.279363",
+      "last_seen": "2026-07-12 09:48:06.279363",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9969": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9969",
+      "first_seen": "2026-07-12 09:48:06.279376",
+      "last_seen": "2026-07-12 09:48:06.279376",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9968": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9968",
+      "first_seen": "2026-07-12 09:48:06.279389",
+      "last_seen": "2026-07-12 09:48:06.279389",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9967": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9967",
+      "first_seen": "2026-07-12 09:48:06.279402",
+      "last_seen": "2026-07-12 09:48:06.279402",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9966": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9966",
+      "first_seen": "2026-07-12 09:48:06.279415",
+      "last_seen": "2026-07-12 09:48:06.279415",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9965": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9965",
+      "first_seen": "2026-07-12 09:48:06.279427",
+      "last_seen": "2026-07-12 09:48:06.279427",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4": {
+      "canonical_url": "https://huggingface.co/unsloth/Qwen3.6-27B-NVFP4",
+      "first_seen": "2026-07-12 09:48:06.279602",
+      "last_seen": "2026-07-12 09:48:06.279602",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 614,
+    "total_unique_urls": 654,
     "last_pruned": null
   }
 }
