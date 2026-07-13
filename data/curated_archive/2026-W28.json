@@ -1,0 +1,166 @@
+{
+  "week": "2026-W28",
+  "start_date": "2026-07-13",
+  "end_date": "2026-07-13",
+  "items": [
+    {
+      "title": "GitHub MCP: Bring Your Entire Repository Into Your AI Workflow",
+      "url": "https://dev.to/curatedmcp/github-mcp-bring-your-entire-repository-into-your-ai-workflow-lg0",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "GitHub MCP：将整个仓库带入你的 AI 工作流",
+      "chinese_summary": "GitHub MCP 是 GitHub 官方发布的 MCP 服务器，允许 AI 助手直接访问和操作你的整个代码仓库。它让 AI 能够读取代码、管理 Issue、处理 Pull Request 等，极大提升了 AI 辅助开发的深度和实用性。",
+      "categories": [
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "官方出品，将 GitHub 仓库完整接入 AI 工作流，是每个使用 GitHub 的开发者必备的 MCP 工具。",
+      "install_command": "npx @github/github-mcp-server",
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "The Silent Killer of Context Windows: Why Token Estimation is Failing Your Agents",
+      "url": "https://dev.to/renato_marinho/the-silent-killer-of-context-windows-why-token-estimation-is-failing-your-agents-309j",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "上下文窗口的无声杀手：为什么 Token 估算正在让你的 Agent 失败",
+      "chinese_summary": "本文揭示了 LLM Agent 开发中一个常见但被忽视的问题：Token 估算不准确导致上下文窗口溢出，引发模型幻觉、截断或 API 错误。作者分析了问题根源并提出了改进方案，对构建可靠 Agent 至关重要。",
+      "categories": [
+        "AI Agents",
+        "Research",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "直击 Agent 开发中的关键痛点，解决 Token 估算问题能显著提升 Agent 的稳定性和可靠性。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
+      "url": "https://www.qbitai.com/2026/07/448925.html",
+      "source": "rss_量子位",
+      "content_type": "coding_tool",
+      "chinese_title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
+      "chinese_summary": "蚂蚁安全开源了两个安全框架，旨在解决Claude Code等AI编程工具带来的安全漏洞。这值得关注，因为AI编程工具的普及带来了新的安全挑战，这些框架为开发者提供了实用的防护方案。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你使用Claude Code等AI编程工具，这些安全框架能帮你防范代码漏洞。",
+      "install_command": "git clone https://github.com/ant-security/xxx-framework",
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "将生产级 AI Agent 迁移到 GPT-5.6：速度提升 2.2 倍，成本降低 27%",
+      "chinese_summary": "分享将生产级 AI Agent 从旧模型迁移到 GPT-5.6 的实际经验，性能提升 2.2 倍且成本降低 27%。该案例为 AI 应用开发者提供了模型升级的参考。",
+      "categories": [
+        "AI Applications",
+        "Industry",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在生产环境中使用 AI Agent，这篇迁移经验能帮你评估升级收益与风险。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "🤗 unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "chinese_title": "🤗 unsloth/Qwen3.6-35B-A3B-NVFP4-Fast 开源模型",
+      "chinese_summary": "这是一个基于 Qwen3.6-35B 的混合专家模型，采用 NVFP4 量化技术实现快速推理，下载量已达 73943 次。该模型在保持高性能的同时大幅降低了推理成本，适合资源受限场景下的部署。",
+      "categories": [
+        "LLM",
+        "Open Source",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.5,
+      "recommendation_reason": "如果你在寻找高效推理的开源大模型，这个量化版本能显著降低部署门槛，值得尝试。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
+      "url": "https://www.qbitai.com/2026/07/448825.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
+      "chinese_summary": "OpenAI在发布GPT-5.6后，其安全主管离职，这是两年内第六位安全高管离职。这值得关注，因为它暴露了OpenAI内部安全治理的动荡，可能影响未来模型的安全策略和发布节奏。",
+      "categories": [
+        "AI Safety",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "关注OpenAI安全团队动荡，评估对GPT-5.6及后续模型安全性的潜在影响。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "CNCF发布招商银行AI调度平台案例 源于范式的HAMi技术获生产级验证",
+      "url": "https://www.qbitai.com/2026/07/448824.html",
+      "source": "rss_量子位",
+      "content_type": "dev_tool",
+      "chinese_title": "CNCF发布招商银行AI调度平台案例 源于范式的HAMi技术获生产级验证",
+      "chinese_summary": "CNCF发布了招商银行基于HAMi技术的AI调度平台案例，该技术已获得生产级验证。这值得关注，因为HAMi技术解决了AI算力调度难题，对大规模AI部署和成本优化有重要参考价值。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "学习生产级AI调度平台案例，优化你的AI基础设施和算力管理。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "url": "https://arxiv.org/abs/2607.08393",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "从机制上理解为什么记忆化知识在 LLM 微调中无法泛化",
+      "chinese_summary": "本文从机制层面探究大语言模型微调时，模型记住的知识为何无法泛化到新场景。该研究对理解 LLM 的过拟合与泛化边界有重要理论价值。",
+      "categories": [
+        "LLM",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在微调 LLM 时遇到泛化问题，这篇论文能帮你从根源上理解记忆与泛化的冲突。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    }
+  ],
+  "category_counts": {
+    "Developer Tools": 5,
+    "AI Applications": 3,
+    "AI Agents": 1,
+    "Research": 2,
+    "AI Safety": 2,
+    "Industry": 2,
+    "LLM": 2,
+    "Open Source": 1,
+    "AI Infrastructure": 2
+  },
+  "content_type_counts": {
+    "mcp_server": 2,
+    "coding_tool": 1,
+    "industry": 2,
+    "open_source_model": 1,
+    "dev_tool": 1,
+    "research": 1
+  }
+}
