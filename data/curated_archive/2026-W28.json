@@ -1,166 +1,104 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-13",
+  "end_date": "2026-07-19",
   "items": [
     {
-      "title": "GitHub MCP: Bring Your Entire Repository Into Your AI Workflow",
-      "url": "https://dev.to/curatedmcp/github-mcp-bring-your-entire-repository-into-your-ai-workflow-lg0",
+      "title": "Customizing AI Agent Behavior with MCP: Callbacks, Hooks, Tools, Plugins, and Steering Explained",
+      "url": "https://dev.to/sudo_anuj/customizing-ai-agent-behavior-with-mcp-callbacks-hooks-tools-plugins-and-steering-explained-3d4",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "GitHub MCP：将整个仓库带入你的 AI 工作流",
-      "chinese_summary": "GitHub MCP 是 GitHub 官方发布的 MCP 服务器，允许 AI 助手直接访问和操作你的整个代码仓库。它让 AI 能够读取代码、管理 Issue、处理 Pull Request 等，极大提升了 AI 辅助开发的深度和实用性。",
-      "categories": [
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "官方出品，将 GitHub 仓库完整接入 AI 工作流，是每个使用 GitHub 的开发者必备的 MCP 工具。",
-      "install_command": "npx @github/github-mcp-server",
-      "curation_date": "2026-07-13"
-    },
-    {
-      "title": "The Silent Killer of Context Windows: Why Token Estimation is Failing Your Agents",
-      "url": "https://dev.to/renato_marinho/the-silent-killer-of-context-windows-why-token-estimation-is-failing-your-agents-309j",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "上下文窗口的无声杀手：为什么 Token 估算正在让你的 Agent 失败",
-      "chinese_summary": "本文揭示了 LLM Agent 开发中一个常见但被忽视的问题：Token 估算不准确导致上下文窗口溢出，引发模型幻觉、截断或 API 错误。作者分析了问题根源并提出了改进方案，对构建可靠 Agent 至关重要。",
+      "chinese_title": "使用 MCP 自定义 AI Agent 行为：回调、钩子、工具、插件和引导机制详解",
+      "chinese_summary": "本文深入探讨了如何通过 MCP 协议中的回调、钩子、工具、插件和引导机制来精细控制 AI Agent 的行为，使其在复杂生产环境中更可靠。对于希望从简单连接 MCP 服务器转向构建生产级 Agent 的开发者来说，这是一份实用的行为定制指南。",
       "categories": [
         "AI Agents",
-        "Research",
         "Developer Tools"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "直击 Agent 开发中的关键痛点，解决 Token 估算问题能显著提升 Agent 的稳定性和可靠性。",
-      "install_command": null,
-      "curation_date": "2026-07-13"
-    },
-    {
-      "title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
-      "url": "https://www.qbitai.com/2026/07/448925.html",
-      "source": "rss_量子位",
-      "content_type": "coding_tool",
-      "chinese_title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
-      "chinese_summary": "蚂蚁安全开源了两个安全框架，旨在解决Claude Code等AI编程工具带来的安全漏洞。这值得关注，因为AI编程工具的普及带来了新的安全挑战，这些框架为开发者提供了实用的防护方案。",
-      "categories": [
-        "AI Safety",
-        "Developer Tools",
-        "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你使用Claude Code等AI编程工具，这些安全框架能帮你防范代码漏洞。",
-      "install_command": "git clone https://github.com/ant-security/xxx-framework",
-      "curation_date": "2026-07-13"
-    },
-    {
-      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-      "source": "hacker_news",
-      "content_type": "industry",
-      "chinese_title": "将生产级 AI Agent 迁移到 GPT-5.6：速度提升 2.2 倍，成本降低 27%",
-      "chinese_summary": "分享将生产级 AI Agent 从旧模型迁移到 GPT-5.6 的实际经验，性能提升 2.2 倍且成本降低 27%。该案例为 AI 应用开发者提供了模型升级的参考。",
-      "categories": [
-        "AI Applications",
-        "Industry",
-        "Developer Tools"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你在生产环境中使用 AI Agent，这篇迁移经验能帮你评估升级收益与风险。",
+      "recommendation_reason": "如果你正在将 MCP 集成到生产级 Agent 中，这篇文章能帮你解决行为可靠性的核心难题。",
       "install_command": null,
       "curation_date": "2026-07-13"
     },
     {
-      "title": "🤗 unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
-      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-NVFP4-Fast",
-      "source": "oss_models",
-      "content_type": "open_source_model",
-      "chinese_title": "🤗 unsloth/Qwen3.6-35B-A3B-NVFP4-Fast 开源模型",
-      "chinese_summary": "这是一个基于 Qwen3.6-35B 的混合专家模型，采用 NVFP4 量化技术实现快速推理，下载量已达 73943 次。该模型在保持高性能的同时大幅降低了推理成本，适合资源受限场景下的部署。",
+      "title": "Model Context Protocol Explained: Build Your First MCP Server with Python and Docker",
+      "url": "https://dev.to/sudo_anuj/model-context-protocol-explained-build-your-first-mcp-server-with-python-and-docker-561d",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "模型上下文协议（MCP）详解：使用 Python 和 Docker 构建你的第一个 MCP 服务器",
+      "chinese_summary": "这是一篇面向初学者的 MCP 教程，解释了为什么 LLM 需要 MCP 来访问外部数据和服务，并手把手教你用 Python 和 Docker 构建第一个 MCP 服务器。它降低了 MCP 的入门门槛，是理解 AI Agent 工具调用基础设施的绝佳起点。",
       "categories": [
-        "LLM",
-        "Open Source",
+        "Developer Tools",
         "AI Infrastructure"
       ],
       "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "如果你在寻找高效推理的开源大模型，这个量化版本能显著降低部署门槛，值得尝试。",
+      "weighted_score": 5.0,
+      "recommendation_reason": "MCP 是连接 LLM 与外部世界的桥梁，这篇教程能让你快速上手并理解其核心原理。",
       "install_command": null,
       "curation_date": "2026-07-13"
     },
     {
-      "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
-      "url": "https://www.qbitai.com/2026/07/448825.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
-      "chinese_summary": "OpenAI在发布GPT-5.6后，其安全主管离职，这是两年内第六位安全高管离职。这值得关注，因为它暴露了OpenAI内部安全治理的动荡，可能影响未来模型的安全策略和发布节奏。",
+      "title": "Why Agentic AI Needs a Gateway: Agentgateway Explained from First Principles",
+      "url": "https://dev.to/sudo_anuj/why-agentic-ai-needs-a-gateway-agentgateway-explained-from-first-principles-2c1o",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "为什么 Agentic AI 需要一个网关：从第一性原理解释 Agentgateway",
+      "chinese_summary": "本文从第一性原理出发，论证了生产级 AI Agent 需要一个统一的网关（Agentgateway）来管理多 LLM 提供商、MCP 工具发现、Agent 间通信和内部 API 访问。它解决了 Agent 架构中日益增长的连接和治理复杂性，是构建健壮 Agent 系统的重要参考。",
       "categories": [
-        "AI Safety",
-        "Industry"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "关注OpenAI安全团队动荡，评估对GPT-5.6及后续模型安全性的潜在影响。",
-      "install_command": null,
-      "curation_date": "2026-07-13"
-    },
-    {
-      "title": "CNCF发布招商银行AI调度平台案例 源于范式的HAMi技术获生产级验证",
-      "url": "https://www.qbitai.com/2026/07/448824.html",
-      "source": "rss_量子位",
-      "content_type": "dev_tool",
-      "chinese_title": "CNCF发布招商银行AI调度平台案例 源于范式的HAMi技术获生产级验证",
-      "chinese_summary": "CNCF发布了招商银行基于HAMi技术的AI调度平台案例，该技术已获得生产级验证。这值得关注，因为HAMi技术解决了AI算力调度难题，对大规模AI部署和成本优化有重要参考价值。",
-      "categories": [
+        "AI Agents",
         "AI Infrastructure",
         "Developer Tools"
       ],
       "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "学习生产级AI调度平台案例，优化你的AI基础设施和算力管理。",
+      "weighted_score": 5.0,
+      "recommendation_reason": "当你的 Agent 需要调用多个外部服务时，一个统一的网关是避免架构混乱的关键，这篇文章提供了清晰的架构思路。",
       "install_command": null,
       "curation_date": "2026-07-13"
     },
     {
-      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
-      "url": "https://arxiv.org/abs/2607.08393",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "从机制上理解为什么记忆化知识在 LLM 微调中无法泛化",
-      "chinese_summary": "本文从机制层面探究大语言模型微调时，模型记住的知识为何无法泛化到新场景。该研究对理解 LLM 的过拟合与泛化边界有重要理论价值。",
+      "title": "Why your AI agent needs a CPI-pegged stablecoin (not USDC)",
+      "url": "https://dev.to/flatdefi/why-your-ai-agent-needs-a-cpi-pegged-stablecoin-not-usdc-58o4",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "为什么你的 AI Agent 需要 CPI 挂钩的稳定币（而不是 USDC）",
+      "chinese_summary": "本文探讨了 AI Agent 在自主执行任务时面临的货币价值波动问题，提出使用与消费者价格指数（CPI）挂钩的稳定币来确保 Agent 的购买力稳定。这为 AI Agent 在现实世界中进行长期、自主的经济活动提供了新的金融基础设施思路。",
       "categories": [
-        "LLM",
-        "Research"
+        "AI Agents",
+        "AI Infrastructure",
+        "Industry"
       ],
-      "importance_score": 4,
+      "importance_score": 3,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在微调 LLM 时遇到泛化问题，这篇论文能帮你从根源上理解记忆与泛化的冲突。",
+      "recommendation_reason": "如果你在构建需要与现实世界进行经济交互的自主 Agent，这篇文章提供了一个关于金融稳定性的关键视角。",
+      "install_command": null,
+      "curation_date": "2026-07-13"
+    },
+    {
+      "title": "Why for-agents.json and a public corpus beat another landing page",
+      "url": "https://dev.to/luisprimecore/why-for-agentsjson-and-a-public-corpus-beat-another-landing-page-1j2n",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "为什么 for-agents.json 和公开语料库比另一个落地页更重要",
+      "chinese_summary": "本文提出了一种面向 AI Agent 的发现机制，主张用结构化的 JSON 清单（for-agents.json）和公开语料库来替代传统的营销落地页，以便自主 Agent 能够直接发现和消费信息。这反映了 AI 时代信息发现范式的转变，即从“为人设计”转向“为 Agent 设计”。",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "Industry"
+      ],
+      "importance_score": 3,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在思考如何让你的服务或 API 被 AI Agent 发现，这篇文章提供了一个颠覆性的新思路。",
       "install_command": null,
       "curation_date": "2026-07-13"
     }
   ],
   "category_counts": {
-    "Developer Tools": 5,
-    "AI Applications": 3,
-    "AI Agents": 1,
-    "Research": 2,
-    "AI Safety": 2,
-    "Industry": 2,
-    "LLM": 2,
-    "Open Source": 1,
-    "AI Infrastructure": 2
+    "AI Agents": 4,
+    "Developer Tools": 3,
+    "AI Infrastructure": 4,
+    "Industry": 2
   },
   "content_type_counts": {
-    "mcp_server": 2,
-    "coding_tool": 1,
-    "industry": 2,
-    "open_source_model": 1,
-    "dev_tool": 1,
-    "research": 1
+    "mcp_server": 5
   }
 }

@@ -6399,10 +6399,55 @@
       "content_type": "open_source_model",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://dev.to/flatdefi/why-your-ai-agent-needs-a-cpi-pegged-stablecoin-not-usdc-58o4": {
+      "canonical_url": "https://dev.to/flatdefi/why-your-ai-agent-needs-a-cpi-pegged-stablecoin-not-usdc-58o4",
+      "first_seen": "2026-07-13 12:12:39.026743",
+      "last_seen": "2026-07-13 12:12:39.026743",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/sudo_anuj/customizing-ai-agent-behavior-with-mcp-callbacks-hooks-tools-plugins-and-steering-explained-3d4": {
+      "canonical_url": "https://dev.to/sudo_anuj/customizing-ai-agent-behavior-with-mcp-callbacks-hooks-tools-plugins-and-steering-explained-3d4",
+      "first_seen": "2026-07-13 12:12:39.026796",
+      "last_seen": "2026-07-13 12:12:39.026796",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/sudo_anuj/model-context-protocol-explained-build-your-first-mcp-server-with-python-and-docker-561d": {
+      "canonical_url": "https://dev.to/sudo_anuj/model-context-protocol-explained-build-your-first-mcp-server-with-python-and-docker-561d",
+      "first_seen": "2026-07-13 12:12:39.026819",
+      "last_seen": "2026-07-13 12:12:39.026819",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/luisprimecore/why-for-agentsjson-and-a-public-corpus-beat-another-landing-page-1j2n": {
+      "canonical_url": "https://dev.to/luisprimecore/why-for-agentsjson-and-a-public-corpus-beat-another-landing-page-1j2n",
+      "first_seen": "2026-07-13 12:12:39.026834",
+      "last_seen": "2026-07-13 12:12:39.026834",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/sudo_anuj/why-agentic-ai-needs-a-gateway-agentgateway-explained-from-first-principles-2c1o": {
+      "canonical_url": "https://dev.to/sudo_anuj/why-agentic-ai-needs-a-gateway-agentgateway-explained-from-first-principles-2c1o",
+      "first_seen": "2026-07-13 12:12:39.026849",
+      "last_seen": "2026-07-13 12:12:39.026849",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 711,
+    "total_unique_urls": 716,
     "last_pruned": null
   }
 }
