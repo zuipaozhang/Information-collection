@@ -1,104 +1,167 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-19",
+  "end_date": "2026-07-14",
   "items": [
     {
-      "title": "Customizing AI Agent Behavior with MCP: Callbacks, Hooks, Tools, Plugins, and Steering Explained",
-      "url": "https://dev.to/sudo_anuj/customizing-ai-agent-behavior-with-mcp-callbacks-hooks-tools-plugins-and-steering-explained-3d4",
+      "title": "GPT-5.6 MCP: Testing Servers With Sol, Terra & Luna",
+      "url": "https://dev.to/rupa_tiwari_dd308948d710f/gpt-56-mcp-testing-servers-with-sol-terra-luna-1524",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "使用 MCP 自定义 AI Agent 行为：回调、钩子、工具、插件和引导机制详解",
-      "chinese_summary": "本文深入探讨了如何通过 MCP 协议中的回调、钩子、工具、插件和引导机制来精细控制 AI Agent 的行为，使其在复杂生产环境中更可靠。对于希望从简单连接 MCP 服务器转向构建生产级 Agent 的开发者来说，这是一份实用的行为定制指南。",
+      "chinese_title": "GPT-5.6 MCP：使用 Sol、Terra 和 Luna 测试服务器",
+      "chinese_summary": "GPT-5.6 于 2026 年 7 月 9 日发布，分为三个层级：Sol（旗舰）、Terra（均衡）和 Luna（最便宜），均针对智能体工具调用进行了优化。所有三个层级共享 100 万 token 的上下文窗口，值得关注是因为它代表了 GPT 系列在智能体能力上的重大升级，且分层定价策略可能影响 AI 应用的成本结构。",
       "categories": [
+        "LLM",
         "AI Agents",
-        "Developer Tools"
+        "AI Infrastructure"
       ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你正在将 MCP 集成到生产级 Agent 中，这篇文章能帮你解决行为可靠性的核心难题。",
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "GPT-5.6 的分层模型和百万 token 上下文窗口将直接改变 MCP 服务器的设计和调用策略，是构建下一代智能体应用的关键参考。",
       "install_command": null,
-      "curation_date": "2026-07-13"
+      "curation_date": "2026-07-14"
     },
     {
-      "title": "Model Context Protocol Explained: Build Your First MCP Server with Python and Docker",
-      "url": "https://dev.to/sudo_anuj/model-context-protocol-explained-build-your-first-mcp-server-with-python-and-docker-561d",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "模型上下文协议（MCP）详解：使用 Python 和 Docker 构建你的第一个 MCP 服务器",
-      "chinese_summary": "这是一篇面向初学者的 MCP 教程，解释了为什么 LLM 需要 MCP 来访问外部数据和服务，并手把手教你用 Python 和 Docker 构建第一个 MCP 服务器。它降低了 MCP 的入门门槛，是理解 AI Agent 工具调用基础设施的绝佳起点。",
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "url": "https://github.com/clawkwork/clawk",
+      "source": "hacker_news",
+      "content_type": "coding_tool",
+      "chinese_title": "Show HN: Clawk – 为编程Agent提供一个独立的Linux虚拟机，而非你的笔记本电脑",
+      "chinese_summary": "Clawk是一个工具，允许编程Agent（如Claude Code）在一个临时的、隔离的Linux虚拟机中运行，而不是直接在你的本地环境中执行。这极大地提升了安全性和环境一致性。",
       "categories": [
+        "Developer Tools",
+        "AI Agents",
+        "AI Infrastructure"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "这是解决AI编程Agent安全性和环境隔离问题的实用方案，强烈推荐所有使用AI编程工具的开发者尝试。",
+      "install_command": "pip install clawk",
+      "curation_date": "2026-07-14"
+    },
+    {
+      "title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
+      "url": "https://www.qbitai.com/2026/07/449327.html",
+      "source": "rss_量子位",
+      "content_type": "coding_tool",
+      "chinese_title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
+      "chinese_summary": "一款由中国团队开发的Agent专用搜索工具登顶Product Hunt，其特点是节省Token且搜索更精准。该工具针对Agent场景优化，能提升AI应用的搜索效率和准确性。",
+      "categories": [
+        "AI Agents",
         "Developer Tools",
         "AI Infrastructure"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "MCP 是连接 LLM 与外部世界的桥梁，这篇教程能让你快速上手并理解其核心原理。",
-      "install_command": null,
-      "curation_date": "2026-07-13"
+      "recommendation_reason": "Agent专用搜索工具节省Token且更精准，适合集成到AI应用中提升搜索效率。",
+      "install_command": "npm install @agent-search/xxx",
+      "curation_date": "2026-07-14"
     },
     {
-      "title": "Why Agentic AI Needs a Gateway: Agentgateway Explained from First Principles",
-      "url": "https://dev.to/sudo_anuj/why-agentic-ai-needs-a-gateway-agentgateway-explained-from-first-principles-2c1o",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "为什么 Agentic AI 需要一个网关：从第一性原理解释 Agentgateway",
-      "chinese_summary": "本文从第一性原理出发，论证了生产级 AI Agent 需要一个统一的网关（Agentgateway）来管理多 LLM 提供商、MCP 工具发现、Agent 间通信和内部 API 访问。它解决了 Agent 架构中日益增长的连接和治理复杂性，是构建健壮 Agent 系统的重要参考。",
+      "title": "产业与全球资本共同加注，爱诗科技完成29.8亿元C轮融资",
+      "url": "https://www.qbitai.com/2026/07/449836.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "产业与全球资本共同加注，爱诗科技完成29.8亿元C轮融资",
+      "chinese_summary": "爱诗科技获得29.8亿元C轮融资，显示产业和全球资本对AI领域的持续看好。这笔巨额融资将加速其技术研发和市场拓展，反映AI行业的高景气度。",
       "categories": [
-        "AI Agents",
+        "Industry",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "了解爱诗科技的融资动态，把握AI产业资本流向和投资热点。",
+      "install_command": null,
+      "curation_date": "2026-07-14"
+    },
+    {
+      "title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
+      "url": "https://www.qbitai.com/2026/07/449311.html",
+      "source": "rss_量子位",
+      "content_type": "dev_tool",
+      "chinese_title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
+      "chinese_summary": "浪潮信息发布CPU原生液冷整机柜和多模融合超节点，支持单柜运行4万个Agent，同时通过大模型组队答题提升智能。这展示了AI基础设施在Agent规模化部署上的突破。",
+      "categories": [
         "AI Infrastructure",
+        "AI Agents",
         "Developer Tools"
       ],
       "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "当你的 Agent 需要调用多个外部服务时，一个统一的网关是避免架构混乱的关键，这篇文章提供了清晰的架构思路。",
+      "weighted_score": 4.0,
+      "recommendation_reason": "浪潮信息的Agent规模化部署方案，对构建大规模Agent系统有重要参考价值。",
       "install_command": null,
-      "curation_date": "2026-07-13"
+      "curation_date": "2026-07-14"
     },
     {
-      "title": "Why your AI agent needs a CPI-pegged stablecoin (not USDC)",
-      "url": "https://dev.to/flatdefi/why-your-ai-agent-needs-a-cpi-pegged-stablecoin-not-usdc-58o4",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "为什么你的 AI Agent 需要 CPI 挂钩的稳定币（而不是 USDC）",
-      "chinese_summary": "本文探讨了 AI Agent 在自主执行任务时面临的货币价值波动问题，提出使用与消费者价格指数（CPI）挂钩的稳定币来确保 Agent 的购买力稳定。这为 AI Agent 在现实世界中进行长期、自主的经济活动提供了新的金融基础设施思路。",
+      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
+      "url": "https://arxiv.org/abs/2607.11505",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "代理探索与可复用引导：一种通过代理引导更新信号的模块化 LLM 后训练范式",
+      "chinese_summary": "本文提出了一种名为 Proxy Exploration and Reusable Guidance 的模块化 LLM 后训练范式，通过代理引导的更新信号来提升模型性能。该方法将探索与引导过程解耦，使得训练信号可复用，为高效微调大模型提供了新思路。",
       "categories": [
-        "AI Agents",
-        "AI Infrastructure",
-        "Industry"
+        "LLM",
+        "Research"
       ],
-      "importance_score": 3,
+      "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在构建需要与现实世界进行经济交互的自主 Agent，这篇文章提供了一个关于金融稳定性的关键视角。",
+      "recommendation_reason": "如果你在探索更高效的 LLM 后训练方法，这篇论文提出的模块化范式可能显著降低计算成本并提升微调效果。",
       "install_command": null,
-      "curation_date": "2026-07-13"
+      "curation_date": "2026-07-14"
     },
     {
-      "title": "Why for-agents.json and a public corpus beat another landing page",
-      "url": "https://dev.to/luisprimecore/why-for-agentsjson-and-a-public-corpus-beat-another-landing-page-1j2n",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "为什么 for-agents.json 和公开语料库比另一个落地页更重要",
-      "chinese_summary": "本文提出了一种面向 AI Agent 的发现机制，主张用结构化的 JSON 清单（for-agents.json）和公开语料库来替代传统的营销落地页，以便自主 Agent 能够直接发现和消费信息。这反映了 AI 时代信息发现范式的转变，即从“为人设计”转向“为 Agent 设计”。",
+      "title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
+      "url": "https://www.qbitai.com/2026/07/449568.html",
+      "source": "rss_量子位",
+      "content_type": "dev_tool",
+      "chinese_title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
+      "chinese_summary": "高德推出ABot-World Studio，这是一个通用世界模型工坊，能在单张5090显卡上生成小时级的实时交互式视频和3D场景。该工具降低了世界模型的门槛，对游戏、仿真等领域有重要应用价值。",
       "categories": [
-        "AI Agents",
-        "AI Infrastructure",
-        "Industry"
+        "Computer Vision",
+        "AI Applications",
+        "Developer Tools"
       ],
-      "importance_score": 3,
+      "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在思考如何让你的服务或 API 被 AI Agent 发现，这篇文章提供了一个颠覆性的新思路。",
+      "recommendation_reason": "ABot-World Studio让单卡生成实时3D场景成为可能，适合探索世界模型在交互式应用中的落地。",
       "install_command": null,
-      "curation_date": "2026-07-13"
+      "curation_date": "2026-07-14"
+    },
+    {
+      "title": "Model Context Protocol (MCP): The Backbone of Future-Ready AI Systems",
+      "url": "https://dev.to/pranutha_inextlabs/model-context-protocol-mcp-the-backbone-of-future-ready-ai-systems-4f4a",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "模型上下文协议 (MCP)：未来就绪 AI 系统的支柱",
+      "chinese_summary": "本文阐述了 MCP 协议如何通过提供结构、相关性和记忆来增强 AI 系统的上下文能力，使其从功能性工具转变为变革性系统。值得关注是因为 MCP 正成为构建复杂 AI 应用的关键基础设施，理解其原理对 AI 从业者至关重要。",
+      "categories": [
+        "AI Infrastructure",
+        "AI Agents",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你想深入理解 MCP 协议的设计哲学及其在 AI 系统中的作用，这篇文章提供了清晰的全局视角。",
+      "install_command": null,
+      "curation_date": "2026-07-14"
     }
   ],
   "category_counts": {
-    "AI Agents": 4,
-    "Developer Tools": 3,
-    "AI Infrastructure": 4,
-    "Industry": 2
+    "LLM": 2,
+    "AI Agents": 5,
+    "AI Infrastructure": 5,
+    "Developer Tools": 4,
+    "Industry": 1,
+    "AI Applications": 2,
+    "Research": 2,
+    "Computer Vision": 1
   },
   "content_type_counts": {
-    "mcp_server": 5
+    "mcp_server": 1,
+    "coding_tool": 2,
+    "industry": 1,
+    "dev_tool": 2,
+    "research": 1,
+    "guide": 1
   }
 }
