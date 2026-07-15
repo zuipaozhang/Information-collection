@@ -1,167 +1,168 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-14",
+  "end_date": "2026-07-15",
   "items": [
     {
-      "title": "GPT-5.6 MCP: Testing Servers With Sol, Terra & Luna",
-      "url": "https://dev.to/rupa_tiwari_dd308948d710f/gpt-56-mcp-testing-servers-with-sol-terra-luna-1524",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "GPT-5.6 MCP：使用 Sol、Terra 和 Luna 测试服务器",
-      "chinese_summary": "GPT-5.6 于 2026 年 7 月 9 日发布，分为三个层级：Sol（旗舰）、Terra（均衡）和 Luna（最便宜），均针对智能体工具调用进行了优化。所有三个层级共享 100 万 token 的上下文窗口，值得关注是因为它代表了 GPT 系列在智能体能力上的重大升级，且分层定价策略可能影响 AI 应用的成本结构。",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "source": "hacker_news",
+      "content_type": "open_source_model",
+      "chinese_title": "Bonsai 27B：可在手机上运行的27B参数模型",
+      "chinese_summary": "Bonsai 27B 是一个27B参数的大语言模型，经过优化后可在手机上本地运行。这标志着大模型在移动端部署的重大突破，对边缘AI和隐私保护有重要意义。",
       "categories": [
         "LLM",
-        "AI Agents",
-        "AI Infrastructure"
+        "AI Infrastructure",
+        "Open Source"
       ],
       "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "GPT-5.6 的分层模型和百万 token 上下文窗口将直接改变 MCP 服务器的设计和调用策略，是构建下一代智能体应用的关键参考。",
+      "weighted_score": 5.5,
+      "recommendation_reason": "27B模型能在手机上运行，极大降低了AI应用的门槛，对移动端AI开发和边缘计算从业者是重大利好。",
       "install_command": null,
-      "curation_date": "2026-07-14"
+      "curation_date": "2026-07-15"
     },
     {
-      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
-      "url": "https://github.com/clawkwork/clawk",
-      "source": "hacker_news",
-      "content_type": "coding_tool",
-      "chinese_title": "Show HN: Clawk – 为编程Agent提供一个独立的Linux虚拟机，而非你的笔记本电脑",
-      "chinese_summary": "Clawk是一个工具，允许编程Agent（如Claude Code）在一个临时的、隔离的Linux虚拟机中运行，而不是直接在你的本地环境中执行。这极大地提升了安全性和环境一致性。",
-      "categories": [
-        "Developer Tools",
-        "AI Agents",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "这是解决AI编程Agent安全性和环境隔离问题的实用方案，强烈推荐所有使用AI编程工具的开发者尝试。",
-      "install_command": "pip install clawk",
-      "curation_date": "2026-07-14"
-    },
-    {
-      "title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
-      "url": "https://www.qbitai.com/2026/07/449327.html",
+      "title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
+      "url": "https://www.qbitai.com/2026/07/448475.html",
       "source": "rss_量子位",
       "content_type": "coding_tool",
-      "chinese_title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
-      "chinese_summary": "一款由中国团队开发的Agent专用搜索工具登顶Product Hunt，其特点是节省Token且搜索更精准。该工具针对Agent场景优化，能提升AI应用的搜索效率和准确性。",
+      "chinese_title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
+      "chinese_summary": "文章报道了一款免费AI编程工具进入全球第一梯队，并提供了实测结果。这标志着AI编程工具竞争加剧，免费工具的性能提升对开发者选择有重要影响。",
       "categories": [
-        "AI Agents",
         "Developer Tools",
-        "AI Infrastructure"
+        "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "Agent专用搜索工具节省Token且更精准，适合集成到AI应用中提升搜索效率。",
-      "install_command": "npm install @agent-search/xxx",
-      "curation_date": "2026-07-14"
+      "recommendation_reason": "关注免费AI编程工具的最新进展，可帮助开发者优化工作流并降低工具成本。",
+      "install_command": null,
+      "curation_date": "2026-07-15"
     },
     {
-      "title": "产业与全球资本共同加注，爱诗科技完成29.8亿元C轮融资",
-      "url": "https://www.qbitai.com/2026/07/449836.html",
+      "title": "A wallet that signs is not a layer that settles: reading Phantom's agent MCP",
+      "url": "https://dev.to/barissozen/a-wallet-that-signs-is-not-a-layer-that-settles-reading-phantoms-agent-mcp-2pl2",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "能签名的钱包不是结算层：解读Phantom的Agent MCP",
+      "chinese_summary": "Phantom发布了MCP服务器，允许AI Agent直接操作钱包，提供获取地址、签名消息、签名交易、转账和购买代币等工具。这标志着AI Agent与区块链钱包的深度集成，对DeFi和AI Agent生态有重要意义。",
+      "categories": [
+        "AI Agents",
+        "AI Applications",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "了解AI Agent如何通过MCP与区块链交互，为开发去中心化AI应用提供新思路。",
+      "install_command": "npx @phantom/agent-mcp",
+      "curation_date": "2026-07-15"
+    },
+    {
+      "title": "MCP Design Patterns: 6 Architectures for Your AI Tools",
+      "url": "https://dev.to/ben-witt/mcp-design-patterns-6-architectures-for-your-ai-tools-1d02",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP 设计模式：AI 工具的 6 种架构",
+      "chinese_summary": "本文深入探讨了 MCP 服务器背后的架构设计，提出了 6 种不同的设计模式。对于正在构建或优化 MCP 服务器的开发者来说，理解这些模式有助于做出更合理的架构决策。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "系统性地梳理了 MCP 服务器架构模式，是提升 MCP 服务设计水平的必读指南。",
+      "install_command": null,
+      "curation_date": "2026-07-15"
+    },
+    {
+      "title": "Demis Hassabis has a plan to harness AI safely",
+      "url": "https://twitter.com/demishassabis/status/2076957440109625718",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "Demis Hassabis 计划如何安全地驾驭 AI",
+      "chinese_summary": "DeepMind 联合创始人 Demis Hassabis 分享了他对 AI 安全发展的战略规划，包括对齐研究和治理框架。这是了解顶级 AI 实验室安全思路的重要窗口。",
+      "categories": [
+        "AI Safety",
+        "Industry",
+        "Research"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "AI 安全是行业核心议题，Hassabis 的观点对从业者具有战略指导意义。",
+      "install_command": null,
+      "curation_date": "2026-07-15"
+    },
+    {
+      "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+      "url": "https://www.qbitai.com/2026/07/450101.html",
       "source": "rss_量子位",
       "content_type": "industry",
-      "chinese_title": "产业与全球资本共同加注，爱诗科技完成29.8亿元C轮融资",
-      "chinese_summary": "爱诗科技获得29.8亿元C轮融资，显示产业和全球资本对AI领域的持续看好。这笔巨额融资将加速其技术研发和市场拓展，反映AI行业的高景气度。",
+      "chinese_title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+      "chinese_summary": "DeepSeek以4800亿估值启动新一轮融资，较首轮估值上涨37%，并计划最快明年IPO。这一融资动态反映了市场对AI大模型公司的高度认可，也预示着行业竞争加剧。",
       "categories": [
         "Industry",
+        "AI Infrastructure"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "DeepSeek的估值飙升和IPO计划是AI行业资本市场的重大信号，直接影响从业者的职业和投资决策。",
+      "install_command": null,
+      "curation_date": "2026-07-15"
+    },
+    {
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "我欺骗 Claude 泄露了你最深最暗的秘密",
+      "chinese_summary": "本文展示了通过提示注入攻击，成功诱导 Claude 模型泄露用户隐私信息。这暴露了大语言模型在安全性和隐私保护方面的严重缺陷，对AI安全从业者具有警示意义。",
+      "categories": [
+        "AI Safety",
+        "Industry",
+        "LLM"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "提示注入攻击是当前LLM安全的核心挑战，这篇文章揭示了实际风险，对AI安全研究和应用开发者至关重要。",
+      "install_command": null,
+      "curation_date": "2026-07-15"
+    },
+    {
+      "title": "又快又聪明，阿里发布Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
+      "url": "https://www.qbitai.com/2026/07/450250.html",
+      "source": "rss_量子位",
+      "content_type": "model_release",
+      "chinese_title": "又快又聪明，阿里发布Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
+      "chinese_summary": "阿里发布Qwen-Audio-3.0-Realtime实时语音大模型，在语音识别、合成、理解和交互四项功能上实现升级。该模型提升了实时语音处理的效率和智能水平，对语音助手、客服等应用场景有重要价值。",
+      "categories": [
+        "NLP",
+        "Multimodal",
         "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "了解爱诗科技的融资动态，把握AI产业资本流向和投资热点。",
+      "recommendation_reason": "实时语音大模型是AI交互的关键技术，Qwen-Audio-3.0的升级为开发者提供了更强大的工具。",
       "install_command": null,
-      "curation_date": "2026-07-14"
-    },
-    {
-      "title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
-      "url": "https://www.qbitai.com/2026/07/449311.html",
-      "source": "rss_量子位",
-      "content_type": "dev_tool",
-      "chinese_title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
-      "chinese_summary": "浪潮信息发布CPU原生液冷整机柜和多模融合超节点，支持单柜运行4万个Agent，同时通过大模型组队答题提升智能。这展示了AI基础设施在Agent规模化部署上的突破。",
-      "categories": [
-        "AI Infrastructure",
-        "AI Agents",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "浪潮信息的Agent规模化部署方案，对构建大规模Agent系统有重要参考价值。",
-      "install_command": null,
-      "curation_date": "2026-07-14"
-    },
-    {
-      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
-      "url": "https://arxiv.org/abs/2607.11505",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "代理探索与可复用引导：一种通过代理引导更新信号的模块化 LLM 后训练范式",
-      "chinese_summary": "本文提出了一种名为 Proxy Exploration and Reusable Guidance 的模块化 LLM 后训练范式，通过代理引导的更新信号来提升模型性能。该方法将探索与引导过程解耦，使得训练信号可复用，为高效微调大模型提供了新思路。",
-      "categories": [
-        "LLM",
-        "Research"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你在探索更高效的 LLM 后训练方法，这篇论文提出的模块化范式可能显著降低计算成本并提升微调效果。",
-      "install_command": null,
-      "curation_date": "2026-07-14"
-    },
-    {
-      "title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
-      "url": "https://www.qbitai.com/2026/07/449568.html",
-      "source": "rss_量子位",
-      "content_type": "dev_tool",
-      "chinese_title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
-      "chinese_summary": "高德推出ABot-World Studio，这是一个通用世界模型工坊，能在单张5090显卡上生成小时级的实时交互式视频和3D场景。该工具降低了世界模型的门槛，对游戏、仿真等领域有重要应用价值。",
-      "categories": [
-        "Computer Vision",
-        "AI Applications",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "ABot-World Studio让单卡生成实时3D场景成为可能，适合探索世界模型在交互式应用中的落地。",
-      "install_command": null,
-      "curation_date": "2026-07-14"
-    },
-    {
-      "title": "Model Context Protocol (MCP): The Backbone of Future-Ready AI Systems",
-      "url": "https://dev.to/pranutha_inextlabs/model-context-protocol-mcp-the-backbone-of-future-ready-ai-systems-4f4a",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "模型上下文协议 (MCP)：未来就绪 AI 系统的支柱",
-      "chinese_summary": "本文阐述了 MCP 协议如何通过提供结构、相关性和记忆来增强 AI 系统的上下文能力，使其从功能性工具转变为变革性系统。值得关注是因为 MCP 正成为构建复杂 AI 应用的关键基础设施，理解其原理对 AI 从业者至关重要。",
-      "categories": [
-        "AI Infrastructure",
-        "AI Agents",
-        "Research"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你想深入理解 MCP 协议的设计哲学及其在 AI 系统中的作用，这篇文章提供了清晰的全局视角。",
-      "install_command": null,
-      "curation_date": "2026-07-14"
+      "curation_date": "2026-07-15"
     }
   ],
   "category_counts": {
     "LLM": 2,
-    "AI Agents": 5,
-    "AI Infrastructure": 5,
-    "Developer Tools": 4,
-    "Industry": 1,
-    "AI Applications": 2,
-    "Research": 2,
-    "Computer Vision": 1
+    "AI Infrastructure": 3,
+    "Open Source": 1,
+    "Developer Tools": 2,
+    "AI Applications": 3,
+    "AI Agents": 1,
+    "Industry": 4,
+    "AI Safety": 2,
+    "Research": 1,
+    "NLP": 1,
+    "Multimodal": 1
   },
   "content_type_counts": {
-    "mcp_server": 1,
-    "coding_tool": 2,
-    "industry": 1,
-    "dev_tool": 2,
-    "research": 1,
-    "guide": 1
+    "open_source_model": 1,
+    "coding_tool": 1,
+    "mcp_server": 2,
+    "industry": 3,
+    "model_release": 1
   }
 }

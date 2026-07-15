@@ -7002,10 +7002,667 @@
       "content_type": "coding_tool",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450831.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450831.html",
+      "first_seen": "2026-07-15 09:59:04.005967",
+      "last_seen": "2026-07-15 09:59:04.005967",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450709.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450709.html",
+      "first_seen": "2026-07-15 09:59:04.006074",
+      "last_seen": "2026-07-15 09:59:04.006074",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450130.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450130.html",
+      "first_seen": "2026-07-15 09:59:04.006093",
+      "last_seen": "2026-07-15 09:59:04.006093",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450657.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450657.html",
+      "first_seen": "2026-07-15 09:59:04.006106",
+      "last_seen": "2026-07-15 09:59:04.006106",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450652.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450652.html",
+      "first_seen": "2026-07-15 09:59:04.006115",
+      "last_seen": "2026-07-15 09:59:04.006115",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450385.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450385.html",
+      "first_seen": "2026-07-15 09:59:04.006125",
+      "last_seen": "2026-07-15 09:59:04.006125",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450250.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450250.html",
+      "first_seen": "2026-07-15 09:59:04.006140",
+      "last_seen": "2026-07-15 09:59:04.006140",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/450101.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/450101.html",
+      "first_seen": "2026-07-15 09:59:04.006159",
+      "last_seen": "2026-07-15 09:59:04.006159",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/449979.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/449979.html",
+      "first_seen": "2026-07-15 09:59:04.006175",
+      "last_seen": "2026-07-15 09:59:04.006175",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/448475.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/448475.html",
+      "first_seen": "2026-07-15 09:59:04.006194",
+      "last_seen": "2026-07-15 09:59:04.006194",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+      "first_seen": "2026-07-15 09:59:04.006264",
+      "last_seen": "2026-07-15 09:59:04.006264",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
+      "first_seen": "2026-07-15 09:59:04.006280",
+      "last_seen": "2026-07-15 09:59:04.006280",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
+      "first_seen": "2026-07-15 09:59:04.006298",
+      "last_seen": "2026-07-15 09:59:04.006298",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
+      "first_seen": "2026-07-15 09:59:04.006330",
+      "last_seen": "2026-07-15 09:59:04.006330",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
+      "first_seen": "2026-07-15 09:59:04.006342",
+      "last_seen": "2026-07-15 09:59:04.006342",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta",
+      "first_seen": "2026-07-15 09:59:04.006353",
+      "last_seen": "2026-07-15 09:59:04.006353",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
+      "first_seen": "2026-07-15 09:59:04.006364",
+      "last_seen": "2026-07-15 09:59:04.006364",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone",
+      "first_seen": "2026-07-15 09:59:04.006387",
+      "last_seen": "2026-07-15 09:59:04.006387",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+      "first_seen": "2026-07-15 09:59:04.006419",
+      "last_seen": "2026-07-15 09:59:04.006419",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai",
+      "first_seen": "2026-07-15 09:59:04.006432",
+      "last_seen": "2026-07-15 09:59:04.006432",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
+      "first_seen": "2026-07-15 09:59:04.006444",
+      "last_seen": "2026-07-15 09:59:04.006444",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery",
+      "first_seen": "2026-07-15 09:59:04.006463",
+      "last_seen": "2026-07-15 09:59:04.006463",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
+      "first_seen": "2026-07-15 09:59:04.006490",
+      "last_seen": "2026-07-15 09:59:04.006490",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius",
+      "first_seen": "2026-07-15 09:59:04.006502",
+      "last_seen": "2026-07-15 09:59:04.006502",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face": {
+      "canonical_url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face",
+      "first_seen": "2026-07-15 09:59:04.006514",
+      "last_seen": "2026-07-15 09:59:04.006514",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/virattt/ai-hedge-fund": {
+      "canonical_url": "https://github.com/virattt/ai-hedge-fund",
+      "first_seen": "2026-07-15 09:59:04.006555",
+      "last_seen": "2026-07-15 09:59:04.006555",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/AIEraDev/Clypra": {
+      "canonical_url": "https://github.com/AIEraDev/Clypra",
+      "first_seen": "2026-07-15 09:59:04.006616",
+      "last_seen": "2026-07-15 09:59:04.006616",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/HenryNdubuaku/maths-cs-ai-compendium": {
+      "canonical_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "first_seen": "2026-07-15 09:59:04.006639",
+      "last_seen": "2026-07-15 09:59:04.006639",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11886": {
+      "canonical_url": "https://arxiv.org/abs/2607.11886",
+      "first_seen": "2026-07-15 09:59:04.006652",
+      "last_seen": "2026-07-15 09:59:04.006652",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11111": {
+      "canonical_url": "https://arxiv.org/abs/2607.11111",
+      "first_seen": "2026-07-15 09:59:04.006663",
+      "last_seen": "2026-07-15 09:59:04.006663",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11250": {
+      "canonical_url": "https://arxiv.org/abs/2607.11250",
+      "first_seen": "2026-07-15 09:59:04.006673",
+      "last_seen": "2026-07-15 09:59:04.006673",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11862": {
+      "canonical_url": "https://arxiv.org/abs/2607.11862",
+      "first_seen": "2026-07-15 09:59:04.006686",
+      "last_seen": "2026-07-15 09:59:04.006686",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11736": {
+      "canonical_url": "https://arxiv.org/abs/2607.11736",
+      "first_seen": "2026-07-15 09:59:04.006696",
+      "last_seen": "2026-07-15 09:59:04.006696",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.07470": {
+      "canonical_url": "https://arxiv.org/abs/2607.07470",
+      "first_seen": "2026-07-15 09:59:04.006706",
+      "last_seen": "2026-07-15 09:59:04.006706",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11643": {
+      "canonical_url": "https://arxiv.org/abs/2607.11643",
+      "first_seen": "2026-07-15 09:59:04.006716",
+      "last_seen": "2026-07-15 09:59:04.006716",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.09701": {
+      "canonical_url": "https://arxiv.org/abs/2607.09701",
+      "first_seen": "2026-07-15 09:59:04.006735",
+      "last_seen": "2026-07-15 09:59:04.006735",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://arxiv.org/abs/2607.11885": {
+      "canonical_url": "https://arxiv.org/abs/2607.11885",
+      "first_seen": "2026-07-15 09:59:04.006772",
+      "last_seen": "2026-07-15 09:59:04.006772",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://fabiensanglard.net/jurrasic_park_computers/index.html": {
+      "canonical_url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+      "first_seen": "2026-07-15 09:59:04.007151",
+      "last_seen": "2026-07-15 09:59:04.007151",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://prismml.com/news/bonsai-27b": {
+      "canonical_url": "https://prismml.com/news/bonsai-27b",
+      "first_seen": "2026-07-15 09:59:04.007182",
+      "last_seen": "2026-07-15 09:59:04.007182",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://tailscale.com/security-bulletins": {
+      "canonical_url": "https://tailscale.com/security-bulletins",
+      "first_seen": "2026-07-15 09:59:04.007200",
+      "last_seen": "2026-07-15 09:59:04.007200",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.ayush.digital/blog/the-memory-heist": {
+      "canonical_url": "https://www.ayush.digital/blog/the-memory-heist",
+      "first_seen": "2026-07-15 09:59:04.007214",
+      "last_seen": "2026-07-15 09:59:04.007214",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left": {
+      "canonical_url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "first_seen": "2026-07-15 09:59:04.007227",
+      "last_seen": "2026-07-15 09:59:04.007227",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing": {
+      "canonical_url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "first_seen": "2026-07-15 09:59:04.007242",
+      "last_seen": "2026-07-15 09:59:04.007242",
+      "source": "hacker_news",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://2b2t.place/1million": {
+      "canonical_url": "https://2b2t.place/1million",
+      "first_seen": "2026-07-15 09:59:04.007252",
+      "last_seen": "2026-07-15 09:59:04.007252",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/juggler-ai/juggler": {
+      "canonical_url": "https://github.com/juggler-ai/juggler",
+      "first_seen": "2026-07-15 09:59:04.007260",
+      "last_seen": "2026-07-15 09:59:04.007260",
+      "source": "hacker_news",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.artfish.ai/p/offloading-thinking-to-ai": {
+      "canonical_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "first_seen": "2026-07-15 09:59:04.007267",
+      "last_seen": "2026-07-15 09:59:04.007267",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works": {
+      "canonical_url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
+      "first_seen": "2026-07-15 09:59:04.007282",
+      "last_seen": "2026-07-15 09:59:04.007282",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.thoughtworks.com/insights/blog/open-source/zero-cost-fallacy-open-source-agentic-era": {
+      "canonical_url": "https://www.thoughtworks.com/insights/blog/open-source/zero-cost-fallacy-open-source-agentic-era",
+      "first_seen": "2026-07-15 09:59:04.007290",
+      "last_seen": "2026-07-15 09:59:04.007290",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://twitter.com/demishassabis/status/2076957440109625718": {
+      "canonical_url": "https://twitter.com/demishassabis/status/2076957440109625718",
+      "first_seen": "2026-07-15 09:59:04.007298",
+      "last_seen": "2026-07-15 09:59:04.007298",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.bbc.com/news/articles/cg53l737v1qo": {
+      "canonical_url": "https://www.bbc.com/news/articles/cg53l737v1qo",
+      "first_seen": "2026-07-15 09:59:04.007307",
+      "last_seen": "2026-07-15 09:59:04.007307",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.bis.org/publ/bisbull120.pdf": {
+      "canonical_url": "https://www.bis.org/publ/bisbull120.pdf",
+      "first_seen": "2026-07-15 09:59:04.007314",
+      "last_seen": "2026-07-15 09:59:04.007314",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/Danau5tin/ai-trains-ai": {
+      "canonical_url": "https://github.com/Danau5tin/ai-trains-ai",
+      "first_seen": "2026-07-15 09:59:04.007321",
+      "last_seen": "2026-07-15 09:59:04.007321",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/barissozen/a-wallet-that-signs-is-not-a-layer-that-settles-reading-phantoms-agent-mcp-2pl2": {
+      "canonical_url": "https://dev.to/barissozen/a-wallet-that-signs-is-not-a-layer-that-settles-reading-phantoms-agent-mcp-2pl2",
+      "first_seen": "2026-07-15 09:59:04.007350",
+      "last_seen": "2026-07-15 09:59:04.007350",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/ztext_zksnarks/ai-agents-have-a-metadata-problem-mcp-and-a2a-dont-solve-it-1472": {
+      "canonical_url": "https://dev.to/ztext_zksnarks/ai-agents-have-a-metadata-problem-mcp-and-a2a-dont-solve-it-1472",
+      "first_seen": "2026-07-15 09:59:04.007362",
+      "last_seen": "2026-07-15 09:59:04.007362",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/alekseykazandaev/how-to-give-ai-agents-website-screenshots-with-mcp-2026-2bma": {
+      "canonical_url": "https://dev.to/alekseykazandaev/how-to-give-ai-agents-website-screenshots-with-mcp-2026-2bma",
+      "first_seen": "2026-07-15 09:59:04.007373",
+      "last_seen": "2026-07-15 09:59:04.007373",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/ben-witt/mcp-design-patterns-6-architectures-for-your-ai-tools-1d02": {
+      "canonical_url": "https://dev.to/ben-witt/mcp-design-patterns-6-architectures-for-your-ai-tools-1d02",
+      "first_seen": "2026-07-15 09:59:04.007384",
+      "last_seen": "2026-07-15 09:59:04.007384",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/reelmint/best-mcp-servers-for-video-2026-how-to-actually-judge-one-1gk3": {
+      "canonical_url": "https://dev.to/reelmint/best-mcp-servers-for-video-2026-how-to-actually-judge-one-1gk3",
+      "first_seen": "2026-07-15 09:59:04.007395",
+      "last_seen": "2026-07-15 09:59:04.007395",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/dublecc/best-mcp-servers-for-claude-code-in-2026-a-curated-job-by-job-guide-1bnd": {
+      "canonical_url": "https://dev.to/dublecc/best-mcp-servers-for-claude-code-in-2026-a-curated-job-by-job-guide-1bnd",
+      "first_seen": "2026-07-15 09:59:04.007406",
+      "last_seen": "2026-07-15 09:59:04.007406",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/yashwanth_kasi/day-530-state-vs-memory-in-langgraph-565k": {
+      "canonical_url": "https://dev.to/yashwanth_kasi/day-530-state-vs-memory-in-langgraph-565k",
+      "first_seen": "2026-07-15 09:59:04.007417",
+      "last_seen": "2026-07-15 09:59:04.007417",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/lazymac2x/json-schema-validator-api-5bun-ane-peurojegteue-tonghabhagi-55n4": {
+      "canonical_url": "https://dev.to/lazymac2x/json-schema-validator-api-5bun-ane-peurojegteue-tonghabhagi-55n4",
+      "first_seen": "2026-07-15 09:59:04.007427",
+      "last_seen": "2026-07-15 09:59:04.007427",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/peculiarengineer/build-your-first-mcp-server-in-python-give-claude-your-own-notes-lah": {
+      "canonical_url": "https://dev.to/peculiarengineer/build-your-first-mcp-server-in-python-give-claude-your-own-notes-lah",
+      "first_seen": "2026-07-15 09:59:04.007438",
+      "last_seen": "2026-07-15 09:59:04.007438",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/nomurasan/i-built-3-checks-into-my-ais-slack-workflow-ive-used-one-of-them-zero-times-5ak1": {
+      "canonical_url": "https://dev.to/nomurasan/i-built-3-checks-into-my-ais-slack-workflow-ive-used-one-of-them-zero-times-5ak1",
+      "first_seen": "2026-07-15 09:59:04.007449",
+      "last_seen": "2026-07-15 09:59:04.007449",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/67e2dbaa77dfa311eab4154cca01f35477f44f38": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/67e2dbaa77dfa311eab4154cca01f35477f44f38",
+      "first_seen": "2026-07-15 09:59:04.007461",
+      "last_seen": "2026-07-15 09:59:04.007461",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/jayteealao/agent-skills/commit/190a4d05d286f516b1fb3243a484ff10985f2980": {
+      "canonical_url": "https://github.com/jayteealao/agent-skills/commit/190a4d05d286f516b1fb3243a484ff10985f2980",
+      "first_seen": "2026-07-15 09:59:04.007472",
+      "last_seen": "2026-07-15 09:59:04.007472",
+      "source": "claude_plugins",
+      "content_type": "claude_skill",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/pydantic/pydantic-ai/releases/tag/v2.10.0": {
+      "canonical_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.10.0",
+      "first_seen": "2026-07-15 09:59:04.007482",
+      "last_seen": "2026-07-15 09:59:04.007482",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.39": {
+      "canonical_url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code==0.1.39",
+      "first_seen": "2026-07-15 09:59:04.007493",
+      "last_seen": "2026-07-15 09:59:04.007493",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b10016": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10016",
+      "first_seen": "2026-07-15 09:59:04.007500",
+      "last_seen": "2026-07-15 09:59:04.007500",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b10015": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10015",
+      "first_seen": "2026-07-15 09:59:04.007508",
+      "last_seen": "2026-07-15 09:59:04.007508",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9999": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9999",
+      "first_seen": "2026-07-15 09:59:04.007515",
+      "last_seen": "2026-07-15 09:59:04.007515",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b9996": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9996",
+      "first_seen": "2026-07-15 09:59:04.007522",
+      "last_seen": "2026-07-15 09:59:04.007522",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.210": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+      "first_seen": "2026-07-15 09:59:04.007532",
+      "last_seen": "2026-07-15 09:59:04.007532",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF": {
+      "canonical_url": "https://huggingface.co/RavichandranJ/Dolphin3-Cyber-8B-GGUF",
+      "first_seen": "2026-07-15 09:59:04.007639",
+      "last_seen": "2026-07-15 09:59:04.007639",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary": {
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
+      "first_seen": "2026-07-15 09:59:04.007724",
+      "last_seen": "2026-07-15 09:59:04.007724",
+      "source": "official_blogs",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 778,
+    "total_unique_urls": 851,
     "last_pruned": null
   }
 }
