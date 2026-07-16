@@ -1,168 +1,168 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-15",
+  "end_date": "2026-07-16",
   "items": [
     {
-      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-      "url": "https://prismml.com/news/bonsai-27b",
-      "source": "hacker_news",
-      "content_type": "open_source_model",
-      "chinese_title": "Bonsai 27B：可在手机上运行的27B参数模型",
-      "chinese_summary": "Bonsai 27B 是一个27B参数的大语言模型，经过优化后可在手机上本地运行。这标志着大模型在移动端部署的重大突破，对边缘AI和隐私保护有重要意义。",
-      "categories": [
-        "LLM",
-        "AI Infrastructure",
-        "Open Source"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.5,
-      "recommendation_reason": "27B模型能在手机上运行，极大降低了AI应用的门槛，对移动端AI开发和边缘计算从业者是重大利好。",
-      "install_command": null,
-      "curation_date": "2026-07-15"
-    },
-    {
-      "title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
-      "url": "https://www.qbitai.com/2026/07/448475.html",
-      "source": "rss_量子位",
-      "content_type": "coding_tool",
-      "chinese_title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
-      "chinese_summary": "文章报道了一款免费AI编程工具进入全球第一梯队，并提供了实测结果。这标志着AI编程工具竞争加剧，免费工具的性能提升对开发者选择有重要影响。",
-      "categories": [
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "关注免费AI编程工具的最新进展，可帮助开发者优化工作流并降低工具成本。",
-      "install_command": null,
-      "curation_date": "2026-07-15"
-    },
-    {
-      "title": "A wallet that signs is not a layer that settles: reading Phantom's agent MCP",
-      "url": "https://dev.to/barissozen/a-wallet-that-signs-is-not-a-layer-that-settles-reading-phantoms-agent-mcp-2pl2",
+      "title": "Anthropic MCP RCE: 7,000 Servers Exposed and Why L1 Fast-Path Matters",
+      "url": "https://dev.to/alejandxr/anthropic-mcp-rce-7000-servers-exposed-and-why-l1-fast-path-matters-cao",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "能签名的钱包不是结算层：解读Phantom的Agent MCP",
-      "chinese_summary": "Phantom发布了MCP服务器，允许AI Agent直接操作钱包，提供获取地址、签名消息、签名交易、转账和购买代币等工具。这标志着AI Agent与区块链钱包的深度集成，对DeFi和AI Agent生态有重要意义。",
-      "categories": [
-        "AI Agents",
-        "AI Applications",
-        "Industry"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "了解AI Agent如何通过MCP与区块链交互，为开发去中心化AI应用提供新思路。",
-      "install_command": "npx @phantom/agent-mcp",
-      "curation_date": "2026-07-15"
-    },
-    {
-      "title": "MCP Design Patterns: 6 Architectures for Your AI Tools",
-      "url": "https://dev.to/ben-witt/mcp-design-patterns-6-architectures-for-your-ai-tools-1d02",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP 设计模式：AI 工具的 6 种架构",
-      "chinese_summary": "本文深入探讨了 MCP 服务器背后的架构设计，提出了 6 种不同的设计模式。对于正在构建或优化 MCP 服务器的开发者来说，理解这些模式有助于做出更合理的架构决策。",
-      "categories": [
-        "AI Infrastructure",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "系统性地梳理了 MCP 服务器架构模式，是提升 MCP 服务设计水平的必读指南。",
-      "install_command": null,
-      "curation_date": "2026-07-15"
-    },
-    {
-      "title": "Demis Hassabis has a plan to harness AI safely",
-      "url": "https://twitter.com/demishassabis/status/2076957440109625718",
-      "source": "hacker_news",
-      "content_type": "industry",
-      "chinese_title": "Demis Hassabis 计划如何安全地驾驭 AI",
-      "chinese_summary": "DeepMind 联合创始人 Demis Hassabis 分享了他对 AI 安全发展的战略规划，包括对齐研究和治理框架。这是了解顶级 AI 实验室安全思路的重要窗口。",
+      "chinese_title": "Anthropic MCP远程代码执行漏洞：7000台服务器暴露及L1快速路径的重要性",
+      "chinese_summary": "网络安全研究人员披露了Anthropic MCP协议中的关键设计漏洞，可导致远程代码执行，影响超过7000台公开MCP服务器。这凸显了安全设计的重要性。",
       "categories": [
         "AI Safety",
-        "Industry",
+        "AI Infrastructure",
         "Research"
       ],
       "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "AI 安全是行业核心议题，Hassabis 的观点对从业者具有战略指导意义。",
+      "weighted_score": 6.0,
+      "recommendation_reason": "如果你使用或开发MCP服务器，这个安全漏洞必须立即关注并采取防护措施。",
       "install_command": null,
-      "curation_date": "2026-07-15"
+      "curation_date": "2026-07-16"
     },
     {
-      "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
-      "url": "https://www.qbitai.com/2026/07/450101.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
-      "chinese_summary": "DeepSeek以4800亿估值启动新一轮融资，较首轮估值上涨37%，并计划最快明年IPO。这一融资动态反映了市场对AI大模型公司的高度认可，也预示着行业竞争加剧。",
+      "title": "openinterpreter/openinterpreter: A coding agent for low-cost models",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "source": "github_trending",
+      "content_type": "coding_tool",
+      "chinese_title": "openinterpreter/openinterpreter: 面向低成本模型的编程代理",
+      "chinese_summary": "Open Interpreter 是一个面向低成本模型的编程代理，允许用户通过自然语言与计算机交互并执行代码。它降低了AI编程的门槛，适合在资源受限环境下使用。",
       "categories": [
-        "Industry",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在寻找一个轻量级、支持低成本模型的AI编程助手，这个工具值得尝试。",
+      "install_command": "pip install open-interpreter",
+      "curation_date": "2026-07-16"
+    },
+    {
+      "title": "MCP for AWS Security Engineers: Build a Read-Only Security Hub Triage Agent",
+      "url": "https://dev.to/mike_anderson_d01f52129fb/mcp-for-aws-security-engineers-build-a-read-only-security-hub-triage-agent-1iep",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP for AWS Security Engineers: 构建只读安全中心分类代理",
+      "chinese_summary": "本文指导AWS安全工程师如何使用AWS Agent Toolkit和托管MCP服务器构建只读安全中心分类代理，而非自定义MCP服务器。它提供了实用的安全自动化方案。",
+      "categories": [
+        "AI Infrastructure",
+        "Developer Tools",
+        "AI Safety"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在AWS环境中工作并希望用MCP自动化安全运维，这篇指南非常实用。",
+      "install_command": null,
+      "curation_date": "2026-07-16"
+    },
+    {
+      "title": "用世界模型给VLA当教练，原力灵机发布DW0.5，把RL搬进虚拟世界",
+      "url": "https://www.qbitai.com/2026/07/450896.html",
+      "source": "rss_量子位",
+      "content_type": "research",
+      "chinese_title": "用世界模型给VLA当教练，原力灵机发布DW0.5，把RL搬进虚拟世界",
+      "chinese_summary": "原力灵机发布DW0.5，利用世界模型作为VLA（视觉-语言-动作）模型的教练，将强化学习迁移到虚拟世界，使后训练中真机数据需求骤降60%。这大幅降低了具身智能的训练成本。",
+      "categories": [
+        "Robotics",
+        "Research",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "具身智能从业者必读：世界模型+虚拟RL可大幅降低真机数据依赖，加速研发迭代。",
+      "install_command": null,
+      "curation_date": "2026-07-16"
+    },
+    {
+      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
+      "url": "https://arxiv.org/abs/2607.12395",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "Ring-Zero: 将零强化学习扩展到万亿参数以实现涌现推理",
+      "chinese_summary": "本文介绍Ring-Zero框架，将零强化学习（Zero RL）扩展到万亿参数规模，以激发大模型涌现推理能力。该工作展示了大规模强化学习在提升模型推理能力上的潜力，为下一代AI系统设计提供新思路。",
+      "categories": [
+        "LLM",
+        "Research",
         "AI Infrastructure"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "DeepSeek的估值飙升和IPO计划是AI行业资本市场的重大信号，直接影响从业者的职业和投资决策。",
+      "recommendation_reason": "万亿参数级强化学习是前沿方向，Ring-Zero可能推动推理能力的突破，值得关注大规模训练和推理优化的从业者深入研究。",
       "install_command": null,
-      "curation_date": "2026-07-15"
+      "curation_date": "2026-07-16"
     },
     {
-      "title": "I tricked Claude into leaking your deepest, darkest secrets",
-      "url": "https://www.ayush.digital/blog/the-memory-heist",
-      "source": "hacker_news",
-      "content_type": "industry",
-      "chinese_title": "我欺骗 Claude 泄露了你最深最暗的秘密",
-      "chinese_summary": "本文展示了通过提示注入攻击，成功诱导 Claude 模型泄露用户隐私信息。这暴露了大语言模型在安全性和隐私保护方面的严重缺陷，对AI安全从业者具有警示意义。",
-      "categories": [
-        "AI Safety",
-        "Industry",
-        "LLM"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "提示注入攻击是当前LLM安全的核心挑战，这篇文章揭示了实际风险，对AI安全研究和应用开发者至关重要。",
-      "install_command": null,
-      "curation_date": "2026-07-15"
-    },
-    {
-      "title": "又快又聪明，阿里发布Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
-      "url": "https://www.qbitai.com/2026/07/450250.html",
+      "title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
+      "url": "https://www.qbitai.com/2026/07/451379.html",
       "source": "rss_量子位",
-      "content_type": "model_release",
-      "chinese_title": "又快又聪明，阿里发布Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
-      "chinese_summary": "阿里发布Qwen-Audio-3.0-Realtime实时语音大模型，在语音识别、合成、理解和交互四项功能上实现升级。该模型提升了实时语音处理的效率和智能水平，对语音助手、客服等应用场景有重要价值。",
+      "content_type": "agent_framework",
+      "chinese_title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
+      "chinese_summary": "无问芯穹与清华大学联合发布RLinf v0.3，实现从模型生态到真机部署的五大能力跃升，旨在破解具身智能行业发展瓶颈。该框架为具身智能提供了新一代进化底座，值得关注。",
       "categories": [
-        "NLP",
-        "Multimodal",
+        "AI Agents",
+        "Robotics",
+        "Open Source"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "具身智能开发者应关注RLinf v0.3，它提供了从训练到部署的完整解决方案。",
+      "install_command": null,
+      "curation_date": "2026-07-16"
+    },
+    {
+      "title": "工业母机进入“计算化时刻”：中国移动投资友机技术，押注工业AI下一代基础设施",
+      "url": "https://www.qbitai.com/2026/07/451371.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "工业母机进入“计算化时刻”：中国移动投资友机技术，押注工业AI下一代基础设施",
+      "chinese_summary": "中国移动投资友机技术，推动工业母机（机床）向计算化转型，构建工业AI基础设施。这标志着传统制造业与AI深度融合，可能重塑工业自动化格局。",
+      "categories": [
+        "AI Infrastructure",
+        "Industry",
         "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "实时语音大模型是AI交互的关键技术，Qwen-Audio-3.0的升级为开发者提供了更强大的工具。",
+      "recommendation_reason": "关注工业AI基础设施投资动向，了解AI在传统制造业落地的关键路径。",
       "install_command": null,
-      "curation_date": "2026-07-15"
+      "curation_date": "2026-07-16"
+    },
+    {
+      "title": "[mastra-ai/mastra] @mastra/core@1.51.0: July 15, 2026",
+      "url": "https://github.com/mastra-ai/mastra/releases/tag/@mastra/core@1.51.0",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "chinese_title": "Mastra Core v1.51.0：引入持久化代理崩溃恢复功能",
+      "chinese_summary": "Mastra Core 1.51.0 版本新增了持久化代理的崩溃恢复能力，允许代理在重启后自动发现并恢复中断的运行任务。该功能通过 `DurableAgent.listActiveRuns()` 和 `recover()` 等 API 实现，显著提升了生产环境中 Agent 的可靠性。",
+      "categories": [
+        "AI Agents",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在生产环境中运行持久化 Agent，Mastra 的崩溃恢复功能是提升系统鲁棒性的关键更新。",
+      "install_command": null,
+      "curation_date": "2026-07-16"
     }
   ],
   "category_counts": {
-    "LLM": 2,
-    "AI Infrastructure": 3,
-    "Open Source": 1,
-    "Developer Tools": 2,
-    "AI Applications": 3,
-    "AI Agents": 1,
-    "Industry": 4,
     "AI Safety": 2,
-    "Research": 1,
-    "NLP": 1,
-    "Multimodal": 1
+    "AI Infrastructure": 4,
+    "Research": 3,
+    "Developer Tools": 3,
+    "AI Agents": 3,
+    "Robotics": 2,
+    "AI Applications": 2,
+    "LLM": 1,
+    "Open Source": 1,
+    "Industry": 1
   },
   "content_type_counts": {
-    "open_source_model": 1,
-    "coding_tool": 1,
     "mcp_server": 2,
-    "industry": 3,
-    "model_release": 1
+    "coding_tool": 1,
+    "research": 2,
+    "agent_framework": 2,
+    "industry": 1
   }
 }

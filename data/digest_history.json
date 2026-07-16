@@ -286,6 +286,24 @@
       "llm_model": "deepseek-chat",
       "tokens_used": 16473,
       "cost_rmb": 0.01104646
+    },
+    {
+      "digest_type": "daily",
+      "date": "2026-07-16",
+      "items_count": 8,
+      "by_type": {
+        "mcp_server": 2,
+        "coding_tool": 1,
+        "research": 2,
+        "agent_framework": 2,
+        "industry": 1
+      },
+      "auxiliary_matches": 15,
+      "message_id": "443b2490-4908-4d3c-a888-85e0a16e89eb",
+      "sent_at": "2026-07-16 10:06:13.154100",
+      "llm_model": "deepseek-chat",
+      "tokens_used": 17032,
+      "cost_rmb": 0.011527614285714286
     }
   ]
 }
