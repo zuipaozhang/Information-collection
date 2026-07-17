@@ -1,168 +1,167 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-16",
+  "end_date": "2026-07-17",
   "items": [
     {
-      "title": "Anthropic MCP RCE: 7,000 Servers Exposed and Why L1 Fast-Path Matters",
-      "url": "https://dev.to/alejandxr/anthropic-mcp-rce-7000-servers-exposed-and-why-l1-fast-path-matters-cao",
+      "title": "github/copilot-sdk: Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "url": "https://github.com/github/copilot-sdk",
+      "source": "github_trending",
+      "content_type": "coding_tool",
+      "chinese_title": "github/copilot-sdk: 用于将 GitHub Copilot Agent 集成到应用和服务中的多平台 SDK",
+      "chinese_summary": "GitHub 官方发布了 Copilot SDK，这是一个多平台 SDK，允许开发者将 GitHub Copilot Agent 集成到自己的应用和服务中。这意味着你可以利用 Copilot 的 AI 能力来增强自己的产品，是 AI 应用开发者的重要工具。",
+      "categories": [
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "官方 Copilot SDK 让你能轻松将 Copilot 的 AI 编程能力嵌入到自己的应用中，是扩展 AI 编程生态的关键工具。",
+      "install_command": "npm install @github/copilot-sdk",
+      "curation_date": "2026-07-17"
+    },
+    {
+      "title": "Agentic Browser: ~98% fewer tokens than HTML for LLM web agents (Python + MCP)",
+      "url": "https://dev.to/tophet_cafd932aa262f4fc92/agentic-browser-98-fewer-tokens-than-html-for-llm-web-agents-python-mcp-1onj",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "Anthropic MCP远程代码执行漏洞：7000台服务器暴露及L1快速路径的重要性",
-      "chinese_summary": "网络安全研究人员披露了Anthropic MCP协议中的关键设计漏洞，可导致远程代码执行，影响超过7000台公开MCP服务器。这凸显了安全设计的重要性。",
+      "chinese_title": "Agentic Browser: 比 HTML 节省约 98% token 的 LLM 网页 Agent（Python + MCP）",
+      "chinese_summary": "Agentic Browser 是一个基于 Playwright/Chromium 的 Agent 优先 Python 浏览器，专为 LLM 设计，通过紧凑的观察、稳定的元素引用和结果验证的动作来驱动网页，相比原始 HTML 可节省约 98% 的 token。对于构建网页 Agent 的开发者来说，这是一个能大幅降低 token 消耗的创新工具。",
       "categories": [
-        "AI Safety",
+        "AI Agents",
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "节省 98% token 的网页 Agent 浏览器，能显著降低你的 LLM 网页自动化成本，是构建高效网页 Agent 的利器。",
+      "install_command": "pip install agentic-browser",
+      "curation_date": "2026-07-17"
+    },
+    {
+      "title": "Introducing Carrick",
+      "url": "https://dev.to/david_moores_cbc0233b7447/introducing-carrick-1k4i",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "Introducing Carrick",
+      "chinese_summary": "Carrick 是一个为多仓库 TypeScript 团队设计的上下文层工具，它创建了整个系统的统一索引，涵盖所有服务、类型和配置。对于使用 TypeScript 的大型项目团队，这能显著提升代码理解和 AI 辅助编程的效率。",
+      "categories": [
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你的团队使用 TypeScript 并维护多个仓库，Carrick 能通过统一上下文索引来提升 AI 工具的理解和辅助能力。",
+      "install_command": null,
+      "curation_date": "2026-07-17"
+    },
+    {
+      "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
+      "url": "https://www.qbitai.com/2026/07/451403.html",
+      "source": "rss_量子位",
+      "content_type": "research",
+      "chinese_title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
+      "chinese_summary": "银河通用发布全球首个仅需人类视频即可部署的机器人框架，支持机器人边干边学。这大幅降低了机器人技能学习的门槛，对特斯拉等公司构成挑战。",
+      "categories": [
+        "Robotics",
+        "Computer Vision",
+        "Research"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "机器人学习领域的突破性进展，对AI从业者理解具身智能前沿有重要价值。",
+      "install_command": null,
+      "curation_date": "2026-07-17"
+    },
+    {
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "url": "https://arxiv.org/abs/2607.14431",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "更智能且更便宜：字节精确的KV缓存嫁接将冻结小模型转化为验证知识飞轮",
+      "chinese_summary": "本文提出了一种名为字节精确KV缓存嫁接（Byte-Exact KV-Cache Grafting）的技术，能将冻结的小模型转化为持续验证知识的飞轮，同时提升智能性和降低成本。该研究对LLM推理优化和知识管理具有重要价值。",
+      "categories": [
+        "LLM",
         "AI Infrastructure",
         "Research"
       ],
       "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "如果你使用或开发MCP服务器，这个安全漏洞必须立即关注并采取防护措施。",
-      "install_command": null,
-      "curation_date": "2026-07-16"
-    },
-    {
-      "title": "openinterpreter/openinterpreter: A coding agent for low-cost models",
-      "url": "https://github.com/openinterpreter/openinterpreter",
-      "source": "github_trending",
-      "content_type": "coding_tool",
-      "chinese_title": "openinterpreter/openinterpreter: 面向低成本模型的编程代理",
-      "chinese_summary": "Open Interpreter 是一个面向低成本模型的编程代理，允许用户通过自然语言与计算机交互并执行代码。它降低了AI编程的门槛，适合在资源受限环境下使用。",
-      "categories": [
-        "Developer Tools",
-        "AI Agents"
-      ],
-      "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你在寻找一个轻量级、支持低成本模型的AI编程助手，这个工具值得尝试。",
-      "install_command": "pip install open-interpreter",
-      "curation_date": "2026-07-16"
-    },
-    {
-      "title": "MCP for AWS Security Engineers: Build a Read-Only Security Hub Triage Agent",
-      "url": "https://dev.to/mike_anderson_d01f52129fb/mcp-for-aws-security-engineers-build-a-read-only-security-hub-triage-agent-1iep",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "MCP for AWS Security Engineers: 构建只读安全中心分类代理",
-      "chinese_summary": "本文指导AWS安全工程师如何使用AWS Agent Toolkit和托管MCP服务器构建只读安全中心分类代理，而非自定义MCP服务器。它提供了实用的安全自动化方案。",
-      "categories": [
-        "AI Infrastructure",
-        "Developer Tools",
-        "AI Safety"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你在AWS环境中工作并希望用MCP自动化安全运维，这篇指南非常实用。",
+      "recommendation_reason": "如果你在优化LLM推理成本或探索知识管理方案，这篇论文的KV缓存嫁接技术极具实用潜力。",
       "install_command": null,
-      "curation_date": "2026-07-16"
+      "curation_date": "2026-07-17"
     },
     {
-      "title": "用世界模型给VLA当教练，原力灵机发布DW0.5，把RL搬进虚拟世界",
-      "url": "https://www.qbitai.com/2026/07/450896.html",
-      "source": "rss_量子位",
+      "title": "Length Penalties Make Chain-of-Thought Less Monitorable",
+      "url": "https://arxiv.org/abs/2607.09786",
+      "source": "huggingface_papers",
       "content_type": "research",
-      "chinese_title": "用世界模型给VLA当教练，原力灵机发布DW0.5，把RL搬进虚拟世界",
-      "chinese_summary": "原力灵机发布DW0.5，利用世界模型作为VLA（视觉-语言-动作）模型的教练，将强化学习迁移到虚拟世界，使后训练中真机数据需求骤降60%。这大幅降低了具身智能的训练成本。",
+      "chinese_title": "Length Penalties Make Chain-of-Thought Less Monitorable：长度惩罚削弱思维链的可监控性",
+      "chinese_summary": "研究发现，在训练大语言模型时使用长度惩罚（鼓励生成更短回答）会降低思维链（Chain-of-Thought）推理过程的可监控性和可解释性。这对AI安全领域至关重要，因为它揭示了优化目标与模型透明度之间的潜在冲突。",
       "categories": [
-        "Robotics",
-        "Research",
-        "AI Applications"
+        "AI Safety",
+        "LLM",
+        "Research"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "具身智能从业者必读：世界模型+虚拟RL可大幅降低真机数据依赖，加速研发迭代。",
+      "recommendation_reason": "如果你关注LLM的安全性和可解释性，这篇论文揭示了训练策略中一个容易被忽视的风险。",
       "install_command": null,
-      "curation_date": "2026-07-16"
+      "curation_date": "2026-07-17"
     },
     {
-      "title": "Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning",
-      "url": "https://arxiv.org/abs/2607.12395",
-      "source": "huggingface_papers",
+      "title": "Schema Harness Achieves ~99% on Arc‑AGI‑3 Public",
+      "url": "https://schema-harness.github.io/",
+      "source": "hacker_news",
       "content_type": "research",
-      "chinese_title": "Ring-Zero: 将零强化学习扩展到万亿参数以实现涌现推理",
-      "chinese_summary": "本文介绍Ring-Zero框架，将零强化学习（Zero RL）扩展到万亿参数规模，以激发大模型涌现推理能力。该工作展示了大规模强化学习在提升模型推理能力上的潜力，为下一代AI系统设计提供新思路。",
+      "chinese_title": "Schema Harness 在 Arc-AGI-3 公开榜上达到约 99% 准确率",
+      "chinese_summary": "Schema Harness 方法在 Arc-AGI-3 基准测试的公开排行榜上取得了约 99% 的惊人成绩。这一突破表明在抽象推理任务上，特定架构设计可能接近甚至超越人类水平，对 AGI 研究具有里程碑意义。",
       "categories": [
-        "LLM",
         "Research",
         "AI Infrastructure"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "万亿参数级强化学习是前沿方向，Ring-Zero可能推动推理能力的突破，值得关注大规模训练和推理优化的从业者深入研究。",
+      "recommendation_reason": "Arc-AGI 是衡量通用智能的关键基准，这一进展值得所有关注 AGI 前沿的从业者深入研究。",
       "install_command": null,
-      "curation_date": "2026-07-16"
+      "curation_date": "2026-07-17"
     },
     {
-      "title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
-      "url": "https://www.qbitai.com/2026/07/451379.html",
-      "source": "rss_量子位",
-      "content_type": "agent_framework",
-      "chinese_title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
-      "chinese_summary": "无问芯穹与清华大学联合发布RLinf v0.3，实现从模型生态到真机部署的五大能力跃升，旨在破解具身智能行业发展瓶颈。该框架为具身智能提供了新一代进化底座，值得关注。",
+      "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+      "url": "https://arxiv.org/abs/2607.14935",
+      "source": "huggingface_papers",
+      "content_type": "open_source_model",
+      "chinese_title": "VideoChat3：完全开源的视频多模态大模型，实现高效通用视频理解",
+      "chinese_summary": "VideoChat3是一个完全开源的多模态大模型，专注于高效和通用的视频理解任务。它支持视频问答、描述生成等，并提供了完整的训练和推理代码。对于视频AI研究和应用开发者来说，这是一个重要的开源资源。",
       "categories": [
-        "AI Agents",
-        "Robotics",
+        "Multimodal",
+        "Computer Vision",
         "Open Source"
       ],
       "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "具身智能开发者应关注RLinf v0.3，它提供了从训练到部署的完整解决方案。",
+      "weighted_score": 4.5,
+      "recommendation_reason": "如果你需要开源的视频理解模型，VideoChat3提供了完整的解决方案，可直接用于视频问答等任务。",
       "install_command": null,
-      "curation_date": "2026-07-16"
-    },
-    {
-      "title": "工业母机进入“计算化时刻”：中国移动投资友机技术，押注工业AI下一代基础设施",
-      "url": "https://www.qbitai.com/2026/07/451371.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "工业母机进入“计算化时刻”：中国移动投资友机技术，押注工业AI下一代基础设施",
-      "chinese_summary": "中国移动投资友机技术，推动工业母机（机床）向计算化转型，构建工业AI基础设施。这标志着传统制造业与AI深度融合，可能重塑工业自动化格局。",
-      "categories": [
-        "AI Infrastructure",
-        "Industry",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "关注工业AI基础设施投资动向，了解AI在传统制造业落地的关键路径。",
-      "install_command": null,
-      "curation_date": "2026-07-16"
-    },
-    {
-      "title": "[mastra-ai/mastra] @mastra/core@1.51.0: July 15, 2026",
-      "url": "https://github.com/mastra-ai/mastra/releases/tag/@mastra/core@1.51.0",
-      "source": "framework_watch",
-      "content_type": "agent_framework",
-      "chinese_title": "Mastra Core v1.51.0：引入持久化代理崩溃恢复功能",
-      "chinese_summary": "Mastra Core 1.51.0 版本新增了持久化代理的崩溃恢复能力，允许代理在重启后自动发现并恢复中断的运行任务。该功能通过 `DurableAgent.listActiveRuns()` 和 `recover()` 等 API 实现，显著提升了生产环境中 Agent 的可靠性。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你在生产环境中运行持久化 Agent，Mastra 的崩溃恢复功能是提升系统鲁棒性的关键更新。",
-      "install_command": null,
-      "curation_date": "2026-07-16"
+      "curation_date": "2026-07-17"
     }
   ],
   "category_counts": {
-    "AI Safety": 2,
-    "AI Infrastructure": 4,
-    "Research": 3,
     "Developer Tools": 3,
-    "AI Agents": 3,
-    "Robotics": 2,
-    "AI Applications": 2,
-    "LLM": 1,
-    "Open Source": 1,
-    "Industry": 1
+    "AI Applications": 1,
+    "AI Agents": 1,
+    "AI Infrastructure": 4,
+    "Robotics": 1,
+    "Computer Vision": 2,
+    "Research": 4,
+    "LLM": 2,
+    "AI Safety": 1,
+    "Multimodal": 1,
+    "Open Source": 1
   },
   "content_type_counts": {
-    "mcp_server": 2,
     "coding_tool": 1,
-    "research": 2,
-    "agent_framework": 2,
-    "industry": 1
+    "mcp_server": 2,
+    "research": 4,
+    "open_source_model": 1
   }
 }
