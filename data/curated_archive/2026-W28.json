@@ -1,167 +1,164 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-17",
+  "end_date": "2026-07-18",
   "items": [
     {
-      "title": "github/copilot-sdk: Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "url": "https://github.com/github/copilot-sdk",
+      "title": "tirth8205/code-review-graph: Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI ",
+      "url": "https://github.com/tirth8205/code-review-graph",
       "source": "github_trending",
       "content_type": "coding_tool",
-      "chinese_title": "github/copilot-sdk: 用于将 GitHub Copilot Agent 集成到应用和服务中的多平台 SDK",
-      "chinese_summary": "GitHub 官方发布了 Copilot SDK，这是一个多平台 SDK，允许开发者将 GitHub Copilot Agent 集成到自己的应用和服务中。这意味着你可以利用 Copilot 的 AI 能力来增强自己的产品，是 AI 应用开发者的重要工具。",
+      "chinese_title": "tirth8205/code-review-graph: 本地优先的代码智能图，用于MCP和CLI",
+      "chinese_summary": "这是一个本地优先的代码智能图工具，可为MCP和CLI构建代码库的持久化映射，帮助AI编码工具只读取相关代码，在代码审查和大型仓库工作流中实现上下文缩减。它通过减少无关代码的加载来提升AI工具的效率。",
       "categories": [
         "Developer Tools",
         "AI Applications"
       ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "官方 Copilot SDK 让你能轻松将 Copilot 的 AI 编程能力嵌入到自己的应用中，是扩展 AI 编程生态的关键工具。",
-      "install_command": "npm install @github/copilot-sdk",
-      "curation_date": "2026-07-17"
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你使用AI编码工具处理大型代码库，这个工具能显著减少上下文噪音，提升代码审查和开发的效率。",
+      "install_command": "pip install code-review-graph",
+      "curation_date": "2026-07-18"
     },
     {
-      "title": "Agentic Browser: ~98% fewer tokens than HTML for LLM web agents (Python + MCP)",
-      "url": "https://dev.to/tophet_cafd932aa262f4fc92/agentic-browser-98-fewer-tokens-than-html-for-llm-web-agents-python-mcp-1onj",
+      "title": "Building an MCP Server That Verifies Its Sources: Inside footnote-mcp",
+      "url": "https://dev.to/kazkozdev/building-an-mcp-server-that-verifies-its-sources-inside-footnote-mcp-v2-1lj5",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "Agentic Browser: 比 HTML 节省约 98% token 的 LLM 网页 Agent（Python + MCP）",
-      "chinese_summary": "Agentic Browser 是一个基于 Playwright/Chromium 的 Agent 优先 Python 浏览器，专为 LLM 设计，通过紧凑的观察、稳定的元素引用和结果验证的动作来驱动网页，相比原始 HTML 可节省约 98% 的 token。对于构建网页 Agent 的开发者来说，这是一个能大幅降低 token 消耗的创新工具。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "节省 98% token 的网页 Agent 浏览器，能显著降低你的 LLM 网页自动化成本，是构建高效网页 Agent 的利器。",
-      "install_command": "pip install agentic-browser",
-      "curation_date": "2026-07-17"
-    },
-    {
-      "title": "Introducing Carrick",
-      "url": "https://dev.to/david_moores_cbc0233b7447/introducing-carrick-1k4i",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "Introducing Carrick",
-      "chinese_summary": "Carrick 是一个为多仓库 TypeScript 团队设计的上下文层工具，它创建了整个系统的统一索引，涵盖所有服务、类型和配置。对于使用 TypeScript 的大型项目团队，这能显著提升代码理解和 AI 辅助编程的效率。",
+      "chinese_title": "构建一个能验证来源的MCP服务器：footnote-mcp 内部解析",
+      "chinese_summary": "footnote-mcp是一个Python MCP服务器，可通过pip、Docker或pipx安装，无需API密钥。它通过Bing、DuckDuckGo搜索和headless Chromium抓取JavaScript页面，自动验证信息来源的可靠性。",
       "categories": [
         "Developer Tools",
-        "AI Infrastructure"
+        "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你的团队使用 TypeScript 并维护多个仓库，Carrick 能通过统一上下文索引来提升 AI 工具的理解和辅助能力。",
-      "install_command": null,
-      "curation_date": "2026-07-17"
+      "recommendation_reason": "如果你需要AI工具提供可验证的引用来源，这个MCP服务器能自动进行事实核查，提升输出可信度。",
+      "install_command": "pip install footnote-mcp",
+      "curation_date": "2026-07-18"
     },
     {
-      "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-      "url": "https://www.qbitai.com/2026/07/451403.html",
-      "source": "rss_量子位",
-      "content_type": "research",
-      "chinese_title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-      "chinese_summary": "银河通用发布全球首个仅需人类视频即可部署的机器人框架，支持机器人边干边学。这大幅降低了机器人技能学习的门槛，对特斯拉等公司构成挑战。",
+      "title": "[Claude Code] v2.1.214",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "chinese_title": "Claude Code 发布 v2.1.214：修复权限检查绕过与自动审批规则漏洞",
+      "chinese_summary": "Claude Code 发布 v2.1.214 版本，修复了三个关键问题：单段 dir/** 允许规则（如 Edit(src/**)）错误地自动批准树中任意位置嵌套 dir/ 目录的写入、Windows PowerShell 5.1 会话中的权限检查绕过漏洞，以及 Bash 权限缓存问题。",
       "categories": [
-        "Robotics",
-        "Computer Vision",
-        "Research"
+        "Developer Tools",
+        "AI Safety"
       ],
-      "importance_score": 5,
+      "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "机器人学习领域的突破性进展，对AI从业者理解具身智能前沿有重要价值。",
-      "install_command": null,
-      "curation_date": "2026-07-17"
+      "recommendation_reason": "权限绕过漏洞直接影响安全性，所有 Claude Code 用户应立即更新以防范潜在风险。",
+      "install_command": "npm update -g @anthropic-ai/claude-code",
+      "curation_date": "2026-07-18"
     },
     {
-      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
-      "url": "https://arxiv.org/abs/2607.14431",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "更智能且更便宜：字节精确的KV缓存嫁接将冻结小模型转化为验证知识飞轮",
-      "chinese_summary": "本文提出了一种名为字节精确KV缓存嫁接（Byte-Exact KV-Cache Grafting）的技术，能将冻结的小模型转化为持续验证知识的飞轮，同时提升智能性和降低成本。该研究对LLM推理优化和知识管理具有重要价值。",
-      "categories": [
-        "LLM",
-        "AI Infrastructure",
-        "Research"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你在优化LLM推理成本或探索知识管理方案，这篇论文的KV缓存嫁接技术极具实用潜力。",
-      "install_command": null,
-      "curation_date": "2026-07-17"
-    },
-    {
-      "title": "Length Penalties Make Chain-of-Thought Less Monitorable",
-      "url": "https://arxiv.org/abs/2607.09786",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "Length Penalties Make Chain-of-Thought Less Monitorable：长度惩罚削弱思维链的可监控性",
-      "chinese_summary": "研究发现，在训练大语言模型时使用长度惩罚（鼓励生成更短回答）会降低思维链（Chain-of-Thought）推理过程的可监控性和可解释性。这对AI安全领域至关重要，因为它揭示了优化目标与模型透明度之间的潜在冲突。",
+      "title": "I caught a trojan in my MCP marketplace. Here's the 8-layer defense I built.",
+      "url": "https://dev.to/edison_flores_6d2cd381b13/i-caught-a-trojan-in-my-mcp-marketplace-heres-the-8-layer-defense-i-built-gk4",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "我在 MCP 市场中捕获了一个木马——这是我构建的 8 层防御体系",
+      "chinese_summary": "作者在运营 MCP 市场时发现了一个隐藏的 Windows 木马，并详细介绍了为此构建的 8 层安全防御架构。对于任何运行 MCP 服务器市场或插件的平台，这是一份极具参考价值的安全实践报告。",
       "categories": [
         "AI Safety",
-        "LLM",
-        "Research"
+        "Developer Tools",
+        "Industry"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你关注LLM的安全性和可解释性，这篇论文揭示了训练策略中一个容易被忽视的风险。",
+      "recommendation_reason": "MCP 生态的安全威胁真实存在，这篇 8 层防御方案是所有 MCP 平台运营者的必读内容。",
       "install_command": null,
-      "curation_date": "2026-07-17"
+      "curation_date": "2026-07-18"
     },
     {
-      "title": "Schema Harness Achieves ~99% on Arc‑AGI‑3 Public",
-      "url": "https://schema-harness.github.io/",
-      "source": "hacker_news",
-      "content_type": "research",
-      "chinese_title": "Schema Harness 在 Arc-AGI-3 公开榜上达到约 99% 准确率",
-      "chinese_summary": "Schema Harness 方法在 Arc-AGI-3 基准测试的公开排行榜上取得了约 99% 的惊人成绩。这一突破表明在抽象推理任务上，特定架构设计可能接近甚至超越人类水平，对 AGI 研究具有里程碑意义。",
-      "categories": [
-        "Research",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "Arc-AGI 是衡量通用智能的关键基准，这一进展值得所有关注 AGI 前沿的从业者深入研究。",
-      "install_command": null,
-      "curation_date": "2026-07-17"
-    },
-    {
-      "title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
-      "url": "https://arxiv.org/abs/2607.14935",
+      "title": "On Locality and Length Generalization in Visual Reasoning",
+      "url": "https://arxiv.org/abs/2607.09061",
       "source": "huggingface_papers",
-      "content_type": "open_source_model",
-      "chinese_title": "VideoChat3：完全开源的视频多模态大模型，实现高效通用视频理解",
-      "chinese_summary": "VideoChat3是一个完全开源的多模态大模型，专注于高效和通用的视频理解任务。它支持视频问答、描述生成等，并提供了完整的训练和推理代码。对于视频AI研究和应用开发者来说，这是一个重要的开源资源。",
+      "content_type": "research",
+      "chinese_title": "视觉推理中的局部性与长度泛化",
+      "chinese_summary": "本文研究视觉推理任务中模型对局部信息的依赖程度以及长度泛化能力，揭示了当前视觉语言模型在长序列推理中的局限性。该研究对于改进多模态模型的推理架构和训练策略具有重要参考价值。",
       "categories": [
         "Multimodal",
-        "Computer Vision",
-        "Open Source"
+        "Research",
+        "Computer Vision"
       ],
       "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "如果你需要开源的视频理解模型，VideoChat3提供了完整的解决方案，可直接用于视频问答等任务。",
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在开发视觉语言模型或处理长序列推理任务，这篇论文能帮你理解模型泛化瓶颈。",
       "install_command": null,
-      "curation_date": "2026-07-17"
+      "curation_date": "2026-07-18"
+    },
+    {
+      "title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
+      "url": "https://www.qbitai.com/2026/07/453697.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
+      "chinese_summary": "商汤联合近20家伙伴发起“银河计划”，计划建设5个万卡级国产智算集群，加速国产算力从可用到规模化盈利。这是国产AI基础设施的重大布局，影响深远。",
+      "categories": [
+        "AI Infrastructure",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "国产算力规模化关键举措，对AI训练和部署成本有直接影响。",
+      "install_command": null,
+      "curation_date": "2026-07-18"
+    },
+    {
+      "title": "How to find safe MCP servers for your AI coding assistant (and why most directories lie)",
+      "url": "https://dev.to/edison_flores_6d2cd381b13/how-to-find-safe-mcp-servers-for-your-ai-coding-assistant-and-why-most-directories-lie-3967",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "如何为你的 AI 编程助手找到安全的 MCP 服务器（以及为什么大多数目录都在撒谎）",
+      "chinese_summary": "本文揭示了大多数 MCP 服务器目录缺乏安全审计的问题，并介绍了作者构建的 MCP 服务器安全审计工具。对于使用 Claude Desktop、Cursor 等工具的开发者来说，这是确保 MCP 服务器安全性的重要指南。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "MCP 服务器安全是当前被忽视的盲区，这篇文章能帮你避免安装恶意服务器。",
+      "install_command": null,
+      "curation_date": "2026-07-18"
+    },
+    {
+      "title": "PPIO发布智能模型网关，打造面向Agent时代的智能Token工厂",
+      "url": "https://www.qbitai.com/2026/07/453467.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "PPIO发布智能模型网关，打造面向Agent时代的智能Token工厂",
+      "chinese_summary": "PPIO发布了智能模型网关，旨在为Agent时代提供高效的Token管理服务，并已通过万亿Token调用量的验证。这标志着AI基础设施在Agent应用爆发背景下的一次重要演进，值得关注。",
+      "categories": [
+        "AI Infrastructure",
+        "AI Agents",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你在构建Agent应用，PPIO的智能模型网关可能成为你管理Token成本与效率的关键基础设施。",
+      "install_command": null,
+      "curation_date": "2026-07-18"
     }
   ],
   "category_counts": {
-    "Developer Tools": 3,
-    "AI Applications": 1,
-    "AI Agents": 1,
-    "AI Infrastructure": 4,
-    "Robotics": 1,
-    "Computer Vision": 2,
-    "Research": 4,
-    "LLM": 2,
-    "AI Safety": 1,
+    "Developer Tools": 5,
+    "AI Applications": 2,
+    "AI Safety": 3,
+    "Industry": 3,
     "Multimodal": 1,
-    "Open Source": 1
+    "Research": 1,
+    "Computer Vision": 1,
+    "AI Infrastructure": 2,
+    "AI Agents": 1
   },
   "content_type_counts": {
-    "coding_tool": 1,
-    "mcp_server": 2,
-    "research": 4,
-    "open_source_model": 1
+    "coding_tool": 2,
+    "mcp_server": 1,
+    "guide": 2,
+    "research": 1,
+    "industry": 2
   }
 }
