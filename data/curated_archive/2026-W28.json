@@ -1,164 +1,164 @@
 {
   "week": "2026-W28",
   "start_date": "2026-07-13",
-  "end_date": "2026-07-18",
+  "end_date": "2026-07-19",
   "items": [
     {
-      "title": "tirth8205/code-review-graph: Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI ",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "source": "github_trending",
-      "content_type": "coding_tool",
-      "chinese_title": "tirth8205/code-review-graph: 本地优先的代码智能图，用于MCP和CLI",
-      "chinese_summary": "这是一个本地优先的代码智能图工具，可为MCP和CLI构建代码库的持久化映射，帮助AI编码工具只读取相关代码，在代码审查和大型仓库工作流中实现上下文缩减。它通过减少无关代码的加载来提升AI工具的效率。",
-      "categories": [
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你使用AI编码工具处理大型代码库，这个工具能显著减少上下文噪音，提升代码审查和开发的效率。",
-      "install_command": "pip install code-review-graph",
-      "curation_date": "2026-07-18"
-    },
-    {
-      "title": "Building an MCP Server That Verifies Its Sources: Inside footnote-mcp",
-      "url": "https://dev.to/kazkozdev/building-an-mcp-server-that-verifies-its-sources-inside-footnote-mcp-v2-1lj5",
+      "title": "MCP Goes Stateless: Migrate Your Server Before the 2026-07-28 Spec",
+      "url": "https://dev.to/rohit_raj_8c7902b7d37cf21/mcp-goes-stateless-migrate-your-server-before-the-2026-07-28-spec-4hd8",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "构建一个能验证来源的MCP服务器：footnote-mcp 内部解析",
-      "chinese_summary": "footnote-mcp是一个Python MCP服务器，可通过pip、Docker或pipx安装，无需API密钥。它通过Bing、DuckDuckGo搜索和headless Chromium抓取JavaScript页面，自动验证信息来源的可靠性。",
+      "chinese_title": "MCP 走向无状态：在 2026-07-28 规范前迁移你的服务器",
+      "chinese_summary": "MCP 2026-07-28 规范将协议重写为无状态模式，移除了会话持久化等特性。本文提供了详细的迁移指南，帮助开发者提前适配新规范。",
       "categories": [
         "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "所有 MCP 服务器开发者都必须关注此规范变更，否则现有服务将在 2026 年 7 月后失效。",
+      "install_command": null,
+      "curation_date": "2026-07-19"
+    },
+    {
+      "title": "Day 9/30: Human-in-the-loop Agents",
+      "url": "https://dev.to/yashwanth_kasi/day-930-human-in-the-loop-agents-504a",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "第9/30天：人在回路中的 Agent",
+      "chinese_summary": "本文探讨了在基于 LangGraph 和 MCP 构建的客服机器人中引入“人在回路”机制的重要性。作者发现，自动回复机器人在不确定情况下会自信地给出错误答案，而加入人工审核环节可以显著提升可靠性。",
+      "categories": [
+        "AI Agents",
         "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "如果你需要AI工具提供可验证的引用来源，这个MCP服务器能自动进行事实核查，提升输出可信度。",
-      "install_command": "pip install footnote-mcp",
-      "curation_date": "2026-07-18"
+      "recommendation_reason": "对于构建生产级 Agent 的开发者，本文提供了关于如何平衡自动化与人工干预的宝贵经验。",
+      "install_command": null,
+      "curation_date": "2026-07-19"
     },
     {
-      "title": "[Claude Code] v2.1.214",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-      "source": "coding_tools",
-      "content_type": "coding_tool",
-      "chinese_title": "Claude Code 发布 v2.1.214：修复权限检查绕过与自动审批规则漏洞",
-      "chinese_summary": "Claude Code 发布 v2.1.214 版本，修复了三个关键问题：单段 dir/** 允许规则（如 Edit(src/**)）错误地自动批准树中任意位置嵌套 dir/ 目录的写入、Windows PowerShell 5.1 会话中的权限检查绕过漏洞，以及 Bash 权限缓存问题。",
+      "title": "KnockOutEZ/wigolo: The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No AP",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "source": "github_trending",
+      "content_type": "mcp_server",
+      "chinese_title": "KnockOutEZ/wigolo: AI编码代理的Web工具——本地优先搜索、抓取、爬取与研究，基于MCP",
+      "chinese_summary": "Wigolo是一个基于MCP协议的本地优先Web工具，为AI编码代理提供搜索、抓取、爬取和研究能力，无需API密钥和云服务，完全免费。它解决了AI代理访问实时网络信息的痛点。",
       "categories": [
+        "AI Agents",
         "Developer Tools",
-        "AI Safety"
+        "AI Infrastructure"
       ],
       "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "权限绕过漏洞直接影响安全性，所有 Claude Code 用户应立即更新以防范潜在风险。",
-      "install_command": "npm update -g @anthropic-ai/claude-code",
-      "curation_date": "2026-07-18"
+      "recommendation_reason": "为AI编码代理提供零成本、本地化的网络访问能力，是MCP生态的重要补充。",
+      "install_command": "npx @knockoutez/wigolo",
+      "curation_date": "2026-07-19"
     },
     {
-      "title": "I caught a trojan in my MCP marketplace. Here's the 8-layer defense I built.",
-      "url": "https://dev.to/edison_flores_6d2cd381b13/i-caught-a-trojan-in-my-mcp-marketplace-heres-the-8-layer-defense-i-built-gk4",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "我在 MCP 市场中捕获了一个木马——这是我构建的 8 层防御体系",
-      "chinese_summary": "作者在运营 MCP 市场时发现了一个隐藏的 Windows 木马，并详细介绍了为此构建的 8 层安全防御架构。对于任何运行 MCP 服务器市场或插件的平台，这是一份极具参考价值的安全实践报告。",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "GPT-5.6 使用提示词解决了凸优化领域 30 年的难题",
+      "chinese_summary": "据报道，GPT-5.6 通过一个提示词成功解决了凸优化领域一个长达 30 年的未解问题，引发广泛讨论。这展示了大型语言模型在数学研究中的潜力。",
       "categories": [
-        "AI Safety",
-        "Developer Tools",
-        "Industry"
+        "Research",
+        "Industry",
+        "AI Applications"
       ],
       "importance_score": 5,
       "weighted_score": 5.0,
-      "recommendation_reason": "MCP 生态的安全威胁真实存在，这篇 8 层防御方案是所有 MCP 平台运营者的必读内容。",
+      "recommendation_reason": "标志性事件，证明 LLM 在科学发现中的能力，对 AI 研究者和数学从业者有重大启示。",
       "install_command": null,
-      "curation_date": "2026-07-18"
+      "curation_date": "2026-07-19"
     },
     {
-      "title": "On Locality and Length Generalization in Visual Reasoning",
-      "url": "https://arxiv.org/abs/2607.09061",
-      "source": "huggingface_papers",
-      "content_type": "research",
-      "chinese_title": "视觉推理中的局部性与长度泛化",
-      "chinese_summary": "本文研究视觉推理任务中模型对局部信息的依赖程度以及长度泛化能力，揭示了当前视觉语言模型在长序列推理中的局限性。该研究对于改进多模态模型的推理架构和训练策略具有重要参考价值。",
-      "categories": [
-        "Multimodal",
-        "Research",
-        "Computer Vision"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "如果你在开发视觉语言模型或处理长序列推理任务，这篇论文能帮你理解模型泛化瓶颈。",
-      "install_command": null,
-      "curation_date": "2026-07-18"
-    },
-    {
-      "title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
-      "url": "https://www.qbitai.com/2026/07/453697.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
-      "chinese_summary": "商汤联合近20家伙伴发起“银河计划”，计划建设5个万卡级国产智算集群，加速国产算力从可用到规模化盈利。这是国产AI基础设施的重大布局，影响深远。",
+      "title": "lyogavin/airllm: AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "chinese_title": "lyogavin/airllm: 单张4GB GPU运行70B模型推理",
+      "chinese_summary": "AirLLM实现了在单张4GB显存GPU上运行70B参数大模型的推理，通过极致的内存优化技术降低了硬件门槛。这对资源受限的开发者和小团队极具吸引力。",
       "categories": [
         "AI Infrastructure",
-        "Industry"
-      ],
-      "importance_score": 4,
-      "weighted_score": 4.0,
-      "recommendation_reason": "国产算力规模化关键举措，对AI训练和部署成本有直接影响。",
-      "install_command": null,
-      "curation_date": "2026-07-18"
-    },
-    {
-      "title": "How to find safe MCP servers for your AI coding assistant (and why most directories lie)",
-      "url": "https://dev.to/edison_flores_6d2cd381b13/how-to-find-safe-mcp-servers-for-your-ai-coding-assistant-and-why-most-directories-lie-3967",
-      "source": "mcp_pulse",
-      "content_type": "guide",
-      "chinese_title": "如何为你的 AI 编程助手找到安全的 MCP 服务器（以及为什么大多数目录都在撒谎）",
-      "chinese_summary": "本文揭示了大多数 MCP 服务器目录缺乏安全审计的问题，并介绍了作者构建的 MCP 服务器安全审计工具。对于使用 Claude Desktop、Cursor 等工具的开发者来说，这是确保 MCP 服务器安全性的重要指南。",
-      "categories": [
-        "AI Safety",
+        "Open Source",
         "Developer Tools"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "MCP 服务器安全是当前被忽视的盲区，这篇文章能帮你避免安装恶意服务器。",
-      "install_command": null,
-      "curation_date": "2026-07-18"
+      "recommendation_reason": "大幅降低大模型推理的硬件门槛，让个人开发者也能运行70B模型。",
+      "install_command": "pip install airllm",
+      "curation_date": "2026-07-19"
     },
     {
-      "title": "PPIO发布智能模型网关，打造面向Agent时代的智能Token工厂",
-      "url": "https://www.qbitai.com/2026/07/453467.html",
+      "title": "看了20万小时「人类干活实录」，机器人悟了",
+      "url": "https://www.qbitai.com/2026/07/454592.html",
       "source": "rss_量子位",
       "content_type": "industry",
-      "chinese_title": "PPIO发布智能模型网关，打造面向Agent时代的智能Token工厂",
-      "chinese_summary": "PPIO发布了智能模型网关，旨在为Agent时代提供高效的Token管理服务，并已通过万亿Token调用量的验证。这标志着AI基础设施在Agent应用爆发背景下的一次重要演进，值得关注。",
+      "chinese_title": "看了20万小时「人类干活实录」，机器人悟了",
+      "chinese_summary": "黎曼动力发布了Riemann-1.0机器人模型，该模型通过学习20万小时的人类操作视频数据，实现了机器人技能的自主习得。这标志着机器人从预设编程向数据驱动学习的重要转变，值得关注。",
       "categories": [
-        "AI Infrastructure",
-        "AI Agents",
-        "Industry"
+        "Robotics",
+        "AI Applications",
+        "Research"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你在构建Agent应用，PPIO的智能模型网关可能成为你管理Token成本与效率的关键基础设施。",
+      "recommendation_reason": "大规模人类操作视频数据驱动的机器人学习范式，为具身智能从业者提供了新的技术路径。",
       "install_command": null,
-      "curation_date": "2026-07-18"
+      "curation_date": "2026-07-19"
+    },
+    {
+      "title": "不换模型，效果提升104%！上海AI Lab让Harness也能自进化了",
+      "url": "https://www.qbitai.com/2026/07/454441.html",
+      "source": "rss_量子位",
+      "content_type": "research",
+      "chinese_title": "不换模型，效果提升104%！上海AI Lab让Harness也能自进化了",
+      "chinese_summary": "上海AI Lab提出了一种让Harness（测试框架）自我进化的方法，通过搜索、验证和迭代优化，在不更换底层模型的情况下将效果提升104%。这对AI评估和模型优化领域具有重要参考价值。",
+      "categories": [
+        "Research",
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "无需更换模型即可大幅提升性能的方法，对AI从业者优化现有系统极具启发。",
+      "install_command": null,
+      "curation_date": "2026-07-19"
+    },
+    {
+      "title": "魔法原子Magic-VLA K02攻克叠盒封胶长程任务，成功率超90%",
+      "url": "https://www.qbitai.com/2026/07/454155.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "魔法原子Magic-VLA K02攻克叠盒封胶长程任务，成功率超90%",
+      "chinese_summary": "魔法原子发布了Magic-VLA K02机器人，在WAIC现场成功完成叠箱封胶长程任务，成功率超过90%。这展示了物理AI在复杂工业任务中的实际能力。",
+      "categories": [
+        "Robotics",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "机器人长程任务的高成功率突破，对具身智能和工业自动化从业者有重要参考。",
+      "install_command": null,
+      "curation_date": "2026-07-19"
     }
   ],
   "category_counts": {
-    "Developer Tools": 5,
-    "AI Applications": 2,
-    "AI Safety": 3,
-    "Industry": 3,
-    "Multimodal": 1,
-    "Research": 1,
-    "Computer Vision": 1,
-    "AI Infrastructure": 2,
-    "AI Agents": 1
+    "Developer Tools": 4,
+    "AI Infrastructure": 4,
+    "AI Agents": 2,
+    "AI Applications": 4,
+    "Research": 3,
+    "Industry": 1,
+    "Open Source": 1,
+    "Robotics": 2
   },
   "content_type_counts": {
-    "coding_tool": 2,
-    "mcp_server": 1,
-    "guide": 2,
-    "research": 1,
-    "industry": 2
+    "mcp_server": 3,
+    "industry": 3,
+    "dev_tool": 1,
+    "research": 1
   }
 }

@@ -9549,10 +9549,361 @@
       "content_type": "coding_tool",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454592.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454592.html",
+      "first_seen": "2026-07-19 09:49:10.170767",
+      "last_seen": "2026-07-19 09:49:10.170767",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454441.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454441.html",
+      "first_seen": "2026-07-19 09:49:10.170855",
+      "last_seen": "2026-07-19 09:49:10.170855",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454426.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454426.html",
+      "first_seen": "2026-07-19 09:49:10.170875",
+      "last_seen": "2026-07-19 09:49:10.170875",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454423.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454423.html",
+      "first_seen": "2026-07-19 09:49:10.170888",
+      "last_seen": "2026-07-19 09:49:10.170888",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454419.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454419.html",
+      "first_seen": "2026-07-19 09:49:10.170900",
+      "last_seen": "2026-07-19 09:49:10.170900",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454170.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454170.html",
+      "first_seen": "2026-07-19 09:49:10.170912",
+      "last_seen": "2026-07-19 09:49:10.170912",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454165.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454165.html",
+      "first_seen": "2026-07-19 09:49:10.170921",
+      "last_seen": "2026-07-19 09:49:10.170921",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454155.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454155.html",
+      "first_seen": "2026-07-19 09:49:10.170931",
+      "last_seen": "2026-07-19 09:49:10.170931",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/454049.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/454049.html",
+      "first_seen": "2026-07-19 09:49:10.170941",
+      "last_seen": "2026-07-19 09:49:10.170941",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.qbitai.com/2026/07/453802.html": {
+      "canonical_url": "https://www.qbitai.com/2026/07/453802.html",
+      "first_seen": "2026-07-19 09:49:10.170950",
+      "last_seen": "2026-07-19 09:49:10.170950",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://techcrunch.com/2026/07/18/kimi-threat-or-menace": {
+      "canonical_url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace",
+      "first_seen": "2026-07-19 09:49:10.171004",
+      "last_seen": "2026-07-19 09:49:10.171004",
+      "source": "rss_techcrunch_ai",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/Robbyant/lingbot-map": {
+      "canonical_url": "https://github.com/Robbyant/lingbot-map",
+      "first_seen": "2026-07-19 09:49:10.171238",
+      "last_seen": "2026-07-19 09:49:10.171238",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/rohitg00/ai-engineering-from-scratch": {
+      "canonical_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "first_seen": "2026-07-19 09:49:10.171308",
+      "last_seen": "2026-07-19 09:49:10.171308",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/elder-plinius/G0DM0D3": {
+      "canonical_url": "https://github.com/elder-plinius/G0DM0D3",
+      "first_seen": "2026-07-19 09:49:10.171339",
+      "last_seen": "2026-07-19 09:49:10.171339",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/lyogavin/airllm": {
+      "canonical_url": "https://github.com/lyogavin/airllm",
+      "first_seen": "2026-07-19 09:49:10.171358",
+      "last_seen": "2026-07-19 09:49:10.171358",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/KnockOutEZ/wigolo": {
+      "canonical_url": "https://github.com/KnockOutEZ/wigolo",
+      "first_seen": "2026-07-19 09:49:10.171369",
+      "last_seen": "2026-07-19 09:49:10.171369",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/MoonshotAI/kimi-cli": {
+      "canonical_url": "https://github.com/MoonshotAI/kimi-cli",
+      "first_seen": "2026-07-19 09:49:10.171379",
+      "last_seen": "2026-07-19 09:49:10.171379",
+      "source": "github_trending",
+      "content_type": "dev_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a": {
+      "canonical_url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+      "first_seen": "2026-07-19 09:49:10.171643",
+      "last_seen": "2026-07-19 09:49:10.171643",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://ykdojo.github.io/claude-controls-mac": {
+      "canonical_url": "https://ykdojo.github.io/claude-controls-mac",
+      "first_seen": "2026-07-19 09:49:10.171666",
+      "last_seen": "2026-07-19 09:49:10.171666",
+      "source": "hacker_news",
+      "content_type": "guide",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties": {
+      "canonical_url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+      "first_seen": "2026-07-19 09:49:10.171682",
+      "last_seen": "2026-07-19 09:49:10.171682",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making": {
+      "canonical_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "first_seen": "2026-07-19 09:49:10.171697",
+      "last_seen": "2026-07-19 09:49:10.171697",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal": {
+      "canonical_url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+      "first_seen": "2026-07-19 09:49:10.171711",
+      "last_seen": "2026-07-19 09:49:10.171711",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://data.stackexchange.com/stackoverflow/query/1953768": {
+      "canonical_url": "https://data.stackexchange.com/stackoverflow/query/1953768",
+      "first_seen": "2026-07-19 09:49:10.171725",
+      "last_seen": "2026-07-19 09:49:10.171725",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://www.up.com/news/safety/Tracking-Rail-Heat-260608": {
+      "canonical_url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+      "first_seen": "2026-07-19 09:49:10.171735",
+      "last_seen": "2026-07-19 09:49:10.171735",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/renato_marinho/stop-navigating-dashboards-automating-douyin-local-life-with-mcp-2o8a": {
+      "canonical_url": "https://dev.to/renato_marinho/stop-navigating-dashboards-automating-douyin-local-life-with-mcp-2o8a",
+      "first_seen": "2026-07-19 09:49:10.171761",
+      "last_seen": "2026-07-19 09:49:10.171761",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/yashwanth_kasi/day-930-human-in-the-loop-agents-504a": {
+      "canonical_url": "https://dev.to/yashwanth_kasi/day-930-human-in-the-loop-agents-504a",
+      "first_seen": "2026-07-19 09:49:10.171776",
+      "last_seen": "2026-07-19 09:49:10.171776",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/rohit_raj_8c7902b7d37cf21/mcp-goes-stateless-migrate-your-server-before-the-2026-07-28-spec-4hd8": {
+      "canonical_url": "https://dev.to/rohit_raj_8c7902b7d37cf21/mcp-goes-stateless-migrate-your-server-before-the-2026-07-28-spec-4hd8",
+      "first_seen": "2026-07-19 09:49:10.171791",
+      "last_seen": "2026-07-19 09:49:10.171791",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/notsariedo/how-to-connect-ai-agents-to-any-rest-api-without-writing-mcp-boilerplate-10dj": {
+      "canonical_url": "https://dev.to/notsariedo/how-to-connect-ai-agents-to-any-rest-api-without-writing-mcp-boilerplate-10dj",
+      "first_seen": "2026-07-19 09:49:10.171806",
+      "last_seen": "2026-07-19 09:49:10.171806",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/wynelson94/i-built-a-local-keyless-firecrawl-for-claude-code-heres-whypublished-false-55ho": {
+      "canonical_url": "https://dev.to/wynelson94/i-built-a-local-keyless-firecrawl-for-claude-code-heres-whypublished-false-55ho",
+      "first_seen": "2026-07-19 09:49:10.171820",
+      "last_seen": "2026-07-19 09:49:10.171820",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/enjoy_kumawat/my-ai-commit-script-and-my-mcp-tool-run-the-exact-same-code-only-one-of-them-is-agentic-b50": {
+      "canonical_url": "https://dev.to/enjoy_kumawat/my-ai-commit-script-and-my-mcp-tool-run-the-exact-same-code-only-one-of-them-is-agentic-b50",
+      "first_seen": "2026-07-19 09:49:10.171834",
+      "last_seen": "2026-07-19 09:49:10.171834",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/shunya_shida/index-everything-or-read-everything-the-dilemma-of-feeding-specs-to-ai-in-multi-repo-development-52h7": {
+      "canonical_url": "https://dev.to/shunya_shida/index-everything-or-read-everything-the-dilemma-of-feeding-specs-to-ai-in-multi-repo-development-52h7",
+      "first_seen": "2026-07-19 09:49:10.171848",
+      "last_seen": "2026-07-19 09:49:10.171848",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/zugatech/agentpool-a-stack-overflow-for-coding-agents-2676": {
+      "canonical_url": "https://dev.to/zugatech/agentpool-a-stack-overflow-for-coding-agents-2676",
+      "first_seen": "2026-07-19 09:49:10.171861",
+      "last_seen": "2026-07-19 09:49:10.171861",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/mads_hansen_27b33ebfee4c9/a-chatgpt-enterprise-database-connection-needs-five-layers-not-one-credential-b16": {
+      "canonical_url": "https://dev.to/mads_hansen_27b33ebfee4c9/a-chatgpt-enterprise-database-connection-needs-five-layers-not-one-credential-b16",
+      "first_seen": "2026-07-19 09:49:10.171875",
+      "last_seen": "2026-07-19 09:49:10.171875",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/mads_hansen_27b33ebfee4c9/the-best-postgresql-mcp-server-is-the-one-that-survives-negative-tests-4iec": {
+      "canonical_url": "https://dev.to/mads_hansen_27b33ebfee4c9/the-best-postgresql-mcp-server-is-the-one-that-survives-negative-tests-4iec",
+      "first_seen": "2026-07-19 09:49:10.171889",
+      "last_seen": "2026-07-19 09:49:10.171889",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b10068": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10068",
+      "first_seen": "2026-07-19 09:49:10.171899",
+      "last_seen": "2026-07-19 09:49:10.171899",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/ggml-org/llama.cpp/releases/tag/b10067": {
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10067",
+      "first_seen": "2026-07-19 09:49:10.171909",
+      "last_seen": "2026-07-19 09:49:10.171909",
+      "source": "framework_watch",
+      "content_type": "agent_framework",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.215": {
+      "canonical_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+      "first_seen": "2026-07-19 09:49:10.171923",
+      "last_seen": "2026-07-19 09:49:10.171923",
+      "source": "coding_tools",
+      "content_type": "coding_tool",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
+      "canonical_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "first_seen": "2026-07-19 09:49:10.172000",
+      "last_seen": "2026-07-19 09:49:10.172000",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF": {
+      "canonical_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF",
+      "first_seen": "2026-07-19 09:49:10.172055",
+      "last_seen": "2026-07-19 09:49:10.172055",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 1061,
+    "total_unique_urls": 1100,
     "last_pruned": null
   }
 }
