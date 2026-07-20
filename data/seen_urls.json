@@ -10458,10 +10458,46 @@
       "content_type": "open_source_model",
       "times_seen": 1,
       "included_in": []
+    },
+    "https://cagire.raphaelforment.fr": {
+      "canonical_url": "https://cagire.raphaelforment.fr",
+      "first_seen": "2026-07-20 11:51:37.798070",
+      "last_seen": "2026-07-20 11:51:37.798070",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/tresor4k/we-shipped-an-open-dataset-as-an-mcp-server-and-a-rust-crate-heres-the-playbook-4o38": {
+      "canonical_url": "https://dev.to/tresor4k/we-shipped-an-open-dataset-as-an-mcp-server-and-a-rust-crate-heres-the-playbook-4o38",
+      "first_seen": "2026-07-20 11:51:37.798173",
+      "last_seen": "2026-07-20 11:51:37.798173",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/curatedmcp/mcp-ecosystem-week-30-when-your-developers-ai-tools-connect-to-everything-whats-in-your-241e": {
+      "canonical_url": "https://dev.to/curatedmcp/mcp-ecosystem-week-30-when-your-developers-ai-tools-connect-to-everything-whats-in-your-241e",
+      "first_seen": "2026-07-20 11:51:37.798197",
+      "last_seen": "2026-07-20 11:51:37.798197",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
+    },
+    "https://dev.to/curatedmcp/mongodb-mcp-let-ai-query-and-manage-your-nosql-data-2fh1": {
+      "canonical_url": "https://dev.to/curatedmcp/mongodb-mcp-let-ai-query-and-manage-your-nosql-data-2fh1",
+      "first_seen": "2026-07-20 11:51:37.798212",
+      "last_seen": "2026-07-20 11:51:37.798212",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "times_seen": 1,
+      "included_in": []
     }
   },
   "stats": {
-    "total_unique_urls": 1162,
+    "total_unique_urls": 1166,
     "last_pruned": null
   }
 }
