@@ -1,0 +1,166 @@
+{
+  "week": "2026-W29",
+  "start_date": "2026-07-20",
+  "end_date": "2026-07-20",
+  "items": [
+    {
+      "title": "The MCP Marketplace Problem: 10,000 Plugins and No Security Guardrails",
+      "url": "https://dev.to/correctover/the-mcp-marketplace-problem-10000-plugins-and-no-security-guardrails-4pjh",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "MCP 市场困境：10000 个插件却无安全护栏",
+      "chinese_summary": "文章指出 MCP 生态系统（如 LobeHub 的 10000+ 插件市场）增长迅速，但缺乏安全防护机制，存在严重安全隐患。这提醒开发者在使用 MCP 插件时需警惕安全风险。",
+      "categories": [
+        "AI Safety",
+        "AI Infrastructure",
+        "Industry"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "MCP 生态的安全问题至关重要，所有使用 MCP 的开发者都应关注此风险并采取防护措施。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "PrefectHQ/fastmcp: 🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "source": "github_trending",
+      "content_type": "mcp_server",
+      "chinese_title": "PrefectHQ/fastmcp: 快速、Pythonic 的 MCP 服务器和客户端构建工具",
+      "chinese_summary": "fastmcp 是一个专注于快速构建 MCP 服务器和客户端的 Python 库，采用 Pythonic 设计风格，旨在简化开发流程。对于需要快速集成 MCP 协议的 AI 应用开发者来说，这是一个高效的工具选择。",
+      "categories": [
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你正在用 Python 开发 MCP 服务，fastmcp 能显著提升你的开发效率，值得一试。",
+      "install_command": "pip install fastmcp",
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "We Built Email for AI Agents",
+      "url": "https://dev.to/atomic_mail/we-built-email-for-ai-agents-2l7b",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "我们为AI Agent构建了电子邮件系统",
+      "chinese_summary": "Atomic Mail团队基于其端到端加密的隐私邮件基础设施，为AI Agent构建了类似人类邮件的通信系统，使Agent之间以及Agent与人之间能够通过邮件进行交互。这解决了Agent通信标准化和隐私保护的关键需求。",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "Agent间通信是AI应用落地的核心瓶颈，这个基于MCP的邮件方案提供了一种标准化且隐私友好的解决思路。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+      "url": "https://arxiv.org/abs/2607.15330",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "Xiaomi-Robotics-1: 基于超过10万小时真实世界轨迹的视觉-语言-动作模型规模化",
+      "chinese_summary": "该研究介绍了Xiaomi-Robotics-1，一个基于超过10万小时真实世界机器人轨迹数据训练的视觉-语言-动作模型。它展示了大规模真实数据在机器人学习中的价值，对具身智能领域意义重大。",
+      "categories": [
+        "Robotics",
+        "Research",
+        "Multimodal"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你从事机器人或具身智能研究，这篇论文展示了大规模真实世界数据如何驱动VLA模型，是行业标杆级工作。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+      "url": "https://arxiv.org/abs/2607.16107",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos（Audio-Visual Flamingo：面向长复杂视频的开放音视频智能）",
+      "chinese_summary": "提出一个开源的多模态模型，能够同时处理音频和视觉信息，理解长视频中的复杂场景。该模型在视频问答和事件检测任务上表现突出，推动了开放音视频智能的发展。",
+      "categories": [
+        "Multimodal",
+        "Research",
+        "Open Source"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在开发视频理解或多模态应用，这个开源音视频模型提供了处理长视频的强大能力。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "Claude Fable 生成了 Jacobian 猜想的一个反例",
+      "chinese_summary": "Claude Fable 模型成功生成了数学中 Jacobian 猜想的一个反例，这是一个长期未解决的数学问题。值得关注是因为它展示了 AI 在高级数学推理中的突破性能力，可能推动 AI 在科学研究中的应用。",
+      "categories": [
+        "Research",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "这一成果证明了 AI 在解决复杂数学问题上的潜力，对 AI 研究和数学领域都有重大意义。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "🤗 Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "source": "oss_models",
+      "content_type": "open_source_model",
+      "chinese_title": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice：开源语音合成模型",
+      "chinese_summary": "Qwen3-TTS是一个12Hz采样率、1.7B参数的开源语音合成模型，支持自定义声音，在Hugging Face上已获得超过237万次下载和1764个赞。它代表了多模态AI在语音生成领域的最新进展，适合构建个性化语音应用。",
+      "categories": [
+        "Multimodal",
+        "Open Source",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.5,
+      "recommendation_reason": "如果你在开发语音助手或个性化TTS应用，这个开源模型提供了高质量的自定义声音能力，且社区热度极高。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    },
+    {
+      "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
+      "url": "https://www.qbitai.com/2026/07/455805.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
+      "chinese_summary": "本文探讨了多家模型厂商共同选择同一家Agentic Infrastructure的现象，揭示了AGI时代基础设施的标准化趋势。值得关注的是，这种统一的基础设施选择可能成为未来AI应用生态的基石，对开发者选择技术栈有重要参考价值。",
+      "categories": [
+        "AI Infrastructure",
+        "AI Agents",
+        "Industry"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "了解行业基础设施的标准化趋势，有助于你做出更明智的技术选型决策。",
+      "install_command": null,
+      "curation_date": "2026-07-20"
+    }
+  ],
+  "category_counts": {
+    "AI Safety": 1,
+    "AI Infrastructure": 4,
+    "Industry": 2,
+    "Developer Tools": 1,
+    "AI Agents": 2,
+    "Robotics": 1,
+    "Research": 4,
+    "Multimodal": 3,
+    "Open Source": 2,
+    "AI Applications": 1
+  },
+  "content_type_counts": {
+    "mcp_server": 3,
+    "research": 2,
+    "industry": 2,
+    "open_source_model": 1
+  }
+}
