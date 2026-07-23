@@ -1,167 +1,171 @@
 {
   "week": "2026-W29",
   "start_date": "2026-07-20",
-  "end_date": "2026-07-22",
+  "end_date": "2026-07-23",
   "items": [
     {
-      "title": "I lint-scanned 36 popular MCP servers. A third of them are failing your agent.",
-      "url": "https://dev.to/tengbyte/i-lint-scanned-36-popular-mcp-servers-a-third-of-them-are-failing-your-agent-102d",
+      "title": "Adobe MCP: Connect Claude to Photoshop, Acrobat, and Experience Cloud",
+      "url": "https://dev.to/curatedmcp/adobe-mcp-connect-claude-to-photoshop-acrobat-and-experience-cloud-4o3k",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "我 lint 扫描了 36 个流行的 MCP 服务器：三分之一让你的代理失败",
-      "chinese_summary": "作者对 36 个流行 MCP 服务器进行了 lint 扫描，发现三分之一存在导致 AI 代理无法正常使用的问题。即使服务器完全符合 MCP 规范，也可能因设计缺陷而不可用。",
+      "chinese_title": "Adobe MCP: 将Claude连接到Photoshop、Acrobat和Experience Cloud",
+      "chinese_summary": "Adobe发布了官方MCP服务器，允许Claude直接与Photoshop、Acrobat和Experience Cloud等Adobe产品交互。这意味着开发者可以通过自然语言指令控制Adobe软件，实现设计、文档处理和营销工作流的AI自动化。",
+      "categories": [
+        "AI Applications",
+        "Developer Tools",
+        "Multimodal"
+      ],
+      "importance_score": 5,
+      "weighted_score": 6.0,
+      "recommendation_reason": "Adobe官方MCP服务器，让Claude直接操控Photoshop等专业工具，是AI与创意工具融合的重大突破。",
+      "install_command": "npx @adobe/mcp-server",
+      "curation_date": "2026-07-23"
+    },
+    {
+      "title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
+      "url": "https://www.qbitai.com/2026/07/457405.html",
+      "source": "rss_量子位",
+      "content_type": "open_source_model",
+      "chinese_title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
+      "chinese_summary": "阿里平头哥在芯片销量达56万片后，开源了其AI软件栈SAIL，支持260+框架即开即用。此举旨在降低AI芯片的使用门槛，推动国产芯片生态发展。",
+      "categories": [
+        "Open Source",
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.5,
+      "recommendation_reason": "如果你使用国产芯片或关注AI软件栈，平头哥开源SAIL意味着你可以免费获得一套支持260+框架的成熟工具链，大幅降低开发门槛。",
+      "install_command": "git clone https://github.com/T-Head-Open-Source-Group/SAIL.git",
+      "curation_date": "2026-07-23"
+    },
+    {
+      "title": "ComposioHQ/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "source": "github_trending",
+      "content_type": "claude_skill",
+      "chinese_title": "awesome-claude-skills: Claude Skills 资源精选列表",
+      "chinese_summary": "这是一个精心整理的Claude Skills资源列表，包含各种自定义Claude AI工作流的技能、工具和教程。对于希望扩展Claude功能、构建自动化工作流的开发者来说，这是一个宝贵的参考仓库。",
       "categories": [
         "AI Agents",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "一站式获取Claude Skills生态资源，快速找到提升Claude工作流效率的现成技能和工具。",
+      "install_command": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
+      "curation_date": "2026-07-23"
+    },
+    {
+      "title": "Bring Your App to the Agent",
+      "url": "https://dev.to/javieraguilarai/bring-your-app-to-the-agent-1fja",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "将你的应用带入 Agent 时代",
+      "chinese_summary": "本文展示了如何通过 MCP 服务器让 AI 助手直接调用用户自有应用的数据，无需用户手动打开应用。这标志着应用从“用户操作”向“Agent 代理操作”的范式转变，对构建可被 AI 调用的产品接口具有重要参考价值。",
+      "categories": [
+        "AI Agents",
+        "Developer Tools",
+        "AI Applications"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "学习如何让你的应用被 AI Agent 直接调用，是构建下一代 AI 原生产品的关键能力。",
+      "install_command": null,
+      "curation_date": "2026-07-23"
+    },
+    {
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "source": "hacker_news",
+      "content_type": "industry",
+      "chinese_title": "陶哲轩关于雅可比猜想反例的 ChatGPT 对话",
+      "chinese_summary": "著名数学家陶哲轩公开了他与 ChatGPT 就雅可比猜想反例进行的一次深度对话，展示了 AI 在辅助数学推理和探索复杂猜想方面的能力。该事件引发了社区对 AI 在数学研究中角色的广泛讨论。",
+      "categories": [
+        "Research",
+        "Industry",
+        "AI Applications"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "陶哲轩的实践案例证明了 LLM 在高级数学推理中的潜力，对 AI 在科研辅助领域的应用具有标杆意义。",
+      "install_command": null,
+      "curation_date": "2026-07-23"
+    },
+    {
+      "title": "MCP Security Across 11 AI Frameworks: Our Audit Findings",
+      "url": "https://dev.to/correctover/mcp-security-across-11-ai-frameworks-our-audit-findings-49g3",
+      "source": "mcp_pulse",
+      "content_type": "research",
+      "chinese_title": "跨 11 个 AI 框架的 MCP 安全审计结果",
+      "chinese_summary": "本文发布了对 11 个主流 AI 框架中 MCP 实现的安全审计结果，揭示了常见的安全漏洞和最佳实践。对于任何在生产环境中使用 MCP 的团队来说，这是一份必须阅读的安全指南。",
+      "categories": [
+        "AI Safety",
         "Developer Tools",
         "Research"
       ],
       "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "如果你使用或构建 MCP 服务器，这篇文章揭示了常见陷阱，能帮你避免代理集成中的致命错误。",
-      "install_command": null,
-      "curation_date": "2026-07-22"
-    },
-    {
-      "title": "𝘺𝘰𝘶'𝘷𝘦 𝘱𝘳𝘰𝘣𝘢𝘣𝘭𝘺 𝘴𝘦𝘦𝘯 \"𝘔𝘊𝘗 𝘴𝘶𝘱𝘱𝘰𝘳𝘵𝘦𝘥\" 𝘴𝘩𝘰𝘸 𝘶𝘱 𝘦𝘷𝘦𝘳𝘺𝘸𝘩𝘦𝘳𝘦. 𝘏𝘦𝘳𝘦'𝘴 𝘸𝘩𝘢𝘵 𝘪𝘵 𝘢𝘤𝘵𝘶𝘢𝘭𝘭𝘺 𝘮𝘦𝘢𝘯𝘴 𝘢𝘯𝘥 𝘸𝘩𝘺 𝘪𝘵 𝘮𝘢𝘵𝘵𝘦𝘳𝘴.",
-      "url": "https://dev.to/zkaria_gamal_3cddbbff21c8/--19l4",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "“MCP 支持”随处可见：它实际意味着什么以及为何重要",
-      "chinese_summary": "本文解释了 MCP 支持在 LangGraph、CrewAI 等主流 AI 代理框架中普及的原因，以及它如何成为行业标准。MCP 的广泛采用标志着 AI 代理工具互操作性的重要里程碑。",
-      "categories": [
-        "AI Agents",
-        "Industry",
-        "Developer Tools"
-      ],
-      "importance_score": 4,
       "weighted_score": 5.0,
-      "recommendation_reason": "理解 MCP 为何成为行业共识，能帮助你选择兼容性更强的工具和框架，避免技术孤岛。",
+      "recommendation_reason": "MCP 安全是 Agent 落地的核心风险点，这份审计报告能帮你避免常见的安全陷阱。",
       "install_command": null,
-      "curation_date": "2026-07-22"
+      "curation_date": "2026-07-23"
     },
     {
-      "title": "How to Validate Your MCP Servers in GitHub Actions CI",
-      "url": "https://dev.to/zachdreamz/how-to-validate-your-mcp-servers-in-github-actions-ci-2fh1",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "如何在 GitHub Actions CI 中验证你的 MCP 服务器",
-      "chinese_summary": "本文介绍了如何在 GitHub Actions 持续集成流程中自动验证 MCP 服务器的工具定义、JSON 模式和错误处理。它帮助开发者确保 MCP 服务器在部署前保持稳定和正确。",
-      "categories": [
-        "Developer Tools",
-        "AI Infrastructure"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你开发或维护 MCP 服务器，这个 CI 验证方法能帮你提前发现错误，避免生产环境问题。",
-      "install_command": null,
-      "curation_date": "2026-07-22"
-    },
-    {
-      "title": "小红书大模型IMO满分夺金，第三题解法让冠军选手直呼优雅",
-      "url": "https://www.qbitai.com/2026/07/456061.html",
-      "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "小红书大模型IMO满分夺金，第三题解法让冠军选手直呼优雅",
-      "chinese_summary": "小红书的大模型首次获得国际数学奥林匹克（IMO）官方金牌水平认证，其第三题解法获得冠军选手称赞。这展示了中国大模型在数学推理领域的突破性进展。",
-      "categories": [
-        "LLM",
-        "Research",
-        "Industry"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "数学推理是LLM能力的硬核指标，此成就证明中国大模型在复杂推理上已达到世界顶尖水平。",
-      "install_command": null,
-      "curation_date": "2026-07-22"
-    },
-    {
-      "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents",
-      "url": "https://arxiv.org/abs/2607.18754",
-      "source": "huggingface_papers",
-      "content_type": "dev_tool",
-      "chinese_title": "AgentDebugX：面向LLM智能体的开源故障可观测性、归因与恢复工具包",
-      "chinese_summary": "AgentDebugX 是一个开源工具包，专门用于调试LLM智能体系统中的故障，提供故障可观测性、根因归因和自动恢复功能。它填补了智能体开发中调试工具缺失的空白，帮助开发者快速定位并修复智能体行为异常。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "Open Source"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "如果你正在开发LLM智能体应用，这个工具包能极大提升调试效率，是解决智能体不可靠问题的必备利器。",
-      "install_command": "pip install agent-debug-x",
-      "curation_date": "2026-07-22"
-    },
-    {
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
-      "source": "hacker_news",
-      "content_type": "model_release",
-      "chinese_title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 发布",
-      "chinese_summary": "Google 发布了 Gemini 系列新模型，包括 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber，覆盖不同性能和成本层级。这些模型可能带来 API 定价调整，影响开发者的模型选择。",
-      "categories": [
-        "LLM",
-        "AI Infrastructure"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "新模型发布直接影响 API 调用成本和性能，开发者需评估是否迁移至新版本。",
-      "install_command": null,
-      "curation_date": "2026-07-22"
-    },
-    {
-      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "title": "Petals: Run LLMs at home, BitTorrent-style",
+      "url": "https://petals.dev/",
       "source": "hacker_news",
       "content_type": "open_source_model",
-      "chinese_title": "Qwen-Image-3.0：丰富内容、真实细节、深度知识",
-      "chinese_summary": "阿里发布 Qwen-Image-3.0 图像生成模型，强调内容丰富性、细节真实性和知识深度。该模型在图像生成领域展示了强大的能力，可能成为开源社区的重要选择。",
+      "chinese_title": "Petals: 在家运行 LLM，BitTorrent 风格",
+      "chinese_summary": "Petals 项目允许用户通过 BitTorrent 风格的分布式网络在家运行大型语言模型，降低了对集中式 GPU 的依赖。这对推动 LLM 去中心化部署和降低使用门槛具有重要意义。",
       "categories": [
-        "Computer Vision",
-        "Multimodal",
-        "Open Source"
+        "Open Source",
+        "LLM",
+        "AI Infrastructure"
       ],
       "importance_score": 4,
       "weighted_score": 4.5,
-      "recommendation_reason": "开源图像生成模型的新标杆，适合需要高质量图像生成能力的开发者。",
-      "install_command": null,
-      "curation_date": "2026-07-22"
+      "recommendation_reason": "分布式 LLM 部署方案可大幅降低推理成本，适合资源有限的开发者。",
+      "install_command": "pip install petals",
+      "curation_date": "2026-07-23"
     },
     {
-      "title": "百度文心助手任务Agent登顶国际权威榜单，超越Claude、GPT拿下全球智能体冠军",
-      "url": "https://www.qbitai.com/2026/07/457117.html",
+      "title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
+      "url": "https://www.qbitai.com/2026/07/457537.html",
       "source": "rss_量子位",
-      "content_type": "industry",
-      "chinese_title": "百度文心助手任务Agent登顶国际权威榜单，超越Claude、GPT拿下全球智能体冠军",
-      "chinese_summary": "百度文心助手任务Agent在权威榜单上超越Claude和GPT，获得全球智能体冠军。这表明国产AI Agent在任务完成能力上已达到国际领先水平，值得关注。",
+      "content_type": "research",
+      "chinese_title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
+      "chinese_summary": "中国团队凭借仅1B参数的模型在具身智能榜单上超越π0等大模型，表明具身智能正从「参数竞赛」转向「架构竞赛」。该成果证明了高效架构设计比单纯堆参数更具竞争力。",
       "categories": [
-        "AI Agents",
-        "Industry",
-        "LLM"
+        "Robotics",
+        "Research",
+        "AI Applications"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "关注国产AI Agent的突破性进展，了解其技术优势和应用潜力。",
+      "recommendation_reason": "如果你从事具身智能或机器人研究，这个1B参数模型登顶的案例提示你关注架构创新而非盲目扩大参数规模。",
       "install_command": null,
-      "curation_date": "2026-07-22"
+      "curation_date": "2026-07-23"
     }
   ],
   "category_counts": {
-    "AI Agents": 4,
-    "Developer Tools": 4,
-    "Research": 2,
-    "Industry": 3,
-    "AI Infrastructure": 2,
-    "LLM": 3,
+    "AI Applications": 5,
+    "Developer Tools": 5,
+    "Multimodal": 1,
     "Open Source": 2,
-    "Computer Vision": 1,
-    "Multimodal": 1
+    "AI Infrastructure": 2,
+    "AI Agents": 2,
+    "Research": 3,
+    "Industry": 1,
+    "AI Safety": 1,
+    "LLM": 1,
+    "Robotics": 1
   },
   "content_type_counts": {
-    "mcp_server": 3,
-    "industry": 2,
-    "dev_tool": 1,
-    "model_release": 1,
-    "open_source_model": 1
+    "mcp_server": 2,
+    "open_source_model": 2,
+    "claude_skill": 1,
+    "industry": 1,
+    "research": 2
   }
 }
