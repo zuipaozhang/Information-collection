@@ -1,171 +1,166 @@
 {
   "week": "2026-W29",
   "start_date": "2026-07-20",
-  "end_date": "2026-07-23",
+  "end_date": "2026-07-24",
   "items": [
     {
-      "title": "Adobe MCP: Connect Claude to Photoshop, Acrobat, and Experience Cloud",
-      "url": "https://dev.to/curatedmcp/adobe-mcp-connect-claude-to-photoshop-acrobat-and-experience-cloud-4o3k",
+      "title": "GitHub's MCP Server tracks the stateless MCP spec, and the Redis session drops out",
+      "url": "https://dev.to/leobaniak/githubs-mcp-server-tracks-the-stateless-mcp-spec-and-the-redis-session-drops-out-pdi",
       "source": "mcp_pulse",
       "content_type": "mcp_server",
-      "chinese_title": "Adobe MCP: 将Claude连接到Photoshop、Acrobat和Experience Cloud",
-      "chinese_summary": "Adobe发布了官方MCP服务器，允许Claude直接与Photoshop、Acrobat和Experience Cloud等Adobe产品交互。这意味着开发者可以通过自然语言指令控制Adobe软件，实现设计、文档处理和营销工作流的AI自动化。",
+      "chinese_title": "GitHub的MCP服务器跟踪无状态MCP规范，Redis会话被移除",
+      "chinese_summary": "GitHub更新了其MCP服务器以适配新的无状态MCP核心规范，移除了对Redis会话的依赖。这一变化简化了架构，但可能影响依赖会话状态的编码代理工作流。",
       "categories": [
-        "AI Applications",
         "Developer Tools",
-        "Multimodal"
-      ],
-      "importance_score": 5,
-      "weighted_score": 6.0,
-      "recommendation_reason": "Adobe官方MCP服务器，让Claude直接操控Photoshop等专业工具，是AI与创意工具融合的重大突破。",
-      "install_command": "npx @adobe/mcp-server",
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
-      "url": "https://www.qbitai.com/2026/07/457405.html",
-      "source": "rss_量子位",
-      "content_type": "open_source_model",
-      "chinese_title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
-      "chinese_summary": "阿里平头哥在芯片销量达56万片后，开源了其AI软件栈SAIL，支持260+框架即开即用。此举旨在降低AI芯片的使用门槛，推动国产芯片生态发展。",
-      "categories": [
-        "Open Source",
-        "AI Infrastructure",
-        "Developer Tools"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.5,
-      "recommendation_reason": "如果你使用国产芯片或关注AI软件栈，平头哥开源SAIL意味着你可以免费获得一套支持260+框架的成熟工具链，大幅降低开发门槛。",
-      "install_command": "git clone https://github.com/T-Head-Open-Source-Group/SAIL.git",
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "ComposioHQ/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "source": "github_trending",
-      "content_type": "claude_skill",
-      "chinese_title": "awesome-claude-skills: Claude Skills 资源精选列表",
-      "chinese_summary": "这是一个精心整理的Claude Skills资源列表，包含各种自定义Claude AI工作流的技能、工具和教程。对于希望扩展Claude功能、构建自动化工作流的开发者来说，这是一个宝贵的参考仓库。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "一站式获取Claude Skills生态资源，快速找到提升Claude工作流效率的现成技能和工具。",
-      "install_command": "git clone https://github.com/ComposioHQ/awesome-claude-skills.git",
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "Bring Your App to the Agent",
-      "url": "https://dev.to/javieraguilarai/bring-your-app-to-the-agent-1fja",
-      "source": "mcp_pulse",
-      "content_type": "mcp_server",
-      "chinese_title": "将你的应用带入 Agent 时代",
-      "chinese_summary": "本文展示了如何通过 MCP 服务器让 AI 助手直接调用用户自有应用的数据，无需用户手动打开应用。这标志着应用从“用户操作”向“Agent 代理操作”的范式转变，对构建可被 AI 调用的产品接口具有重要参考价值。",
-      "categories": [
-        "AI Agents",
-        "Developer Tools",
-        "AI Applications"
-      ],
-      "importance_score": 4,
-      "weighted_score": 5.0,
-      "recommendation_reason": "学习如何让你的应用被 AI Agent 直接调用，是构建下一代 AI 原生产品的关键能力。",
-      "install_command": null,
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
-      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "source": "hacker_news",
-      "content_type": "industry",
-      "chinese_title": "陶哲轩关于雅可比猜想反例的 ChatGPT 对话",
-      "chinese_summary": "著名数学家陶哲轩公开了他与 ChatGPT 就雅可比猜想反例进行的一次深度对话，展示了 AI 在辅助数学推理和探索复杂猜想方面的能力。该事件引发了社区对 AI 在数学研究中角色的广泛讨论。",
-      "categories": [
-        "Research",
-        "Industry",
-        "AI Applications"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "陶哲轩的实践案例证明了 LLM 在高级数学推理中的潜力，对 AI 在科研辅助领域的应用具有标杆意义。",
-      "install_command": null,
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "MCP Security Across 11 AI Frameworks: Our Audit Findings",
-      "url": "https://dev.to/correctover/mcp-security-across-11-ai-frameworks-our-audit-findings-49g3",
-      "source": "mcp_pulse",
-      "content_type": "research",
-      "chinese_title": "跨 11 个 AI 框架的 MCP 安全审计结果",
-      "chinese_summary": "本文发布了对 11 个主流 AI 框架中 MCP 实现的安全审计结果，揭示了常见的安全漏洞和最佳实践。对于任何在生产环境中使用 MCP 的团队来说，这是一份必须阅读的安全指南。",
-      "categories": [
-        "AI Safety",
-        "Developer Tools",
-        "Research"
-      ],
-      "importance_score": 5,
-      "weighted_score": 5.0,
-      "recommendation_reason": "MCP 安全是 Agent 落地的核心风险点，这份审计报告能帮你避免常见的安全陷阱。",
-      "install_command": null,
-      "curation_date": "2026-07-23"
-    },
-    {
-      "title": "Petals: Run LLMs at home, BitTorrent-style",
-      "url": "https://petals.dev/",
-      "source": "hacker_news",
-      "content_type": "open_source_model",
-      "chinese_title": "Petals: 在家运行 LLM，BitTorrent 风格",
-      "chinese_summary": "Petals 项目允许用户通过 BitTorrent 风格的分布式网络在家运行大型语言模型，降低了对集中式 GPU 的依赖。这对推动 LLM 去中心化部署和降低使用门槛具有重要意义。",
-      "categories": [
-        "Open Source",
-        "LLM",
         "AI Infrastructure"
       ],
       "importance_score": 4,
-      "weighted_score": 4.5,
-      "recommendation_reason": "分布式 LLM 部署方案可大幅降低推理成本，适合资源有限的开发者。",
-      "install_command": "pip install petals",
-      "curation_date": "2026-07-23"
+      "weighted_score": 5.0,
+      "recommendation_reason": "GitHub MCP服务器架构变更，影响所有使用GitHub MCP的编码代理，需及时适配。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
     },
     {
-      "title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
-      "url": "https://www.qbitai.com/2026/07/457537.html",
-      "source": "rss_量子位",
-      "content_type": "research",
-      "chinese_title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
-      "chinese_summary": "中国团队凭借仅1B参数的模型在具身智能榜单上超越π0等大模型，表明具身智能正从「参数竞赛」转向「架构竞赛」。该成果证明了高效架构设计比单纯堆参数更具竞争力。",
+      "title": "Catching Silent Failures in MCP Servers with OpenTelemetry and SigNoz",
+      "url": "https://dev.to/thirumalaiboobathi_b_2b20/catching-silent-failures-in-mcp-servers-with-opentelemetry-and-signoz-3hc5",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "使用OpenTelemetry和SigNoz捕获MCP服务器中的静默故障",
+      "chinese_summary": "本文揭示了MCP服务器中一个常见的可观测性缺口：工具调用可能返回成功但实际失败。作者介绍了如何使用OpenTelemetry和SigNoz来检测这些静默故障，确保AI代理的可靠性。",
       "categories": [
-        "Robotics",
-        "Research",
-        "AI Applications"
+        "Developer Tools",
+        "AI Infrastructure",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "解决MCP服务器静默故障的实用方案，对保障AI代理生产环境稳定性至关重要。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "Code Knowledge Graphs: How to Evaluate Graphify, GitNexus, and CodeGraph",
+      "url": "https://dev.to/sayed_ali_alkamel/code-knowledge-graphs-how-to-evaluate-graphify-gitnexus-and-codegraph-409i",
+      "source": "mcp_pulse",
+      "content_type": "mcp_server",
+      "chinese_title": "代码知识图谱：如何评估 Graphify、GitNexus 和 CodeGraph",
+      "chinese_summary": "本文对比了三个基于 MCP 的代码知识图谱工具——Graphify、GitNexus 和 CodeGraph，它们都使用 tree-sitter 解析仓库并生成图谱供 AI 编程代理使用。文章指出，三者核心能力相似，真正的区分点在于许可证、图谱持久化时长和与 IDE 的集成深度，值得关注以帮助开发者做出最佳选型。",
+      "categories": [
+        "Developer Tools",
+        "AI Infrastructure"
+      ],
+      "importance_score": 4,
+      "weighted_score": 5.0,
+      "recommendation_reason": "如果你在选型代码知识图谱工具来增强 AI 编程代理的上下文理解，这篇对比能帮你避开功能雷同的坑。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "MCP server security checklist before you publish",
+      "url": "https://dev.to/mcpcustoms/mcp-server-security-checklist-before-you-publish-5gel",
+      "source": "mcp_pulse",
+      "content_type": "guide",
+      "chinese_title": "发布 MCP 服务器前的安全检查清单",
+      "chinese_summary": "本文提供了一个包含 7 个关键点的安全检查清单，帮助开发者在将 MCP 服务器发布到注册表或 npm 之前进行安全审查。内容涵盖常见的安全漏洞和最佳实践，对于任何计划公开 MCP 服务器的开发者来说都是必读的。",
+      "categories": [
+        "AI Safety",
+        "Developer Tools"
+      ],
+      "importance_score": 5,
+      "weighted_score": 5.0,
+      "recommendation_reason": "发布 MCP 服务器前务必对照这份清单检查，避免因安全漏洞导致数据泄露或系统被滥用。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "10万字速记一口吞，金山办公新Agent开始直接交活了",
+      "url": "https://www.qbitai.com/2026/07/458438.html",
+      "source": "rss_量子位",
+      "content_type": "agent_framework",
+      "chinese_title": "10万字速记一口吞，金山办公新Agent开始直接交活了",
+      "chinese_summary": "金山办公发布新Agent，能够处理10万字速记并直接交付成果，体现了AI在办公场景的深度应用。值得关注的是，这展示了AI Agent在长文档处理中的实用化进展。",
+      "categories": [
+        "AI Agents",
+        "AI Applications",
+        "Industry"
       ],
       "importance_score": 4,
       "weighted_score": 4.0,
-      "recommendation_reason": "如果你从事具身智能或机器人研究，这个1B参数模型登顶的案例提示你关注架构创新而非盲目扩大参数规模。",
+      "recommendation_reason": "对关注AI办公应用、长文档处理或Agent落地的从业者，这是一个重要的产品动态。",
       "install_command": null,
-      "curation_date": "2026-07-23"
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "李飞飞学生发起国际具身人类数据标准，光轮智能成唯一参与中国企业",
+      "url": "https://www.qbitai.com/2026/07/457920.html",
+      "source": "rss_量子位",
+      "content_type": "industry",
+      "chinese_title": "李飞飞学生发起国际具身人类数据标准，光轮智能成唯一参与中国企业",
+      "chinese_summary": "由李飞飞学生发起的国际具身人类数据标准项目，旨在统一机器人学习所需的人类数据格式，光轮智能是唯一参与的中国企业。该标准对推动具身智能数据共享和模型泛化具有重要意义。",
+      "categories": [
+        "Robotics",
+        "AI Infrastructure",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "关注具身智能数据标准化进展，这将是未来机器人模型训练的基础设施。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "长内容创作者苦AI失忆久矣，这个新Agent漂亮填坑！门槛低到只需要会用键盘打字",
+      "url": "https://www.qbitai.com/2026/07/458687.html",
+      "source": "rss_量子位",
+      "content_type": "agent_framework",
+      "chinese_title": "长内容创作者苦AI失忆久矣，这个新Agent漂亮填坑！门槛低到只需要会用键盘打字",
+      "chinese_summary": "本文介绍了一个新Agent，专门解决长内容创作中AI模型“失忆”问题，且使用门槛极低。值得关注的是，它针对长上下文任务的实际痛点提供了实用解决方案。",
+      "categories": [
+        "AI Agents",
+        "AI Applications",
+        "Developer Tools"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "对从事长内容创作、AI Agent开发或需要处理长上下文任务的从业者，这是一个直接可用的工具。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
+    },
+    {
+      "title": "Self-Supervised Learning of Structured Dynamics from Videos",
+      "url": "https://arxiv.org/abs/2607.21576",
+      "source": "huggingface_papers",
+      "content_type": "research",
+      "chinese_title": "Self-Supervised Learning of Structured Dynamics from Videos",
+      "chinese_summary": "该论文提出了一种从视频中自监督学习结构化动力学的方法，无需标注数据即可捕捉物体交互规律。值得关注是因为这为机器人操作和物理世界建模提供了更高效的学习范式。",
+      "categories": [
+        "Computer Vision",
+        "Robotics",
+        "Research"
+      ],
+      "importance_score": 4,
+      "weighted_score": 4.0,
+      "recommendation_reason": "如果你从事机器人或物理仿真研究，此方法可大幅降低对标注数据的依赖。",
+      "install_command": null,
+      "curation_date": "2026-07-24"
     }
   ],
   "category_counts": {
-    "AI Applications": 5,
     "Developer Tools": 5,
-    "Multimodal": 1,
-    "Open Source": 2,
-    "AI Infrastructure": 2,
-    "AI Agents": 2,
+    "AI Infrastructure": 4,
     "Research": 3,
-    "Industry": 1,
     "AI Safety": 1,
-    "LLM": 1,
-    "Robotics": 1
+    "AI Agents": 2,
+    "AI Applications": 2,
+    "Industry": 1,
+    "Robotics": 2,
+    "Computer Vision": 1
   },
   "content_type_counts": {
-    "mcp_server": 2,
-    "open_source_model": 2,
-    "claude_skill": 1,
+    "mcp_server": 3,
+    "guide": 1,
+    "agent_framework": 2,
     "industry": 1,
-    "research": 2
+    "research": 1
   }
 }
